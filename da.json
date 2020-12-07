@@ -25,23 +25,23 @@
         "alreadyenabled": "❌Du har allerede alt beskyttelse til, i øjeblikket indstillet til minimum kontoalder på **{days}** dag(e).",
         "alreadydisabled": "❌Alt beskyttelse er allerede slået fra",
         "disabled": "✅Alt-beskyttelse er deaktiveret",
-        "enabled": "✅Aktivering af ** Alt beskyttelse ** for minimum kontoalder på **{args[2]}** dag(e)",
+        "enabled": "✅Aktivering af ** Alt beskyttelse ** for minimum kontoalder på **{args}** dag(e)",
         "minimum-age": "❌Indtast venligst den mindste kontoalder, der er accepteret på din server.",
         "no-args": "❌Skriv venligst true eller false efter kommandoen."
     },
     "checking": {
-        "nouser": "❌Kan ikke finde brugern. Venligst @ brugeren, eller check gennem deres id.",
+        "nouser": "❌Kan ikke finde brugern. Venligst @ brugeren, eller check gennem deres id."
     },
     "blacklist": {
         "isblacklisted": "BRUGEREN ER BLACKLISTED",
         "by": "Blacklisted af:",
-        "notblacklisted": "BRUGER ER IKKE BLACKLISTED",
+        "notblacklisted": "BRUGER ER IKKE BLACKLISTED"
     },
     "report": {
         "report": "Rapport",
         "thanks": "✅Tak for din rapport! Rapport ID: {uuid}",
         "no-proof": "❌Venligst bevis din rapport. (URL med billede, ex: gyazo)",
-        "no-reason": "❌Indsend venligst bevis og årsagen til rapporten.",
+        "no-reason": "❌Indsend venligst bevis og årsagen til rapporten."
     },
     "fetch": {
         "failed": "BAN FEJLEDE",
@@ -51,6 +51,7 @@
         "is-admin": "Denne person er admin",
         "banned": "BRUGER BANNED",
         "role-above": "Dette er en admin / Der er en rolle over mig",
+        "banned-in": "Banned I",
         "no-permission": "JEG HAR IKKE ADGANG TIL AT BANNE PERSONER"
     },
     "help": {
@@ -92,8 +93,8 @@
     "verification": {
         "verify-started": "Verification Startet",
         "joined-server": "Joinede serveren",
-        "inleaking": "⚠️ <@{args[1]}> verificerede succesfuldt **er i de følgende leaking servere**",
-        "noleaking": "✅ <@{args[1]}> verificerede succesfuldt og er ikke medlem af nogen leaking discords.",
+        "inleaking": "⚠️ <@{args}> verificerede succesfuldt **er i de følgende leaking servere**",
+        "noleaking": "✅ <@{args}> verificerede succesfuldt og er ikke medlem af nogen leaking discords.",
         "forceverify": "{author} fra {guild.name} vil have dig til at verify dig selv. Gør dette ved følgende link: http://stoptheresellers.xyz/auth/verify",
         "autoverify": "Velkommen til {guild.name}. For at være medlem af denne discord skal du verificere dig selv med følgende link: http://stoptheresellers.xyz/auth/verify.",
         "kick-msg": "Brugeren verificerede ikke den vericicering, som {author} opsatte",
@@ -116,7 +117,8 @@
         "created": "Konto oprettet den:",
         "avatar-url": "Avatar URL",
         "blacklisted": "Blacklisted",
-        "roles": "Roller"
+        "roles": "Roller",
+        "none": "Ingen"
     },
     "autoverify": {
         "alreadyenabled": "❌Auto verificering er allerede slået til på denne server.",
@@ -128,7 +130,7 @@
     },
     "crosscheck": {
         "success": "✅Loader... Jeg sender dig en dm med blacklistede brugere fra din server om 10 sekunder.",
-        "blacklisted-in": "Blacklistede brugere i {msg.guild.name}:",
+        "blacklisted-in": "Blacklistede brugere i {guild}:",
         "error": "❌Noget gik galt, kan ikke sende dig listen.",
         "no-dm": "❌Jeg kan ikke dm dig, har du dms sat kun til venner??",
         "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24 timer."

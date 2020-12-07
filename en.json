@@ -25,7 +25,7 @@
         "alreadyenabled": "❌You already have Alt Protection on, currently set to minimum account age of **{days}** day(s).",
         "alreadydisabled": "❌Alt Protection is already disabled",
         "disabled": "✅Successfully disabled Alt Protection",
-        "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args[2]}** day(s)",
+        "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args}** day(s)",
         "minimum-age": "❌Please type in the minimum account age accepted in your server.",
         "no-args": "❌Please type true or false after the command."
     },
@@ -51,6 +51,7 @@
         "is-admin": "This person is a admin",
         "banned": "USER BANNED",
         "role-above": "This person is a admin / have a role above me",
+        "banned-in": "Banned in",
         "no-permission": "I DON'T HAVE PERMISSION TO BAN PEOPLE"
     },
     "help": {
@@ -92,8 +93,8 @@
     "verification": {
         "verify-started": "Verification Started",
         "joined-server": "Joined server",
-        "inleaking": "⚠️ <@{args[1]}> Successfully verified and **is in the following leaking servers**",
-        "noleaking": "✅ <@{args[1]}> Successfully verified and is not in any leaking servers.",
+        "inleaking": "⚠️ <@{args}> Successfully verified and **is in the following leaking servers**",
+        "noleaking": "✅ <@{args}> Successfully verified and is not in any leaking servers.",
         "forceverify": "{author} from {guild.name} wants you to verify yourself. Do it with this link http://stoptheresellers.xyz/auth/verify",
         "autoverify": "Welcome to {guild.name}. In order to stay in the server you need to verify yourself with this link http://stoptheresellers.xyz/auth/verify.",
         "kick-msg": "User did not verify the force verification made by {author}",
@@ -116,7 +117,8 @@
         "created": "Account Created On:",
         "avatar-url": "Avatar URL",
         "blacklisted": "Blacklisted",
-        "roles": "Roles"
+        "roles": "Roles",
+        "none": "None"
     },
     "autoverify": {
         "alreadyenabled": "❌Auto verification are already enabled in this server.",
@@ -128,7 +130,7 @@
     }, 
     "crosscheck": {
         "success": "✅Loading... I will dm you with a list of blacklisted users in your server in 10 seconds.",
-        "blacklisted-in": "Blacklisted users in {msg.guild.name}:",
+        "blacklisted-in": "Blacklisted users in {guild}:",
         "error": "❌Something went wrong, could not send the list.",
         "no-dm": "❌I can't dm you, do you have your dms set to friends only?",
         "cooldown": "❌You can only use this command once per 24 hours."
