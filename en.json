@@ -11,7 +11,7 @@
     "bans": {
         "bannedbystr": "Banned by STR",
         "userbanned": "USER BANNED",
-        "joinedblacklisted": "User joined the server & is blacklisted"
+        "joinedblacklisted": "User joined the server & is blacklisted 123"
     },
     "other": {
         "joinedserver": "Joined server"
@@ -29,18 +29,18 @@
         "no-args": "❌Please type true or false after the command."
     },
     "checking": {
-        "nouser": "❌Can't find that user. Please @ a valid user or check by his id.",
+        "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
     },
     "blacklist": {
         "isblacklisted": "USER IS BLACKLISTED",
         "by": "Blacklisted by:",
-        "notblacklsited": "USER IS NOT BLACKLISTED",
+        "notblacklsited": "USER IS NOT BLACKLISTED"
     },
     "report": {
         "report": "Report",
         "thanks": "✅Thanks for submitting the report! Report ID: {uuid}",
         "no-proof": "❌Please submit proof. (URL with image, ex: gyazo)",
-        "no-reason": "❌Please submit proof and the reason for the report.",
+        "no-reason": "❌Please submit proof and the reason for the report."
 
     },
     "fetch": {
