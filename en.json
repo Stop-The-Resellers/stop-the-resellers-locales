@@ -134,5 +134,11 @@
         "error": "❌Something went wrong, could not send the list.",
         "no-dm": "❌I can't dm you, do you have your dms set to friends only?",
         "cooldown": "❌You can only use this command once per 24 hours."
+    },
+    "languages": {
+        "error": "❌Please choose from the available languages, use $languages to see all the supported ones.",
+        "success": "✅Successfully set the guild language to **{args}**",
+        "all": "All available languages",
+        "contribute": "Do you want to contribute and add more languages? Do it here"
     }
 }

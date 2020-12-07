@@ -134,5 +134,11 @@
         "error": "❌Noget gik galt, kan ikke sende dig listen.",
         "no-dm": "❌Jeg kan ikke dm dig, har du dms sat kun til venner??",
         "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24 timer."
+    },
+    "languages": {
+        "error": "❌Vælg venligst et af de tilgængelige sprog, brug $languages for at se alle tilgængelige sprog.",
+        "success": "✅Opdateret sproget til o **{args}**",
+        "all": "Alle tilgængelige sprog",
+        "contribute": "Vil du hjælpe med at tilføje flere sprog? Gør det her"
     }
 }
