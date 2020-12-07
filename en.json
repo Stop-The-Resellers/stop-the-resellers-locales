@@ -1,6 +1,7 @@
 {
     "no-admin": "❌You're not an admin",
     "no-argsuser": "❌Didn't provide any user",
+    "no-args": "❌Didn't provide anything to say",
     "reason": "Reason:",
     "date": "Date",
     "user-id": "User ID",
@@ -19,7 +20,7 @@
     "alt": {
         "newaccount": "New account detected!",
         "newacckick": "This account is only **{days} day(s)** old. This user got kicked.",
-        "newacclog": "User joined with a new account created at {member.user.createdAt} and this server requires a minimum of {mindays} day(s) account age.",
+        "newacclog": "User joined with a new account created at {created} and this server requires a minimum of {mindays} day(s) account age.",
         "newacc": "This account is only {days} day(s) old.",
         "alreadyenabled": "❌You already have Alt Protection on, currently set to minimum account age of **{days}** day(s).",
         "alreadydisabled": "❌Alt Protection is already disabled",
@@ -34,7 +35,7 @@
     "blacklist": {
         "isblacklisted": "USER IS BLACKLISTED",
         "by": "Blacklisted by:",
-        "notblacklsited": "USER IS NOT BLACKLISTED"
+        "notblacklisted": "USER IS NOT BLACKLISTED"
     },
     "report": {
         "report": "Report",
@@ -82,7 +83,7 @@
     "logs": {
         "updated": "✅Sucessfully updated log channel, logs will now be displayed in <#{channel}>",
         "added": "✅Successfully set log channel, logs will now be displayed in <#{channel}>",
-        "same-channel": "❌Logs are alerady being sent out in <#{logchannel}>",
+        "same-channel": "❌Logs are already being sent out in <#{logchannel}>",
         "not-correctly": "❌You did not provide the channel correctly. Make sure to send the id of the channel. ex: **$setlogchannel 702876668422782988**",
         "removed": "✅Successfully removed logs from <#{havelogs}>",
         "no-logs": "❌You don't have logs enabled in this guild."
@@ -101,7 +102,7 @@
         "no-verify": "❌User did not verify."
     },
     "autoban": {
-        "alreadyenabled": "❌Auto bans are alerady enabled in this server.",
+        "alreadyenabled": "❌Auto bans are already enabled in this server.",
         "enabled": "✅Auto bans are now **enabled** in this guild.",
         "alreadydisabled": "❌Auto bans are already disabled in this server.",
         "disabled": "✅Auto bans are now **disabled** in this guild.",
@@ -117,7 +118,7 @@
         "roles": "Roles"
     },
     "autoverify": {
-        "alreadyenabled": "❌Auto verification are alerady enabled in this server.",
+        "alreadyenabled": "❌Auto verification are already enabled in this server.",
         "enabled": "✅Auto verification is now **enabled** in this guild.",
         "alreadydisabled": "❌Auto verification is already disabled in this server.",
         "disabled": "✅Auto verification is now **disabled** in this guild.",
