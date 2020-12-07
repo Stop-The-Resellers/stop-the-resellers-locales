@@ -11,7 +11,7 @@
     "bans": {
         "bannedbystr": "Banned by STR",
         "userbanned": "USER BANNED",
-        "joinedblacklisted": "User joined the server & is blacklisted 123"
+        "joinedblacklisted": "User joined the server & is blacklisted"
     },
     "other": {
         "joinedserver": "Joined server"
@@ -41,7 +41,6 @@
         "thanks": "✅Thanks for submitting the report! Report ID: {uuid}",
         "no-proof": "❌Please submit proof. (URL with image, ex: gyazo)",
         "no-reason": "❌Please submit proof and the reason for the report."
-
     },
     "fetch": {
         "failed": "BAN FAILED",
@@ -88,7 +87,7 @@
         "removed": "✅Successfully removed logs from <#{havelogs}>",
         "no-logs": "❌You don't have logs enabled in this guild."
     },
-    "vericiation": {
+    "verification": {
         "verify-started": "Verification Started",
         "joined-server": "Joined server",
         "inleaking": "⚠️ <@{args[1]}> Successfully verified and **is in the following leaking servers**",
