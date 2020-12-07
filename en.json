@@ -50,6 +50,7 @@
         "serverowner": "Server Owner:",
         "is-admin": "This person is a admin",
         "banned": "USER BANNED",
+        "role-above": "This person is a admin / have a role above me",
         "no-permission": "I DON'T HAVE PERMISSION TO BAN PEOPLE"
     },
     "help": {

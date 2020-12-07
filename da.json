@@ -50,6 +50,7 @@
         "serverowner": "Server Ejer:",
         "is-admin": "Denne person er admin",
         "banned": "BRUGER BANNED",
+        "role-above": "Dette er en admin / Der er en rolle over mig",
         "no-permission": "JEG HAR IKKE ADGANG TIL AT BANNE PERSONER"
     },
     "help": {
