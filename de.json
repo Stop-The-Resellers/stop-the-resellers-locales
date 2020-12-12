@@ -8,6 +8,8 @@
     "username": "Benutzername",
     "no-permission": "❌Du hast keine berchtigung um diesen command zu benutzen, dafür brauchst du **ADMINISTRATOR**.",
     "need-logs": "❌Du musst dir einen Log Channel haben! Mach dir einen mit: `$setlogchannel [kanal-id]`",
+    "admin-comment": "Admin Kommentare",
+
     
     "bans": {
         "bannedbystr": "Banned von STR",
@@ -140,5 +142,24 @@
         "success": "✅Sprache aktualisiert mit **{args}**",
         "all": "Alle sprachen",
         "contribute": "Kannst du mir helfen mit übersetzten? Kannst du hier"
+    },
+    "staffs": {
+        "intro": "Von alle bot Admins."
+    },
+    "serverinfo": {
+        "title": "Serverinfo",
+        "description": "{name}'s information",
+        "owner": "Inhaber",
+        "members": "Anzahl mitglieder",
+        "created-at": "Hergestellt am",
+        "channel-count": "Kanal Anzahl",
+        "region": "Server Region"
+    },
+    "vote": {
+        "title": "Bitte gib deine stimme hier für den Bot."
+    },
+    "dailyblacklists": {
+        "user": "Anzahl für blacklist Heute ({date}) von {user}: **{total}**",
+        "none": "Anzahl für blacklist Heute ({date}): **{total}**"
     }
 }

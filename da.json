@@ -8,6 +8,8 @@
     "username": "Brugernavn",
     "no-permission": "❌Du har ikke adgang til at bruge denne kommando, du skal bruge **ADMINISTRATOR** rettigheder.",
     "need-logs": "❌Du skal have logs opsat for at bruge denne kommando, slå logs til ved at bruge følgende kommando `$setlogchannel [kanal-id]`",
+    "admin-comment": "Admin Comment",
+
     
     "bans": {
         "bannedbystr": "Banned af STR",
@@ -140,5 +142,24 @@
         "success": "✅Opdateret sproget til o **{args}**",
         "all": "Alle tilgængelige sprog",
         "contribute": "Vil du hjælpe med at tilføje flere sprog? Gør det her"
+    },
+    "staffs": {
+        "intro": "Alle bottens personale."
+    },
+    "serverinfo": {
+        "title": "Serverinfo",
+        "description": "{name}'s information",
+        "owner": "Ejer",
+        "members": "Medlemstal",
+        "created-at": "Oprettet den",
+        "channel-count": "Kanaltal",
+        "region": "Server Region"
+    },
+    "vote": {
+        "title": "Venligst stem på vores bot her."
+    },
+    "dailyblacklists": {
+        "user": "Blacklists i dag ({date}) af {user}: **{total}**",
+        "none": "Total blacklists today ({date}): **{total}**"
     }
 }

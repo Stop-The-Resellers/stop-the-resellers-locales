@@ -8,6 +8,8 @@
     "username": "Nom d'utilisateur",
     "no-permission": "❌Vous n'êtes pas autorisé à utiliser cette commande, vous avez besoin des droits ** ADMINISTRATEUR **.",
     "need-logs": "❌Vous devez activer les journaux pour utiliser cette commande, activer les journaux en exécutant `$setlogchannel [channel-id]`",
+    "admin-comment": "Commentaire de l'administrateur",
+
 
     "bans": {
         "bannedbystr": "Interdit par STR",
@@ -140,5 +142,21 @@
         "success": "✅Définissez avec succès la langue de guilde sur **{args}**",
         "all": "Toutes les langues disponibles",
         "contribute": "Voulez-vous contribuer et ajouter d'autres langues? Faites-le ici"
+    },
+    "serverinfo": {
+        "title": "Info serveur",
+        "description": "{name}'s information",
+        "owner": "Propriétaire",
+        "members": "Nombre de membres",
+        "created-at": "Créé à",
+        "channel-count": "Nombre de canaux",
+        "region": "Région du serveur"
+    },
+    "vote": {
+        "title": "Veuillez voter pour notre bot ici"
+    },
+    "dailyblacklists": {
+        "user": "Total des listes noires aujourd'hui ({date}) bypar {user}: **{total}**",
+        "none": "Total des listes noires aujourd'hui ({date}): **{total}**"
     }
 }
