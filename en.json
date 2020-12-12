@@ -8,6 +8,7 @@
     "username": "Username",
     "no-permission": "❌You don't have permission to use this command, you need **ADMINISTRATOR** rights.",
     "need-logs": "❌You need logs enabled in order to use this command, enable logs by running `$setlogchannel [channel-id]`",
+    "admin-comment": "Admin Comment",
 
     "bans": {
         "bannedbystr": "Banned by STR",
@@ -67,7 +68,9 @@
         "setaltprotection": "Sets the minimum account age in days for your server, if it's set to true it will kick anyone that tries to join with an account age lower than you set.",
         "setautoverify": "Do you want new members to verify themselves and see if they're in leaking discords? If the kick argument is enabled then users that does not complete (ignore) the verification will get kicked.",
         "botinfo": "Returns info about the bot",
-        "userinfo": "Shows info about the mentioned users discord account."
+        "userinfo": "Shows info about the mentioned users discord account.",
+        "setlanguage": "Sets the bot language for your guild.",
+        "languages": "Shows a list with all the current supported languages"
     },
     "botinfo": {
         "bot-name": "Bot Name",
@@ -140,5 +143,25 @@
         "success": "✅Successfully set the guild language to **{args}**",
         "all": "All available languages",
         "contribute": "Do you want to contribute and add more languages? Do it here"
+    },
+    "staffs": {
+        "intro": "All Bot Staffs."
+    },
+    "serverinfo": {
+        "title": "Serverinfo",
+        "description": "{name}'s information",
+        "owner": "Owner",
+        "members": "Membercount",
+        "created-at": "Created at",
+        "channel-count": "Channel count",
+        "region": "Server Region"
+    },
+    "vote": {
+        "title": "Please vote for our bot here."
+    },
+    "dailyblacklists": {
+        "user": "Total blacklists today ({date}) by {user}: **{total}**",
+        "none": "Total blacklists today ({date}): **{total}**"
     }
 }
+
