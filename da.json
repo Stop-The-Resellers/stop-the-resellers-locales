@@ -69,7 +69,9 @@
         "setaltprotection": "Indstiller den mindste kontoalder i dage for din server, hvis den er indstillet til true, kicker den enhver, der forsøger at deltage i en kontoalder, der er lavere end du har angivet.",
         "setautoverify": "Vil du have nye medlemmer til at verificere sig selv og se, om de er i leaking discords? Hvis kickargumentet er aktiveret, vil brugere, der ikke fuldfører (ignorerer) verificationen blive kicked.",
         "botinfo": "Giver info omkring botten.",
-        "userinfo": "Viser info omkring den taggede bruger."
+        "userinfo": "Viser info omkring den taggede bruger.",
+        "setlanguage": "Sætter bottens sprog på din server.",
+        "languages": "Viser en liste med alle tilgængelige sprog"
     },
     "botinfo": {
         "bot-name": "Bot Navn",
