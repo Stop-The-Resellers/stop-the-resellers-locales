@@ -1,14 +1,14 @@
 {
     "no-admin": "❌Du er ikke admin",
     "no-argsuser": "❌Du har ikke valgt en bruger",
-    "no-args": ":x:Didn't provide anything to say",
+    "no-args": "❌ Intet input angivet",
     "reason": "Grundlag:",
     "date": "Dato",
     "user-id": "Bruger ID",
     "username": "Brugernavn",
     "no-permission": "❌Du har ikke adgang til at bruge denne kommando, du skal bruge **ADMINISTRATOR** rettigheder.",
     "need-logs": "❌Du skal have logs opsat for at bruge denne kommando, slå logs til ved at bruge følgende kommando `$setlogchannel [kanal-id]`",
-    "admin-comment": "Admin Comment",
+    "admin-comment": "Kommentar fra admin",
 
     
     "bans": {
@@ -162,6 +162,6 @@
     },
     "dailyblacklists": {
         "user": "Blacklists i dag ({date}) af {user}: **{total}**",
-        "none": "Total blacklists today ({date}): **{total}**"
+        "none": "Blacklists idag ({date}): **{total}**"
     }
 }
