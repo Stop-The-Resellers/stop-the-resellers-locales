@@ -1,0 +1,167 @@
+{
+    "no-admin": "❌Nejsi admin",
+    "no-argsuser": "❌Nezadal jsi žádného uživatele",
+    "no-args": "❌Nenapsal jsi nic",
+    "reason": "Důvod:",
+    "date": "Datum",
+    "user-id": "ID Uživatele",
+    "username": "Jméno",
+    "no-permission": "❌Nemáš dostatečné právo pro tento příkaz, pro tento příkaz je potřeba **ADMINISTRATOR**.",
+    "need-logs": "❌Musíš mít povolené logování na tvém serveru aby jsi použil tento příkaz, povol logování příkazem`$setlogchannel [id-kanálu]`",
+    "admin-comment": "Komentář Administrátora",
+
+    "bans": {
+        "bannedbystr": "Zabanován STR",
+        "userbanned": "UŽIVATEL ZABANOVÁN",
+        "joinedblacklisted": "Uživatel, který je na blacklistu se napojil na server"
+    },
+    "other": {
+        "joinedserver": "Se připojil na server"
+    },
+    "alt": {
+        "newaccount": "Byl zjištěn nový účet!",
+        "newacckick": "Tento účet je jen **{days} dnů** starý. Uživatel byl vyhozen.",
+        "newacclog": "Uživatel se napojil s novým účtem vytvořeným v {created} a vyžaduje minimální věk {mindays} dnů ",
+        "newacc": "Tento účet je jen  {days} dní  starý.",
+        "alreadyenabled": "❌Alt Protekce je již zapnuta, nastaveno na  **{days}** dní.",
+        "alreadydisabled": "❌Alt Protekce je již vypnuta.",
+        "disabled": "✅Úspěšně vypnuta Alt Protekce",
+        "enabled": "✅Úspěšně zapnuta **Alt Protekce** Uživatel musí mít starý účet **{args}** dní",
+        "minimum-age": "❌Prosím zadej minimální čas jak dlouho musí být starý účet, který uživatel musí splňovat aby mohl být na tvém serveru.",
+        "no-args": "❌Prosím zadej true nebo false za tento příkaz."
+    },
+    "checking": {
+        "nouser": "❌Nebylo možné najít uživatele. Prosím označ správného uživatele, nebo to zkus přes jeho ID."
+    },
+    "blacklist": {
+        "isblacklisted": "UŽIVATEL JE NA BLACKLISTU",
+        "by": "Dán na blacklist Administrátorem:",
+        "notblacklisted": "UŽIVATEL NENÍ NA BLACKLISTU"
+    },
+    "report": {
+        "report": "Nahlásit",
+        "thanks": "✅Děkujeme za nahlášení uživatele! ID nahlášení: {uuid}",
+        "no-proof": "❌Prosím uveď důkaz. (URL s obrázkem, příklad: gyazo nebo imgur)",
+        "no-reason": "❌Prosím uveď důkaz a důvod."
+    },
+    "fetch": {
+        "failed": "BAN SE NEZDAŘIL",
+        "could-not-ban": "Nebylo možné zabanovat:",
+        "server": "Server:",
+        "serverowner": "Majitel Serveru:",
+        "is-admin": "Tento uživatel je Administrátor",
+        "banned": "UŽIVATEL ZABANOVÁN",
+        "role-above": "Tento uživatel je Administrátor a má roli nademnou",
+        "banned-in": "Zabanován v",
+        "no-permission": "NEMÁM DOSTATEČNÉ PRÁVA PRO ZABANOVÁNÍ UŽIVATELE"
+    },
+    "help": {
+        "blacklist": "Přidá uživatele na blacklist **[Jen pro BOT Administrátory]**",
+        "unblacklist": "Odebere uživatele z blacklistu **[Jen pro BOT Administrátory]**",
+        "checkuser": "Zjistí, jestli je uživatel na blacklistu",
+        "fetch": "Zjistí informace o tvém serveru, jestli jsou nějací uživatelé na black listu **[Jen pro BOT Administrátory]**",
+        "report": "Nahlášení uživatele Administrátorům Bota",
+        "viewreport": "Zobrazí nahlášeni se specifickým ID. **[Jen pro BOT Administrátory]**",
+        "viewreports": "Zobrazí všechny nevyřízené nahlášení. **[Jen pro BOT Administrátory]**",
+        "setlogchannel": "Nastaví log kanál pro tvůj server, pokud někdo dostane BAN, tak se to zobrazí v daném kanále.",
+        "setautoban": "Automaticky zabanuje uživatele na tvém serveru, který je na blacklistu. *Poznámka: Zapnuto defaultně*",
+        "setaltprotection": "Nastaví protekci,že uživatel musí mít účet starý tolik dní, kolik zadáte.Pokud nastaveno na TRUE, tak to vyhodí uživatele, který nemají účet tak dlouho, kolik zadáte.",
+        "setautoverify": "Chcete, aby nový uživatel se musel ověřit a vidět jestli jsou na leak discordu? Pokud zapnuto, tak uživatele co neudělají verifikaci, nebo budou ignorovat, tak budou vyhozeni.",
+        "botinfo": "Vypíše info o botovi",
+        "userinfo": "Vypíše informace o označeném uživatelovi.",
+        "setlanguage": "Nastaví podporovaný jazyk  bota pro váš server.",
+        "languages": "Vypíše list s podporovanými jazyky."
+    },
+    "botinfo": {
+        "bot-name": "Jméno bota",
+        "bot-owner": "Majitel",
+        "servers": "Servery",
+        "users": "Uživatelé",
+        "uptime": "Provoz",
+        "ping": "Ping",
+        "bot-library": "Knihovna",
+        "created-on": "Vytvořen",
+        "blacklisted-users": "Uživatelé na blacklistu",
+        "website": "WEB",
+        "support-server": "Podpořit server"
+    },
+    "logs": {
+        "updated": "✅Úspěšně aktualizován log kanál, logy budou zobrazeny v  <#{channel}>",
+        "added": "✅Úspěšně nastaven log kanál, logy budou zobrazeny v  <#{channel}>",
+        "same-channel": "❌Logy už jsou zaslány v <#{logchannel}>",
+        "not-correctly": "❌Neuvedl jsi správně kanál. Ujisti se, že jsi poslal správné id kanálu. příklad: **$setlogchannel 702876668422782988**",
+        "removed": "✅Úspěšně smazány logy v  <#{havelogs}>",
+        "no-logs": "❌Nemáš žádné logy na tomto serveru."
+    },
+    "verification": {
+        "verify-started": "Verifikace povolena",
+        "joined-server": "Se připojil",
+        "inleaking": "⚠️ <@{args}> Úspěšně ověřen  **Uživatel je na leak serveru!**",
+        "noleaking": "✅ <@{args}> Úspěšně ověřen a není na žádnem leak serveru.",
+        "forceverify": "{author} ze serveru {guild.name} chce, aby jsi se ověřil. Ověř se přes tento link http://stoptheresellers.xyz/auth/verify",
+        "autoverify": "Vítej na serveru {guild.name}. Aby jsi se ověřil, musíš se ověřit přes tento link http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "Uživatel se neověřil verifikací vytvořenou {author}",
+        "user-kicked": "❌Uživatel byl vyhozen",
+        "reason": "Neověřeno.",
+        "no-kick-permission": "❌Uživatel není ověřen a nemohu uživatele vyhodit, protože nemám dostatečné permisse.",
+        "no-verify": "❌Uživatel není ověřen."
+    },
+    "autoban": {
+        "alreadyenabled": "❌Automatické bany jsou na tomto serveru už zapnuté.",
+        "enabled": "✅**Zapnuté** Automatické bany pro tento server.",
+        "alreadydisabled": "❌Automatické bany jsou na tomto serveru už vypnuté.",
+        "disabled": "✅**Vypnuté** Automatické bany pro tento server.",
+        "no-args": "❌Prosím uveď `true` nebo `false` pro tento příkaz."
+    },
+    "userinfo": {
+        "no-user": "❌Uživatel s tímto ID nebyl nalezen. Ujisti se, že uživatel je na tomto serveru.",
+        "no-user2": "❌Uživatel nenalezen s tímto ID.",
+        "joined": "Připojen na server(kdy)",
+        "created": "Účet vytvořen (kdy):",
+        "avatar-url": "URL avataru",
+        "blacklisted": "Blacklisted",
+        "roles": "Role",
+        "none": "Neuvedeno"
+    },
+    "autoverify": {
+        "alreadyenabled": "❌Automatická verifikace je na tomhle serveru už zapnuta.",
+        "enabled": "✅**Zapnuta** automatická verifikace pro tento server",
+        "alreadydisabled": "❌Automatická verifikace je na tomhle serveru už vypnuta.",
+        "disabled": "✅**Vypnuta** automatická verifikace pro tento server.",
+        "no-args": "❌Prosím uveď `true` nebo `false` jestli chceš povolit Auto Kick. (Autokick vyhodí uživatele, který nejsou ověřený",
+        "no-args2": "❌Prosím uveď `true` nebo  `false` za tento příkaz."
+    }, 
+    "crosscheck": {
+        "success": "✅Načítání... Pošlu ti soukromou zprávu do 10 sekund, jestli nemáš nějaké uživatele na serveru, kteří jsou na blacklistu.",
+        "blacklisted-in": "Uživatelé na blacklistu v  {guild}:",
+        "error": "❌Něco se pokazilo, nezdařilo se mi zaslat PM.",
+        "no-dm": "❌Nemohu ti poslat soukromou zprávu, ujisti se, že nemáš zapnuté soukromé zprávy jen pro své kamarády.",
+        "cooldown": "❌Tento příkaz můžeš použít jen jednou za 24h."
+    },
+    "languages": {
+        "error": "❌Prosím vyber platný jazyk ze všech dostupných jazyků, použij $languages a zobrazí se všechny dostupné jazyky.",
+        "success": "✅Úspěšně jsi nastavil jazyk serveru na  **{args}**",
+        "all": "Všechny dostupné jazyky",
+        "contribute": "Chcete podpořit server a přidat více jazyků? Tady je odkaz"
+    },
+    "staffs": {
+        "intro": "Administrátoři."
+    },
+    "serverinfo": {
+        "title": "INFORMACE SERVERU",
+        "description": "Informace serveru {name}'",
+        "owner": "Majitel",
+        "members": "Počet uživatelů",
+        "created-at": "Vytvořen",
+        "channel-count": "Počet kanálů",
+        "region": "Oblast Serveru"
+    },
+    "vote": {
+        "title": "Prosím hlasuj pro našeho bota."
+    },
+    "dailyblacklists": {
+        "user": "Dnes ({date}) na blacklist bylo přidáno administrátorem {user}: celkem **{total}** uživatelů",
+        "none": "Dnes ({date}):celkem uživatelů na blacklistu **{total}**"
+    }
+}
+
