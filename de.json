@@ -1,38 +1,38 @@
 {
     "no-admin": "❌Du bist kein Admin",
-    "no-argsuser": "❌Du hast keinen benutzer angezeigt",
+    "no-argsuser": "❌Du hast keinen Benutzer angezeigt",
     "no-args": ":x:Hatte nichts zu sagen",
     "reason": "Begründung:",
     "date": "Datum",
     "user-id": "Benutzer ID",
     "username": "Benutzername",
-    "no-permission": "❌Du hast keine berchtigung um diesen command zu benutzen, dafür brauchst du **ADMINISTRATOR**.",
-    "need-logs": "❌Du musst dir einen Log Channel haben! Mach dir einen mit: `$setlogchannel [kanal-id]`",
+    "no-permission": "❌Du hast keine Berchtigung um diesen Command zu benutzen, dafür brauchst du **ADMINISTRATOR**.",
+    "need-logs": "❌Du musst einen Log Channel haben! Mache einen mit: `$setlogchannel [kanal-id]`",
     "admin-comment": "Admin Kommentare",
 
     
     "bans": {
         "bannedbystr": "Banned von STR",
-        "userbanned": "BENUTZER BANNED",
-        "joinedblacklisted": "Benutzer wollte mitglied sein, aber war auf der Blacklist!"
+        "userbanned": "BENUTZER GEBANNT",
+        "joinedblacklisted": "Benutzer wollte Mitglied sein, aber war auf der Blacklist!"
     },
     "other": {
-        "joinedserver": "Neues mitglied"
+        "joinedserver": "Neues Mitglied"
     },
     "alt": {
-        "newaccount": "Neues konto wurde gefunden!",
-        "newacckick": "Dieser konto ist nur **{days} Tag(e)** alt. Mitglied bekam ein Kick.",
-        "newacclog": "Benutzer hat sich angemeldet mit einen neuen konto, {member.user.createdAt} und dieser server muss mind. {mindays} Tag(e) älter sein.",
-        "newacc": "Dieser konto ist nur {days} Tag(e) alt.",
-        "alreadyenabled": "❌Du bist schon geschützt gegen neuen konto. Im moment ist die einstellung: **{days}** Tag(e).",
+        "newaccount": "Neuer Account wurde gefunden!",
+        "newacckick": "Dieser Account ist nur **{days} Tag(e)** alt. Mitglied wurde gekickt.",
+        "newacclog": "Benutzer hat sich angemeldet mit einen neuen Account, {member.user.createdAt} und diesen Account muss mind. {mindays} Tag(e) älter sein.",
+        "newacc": "Dieses Konto ist nur {days} Tag(e) alt.",
+        "alreadyenabled": "❌Du bist schon geschützt gegen neue Accounts. Im moment ist die einstellung: **{days}** Tag(e).",
         "alreadydisabled": "❌Alt-beschützung ist schon aktiviert",
-        "disabled": "✅Alt-beschützung ist aktiviert",
-        "enabled": "✅** Alt beschtzüng ** von einen mind. von **{args}** Tag(e) ist erfolgreich aktiviert",
-        "minimum-age": "❌Bitte ein mind. alter von konto, für die aktivierung von alt-beschüztung eingeben.",
-        "no-args": "❌Schreib bitte 'true' oder 'false' nach dem command."
+        "disabled": "✅Alt-Beschützung ist aktiviert",
+        "enabled": "✅** Alt Beschtzüng ** Konto von einen mind. von **{args}** Tag(e) ist erfolgreich aktiviert",
+        "minimum-age": "❌Bitte ein mind. Alter vom Account, für die Aktivierung von Alt-Beschüztung eingeben.",
+        "no-args": "❌Schreib bitte 'true' oder 'false' nach dem Command."
     },
     "checking": {
-        "nouser": "❌Kann keinen benutzer finden. Benutz @ konto, oder durch discord ID."
+        "nouser": "❌Kann keinen Account finden. Benutze @ Account, oder die Discord ID."
     },
     "blacklist": {
         "isblacklisted": "BENUZTER IST BLACKLISTED",
@@ -43,34 +43,34 @@
         "report": "Bericht",
         "thanks": "✅Vielen dank für den Bericht! Bericht ID: {uuid}",
         "no-proof": "❌Es muss ein Beweis dabei sein. (URL mit foto, ex: gyazo)",
-        "no-reason": "❌Es muss im bericht eine erklärung und ein Beweis dabei sein."
+        "no-reason": "❌Es muss eine Erklärung und ein Beweis im Bericht dabei sein."
     },
     "fetch": {
         "failed": "BERICHT FEHLGESCHLAGEN",
-        "could-not-ban": "Konnte benuzter nicht ausschliesen:",
+        "could-not-ban": "Konnte Account nicht ausschliesen:",
         "server": "Server:",
         "serverowner": "Server Inhaber:",
-        "is-admin": "Dieser benutzer ist kein Admin",
+        "is-admin": "Dieser Account ist kein Admin",
         "banned": "BENUTZER BANNED",
-        "role-above": "Dies ist ein admin / Das die Rolle über mir",
+        "role-above": "Dies ist ein Admin / Die Rolle ist über meiner",
         "banned-in": "Ausgeschlossen für",
-        "no-permission": "ICH KANN KEINE SPERREN"
+        "no-permission": "ICH KANN NICHT SPERREN"
     },
     "help": {
-        "blacklist": "Hinzufüge einen benuzter zur blacklist **[NUR FÜR BOT ADMINS]**",
-        "unblacklist": "Enferne einen benutzer von der blacklist **[NUR FÜR BOT ADMINS]**",
-        "checkuser": "Überfprüfe ob der benutzer auf der blacklist ist",
+        "blacklist": "Füge einen Account zur Blacklist hinzu **[NUR FÜR BOT ADMINS]**",
+        "unblacklist": "Enferne einen Account von der Blacklist **[NUR FÜR BOT ADMINS]**",
+        "checkuser": "Überprüfe ob der Account auf der Blacklist ist",
         "fetch": "Ruft dein discord und prüft ob einen benutzer auf der blacklist ist **[NUR FÜR BOT ADMINS]**",
         "report": "Sendet einen Bericht an Bot Admins",
         "viewreport": "Sende ein Bericht mit Discord ID. **[NUR FÜR BOT ADMINS]**",
         "viewreports": "Zeigt alle ausstehenden Berichte an. **[NUR FÜR BOT ADMINS]**",
-        "setlogchannel": "Legt ein Protokollkanal auf deinen Server fest, der Bot meldet sich hier an, wenn jemand gesperrt wird.",
-        "setautoban": "Automatisches Verbot von Benutzern auf der blacklist. * Hinweis: Ist aktiviert*",
-        "setaltprotection": "Legt das Mindestalter des Kontos in Tagen für deinen server. Wenn es auf 'true' ist, werden alle Personen, die versuchen, deinem Discord beizutreten, das unter dem von Ihnen angegebenen Alter liegt, ausgeschlossen.",
+        "setlogchannel": "Legt ein Log-Channel auf deinem Server fest, indem alle Bot Aktionen festgehalten werden.",
+        "setautoban": "Personen auf der Blacklist automatisch bannen. *Hinweis: Ist aktiviert*",
+        "setaltprotection": "Legt das Mindestalter des Accounts in Tagen für deinen Server fest. Wenn es auf 'true' ist, werden alle Personen, die deinem Server beitreten und nicht das angegebene Alter haben, gekickt.",
         "setautoverify": "Möchtes du, dass neue Mitglieder sich selbst überprüfen und feststellen, ob die auf leaking discord sind? Wenn das Kick-Argument aktiviert ist, werden Benutzer, die die Überprüfung nicht abschließen (ignorieren), gekickt.",
-        "botinfo": "Bietet Informationen von den bot.",
-        "userinfo": "Zeigt Informationen von @ Benutzer an.",
-        "setlanguage": "Wähle deine Sprache für den bot.",
+        "botinfo": "Zeigt Informationen vom Bot.",
+        "userinfo": "Zeigt Informationen von @Account.",
+        "setlanguage": "Wähle deine Sprache für den Bot.",
         "languages": "Zeigt eine Liste mit Sprachen"
     },
     "botinfo": {
@@ -78,90 +78,90 @@
         "bot-owner": "Bot Inhaber",
         "servers": "Server",
         "users": "Benutzer",
-        "uptime": "Betriebszeit",
+        "uptime": "Onlinezeit",
         "ping": "Ping",
         "bot-library": "Bot Bibliothek",
         "created-on": "Erstellt am",
         "blacklisted-users": "Benutzer Blacklist",
         "website": "Homepage",
-        "support-server": "Server unterstützen"
+        "support-server": "Support Server"
     },
     "logs": {
-        "updated": "✅Protokollkanal aktualisiert, Protokolle werden jetzt in <#{channel}> angezeigt",
-        "added": "✅Der Protokollkanal ist eingestellt, Protokolle werden jetzt in <#{channel}> angezeigt",
-        "same-channel": "❌Protokolle werden bereits in <#{logchannel}> gesendet ",
-        "not-correctly": "❌Du hast den Kanal nicht korrekt geliefert. Denke bitte daran, die ID des Kanals zu senden. z.B: **$setlogchannel 702876668422782988**",
-        "removed": "✅Protokolle entfernt von <#{havelogs}>",
-        "no-logs": "❌Du hast hier kein Protokoll aktiviert."
+        "updated": "✅Log-Channel aktualisiert, Logs werden jetzt in <#{channel}> gesendet",
+        "added": "✅Der Log-Channel ist eingestellt, Logs werden jetzt in <#{channel}> gesendet",
+        "same-channel": "❌Logs werden bereits in <#{logchannel}> gesendet ",
+        "not-correctly": "❌Du hast keinen gültigen Channel angegeben. Denke bitte daran, die ID des Kanals zu senden. z.B: **$setlogchannel 702876668422782988**",
+        "removed": "✅Logs entfernt von <#{havelogs}>",
+        "no-logs": "❌Du hast hier kein Log aktiviert."
     },
     "verification": {
         "verify-started": "Die Überprüfung beginnt",
-        "joined-server": "Hat den server beigetreten",
-        "inleaking": "⚠️ <@{args}> erfolgreich verifiziert **befindet sich auf leaking discords**",
-        "noleaking": "✅ <@{args}> erfolgreich verifiziert und ist kein Mitglied von leaking discords.",
+        "joined-server": "Hat den server betreten",
+        "inleaking": "⚠️ <@{args}> erfolgreich verifiziert **befindet sich auf Leaking-Discords**",
+        "noleaking": "✅ <@{args}> erfolgreich verifiziert und ist kein Mitglied von Leaking-Discords.",
         "forceverify": "{author} von {guild.name} möchte, dass du dich verifiziert. Dies machst du unter folgendem Link: http://stoptheresellers.xyz/auth/verify",
-        "autoverify": "Wilkommen zur {guild.name}. Um Mitglied dieser discord zu werden, muss du dich über den folgenden Link verifizieren: http://stoptheresellers.xyz/auth/verify.",
-        "kick-msg": "Der Benutzer hat die von {author} eingerichtete Überprüfung nicht überprüft",
-        "user-kicked": "❌Benutzer kicked",
+        "autoverify": "Wilkommen zu {guild.name}. Um Mitglied dieses Discord Servers zu werden, muss du dich über den folgenden Link verifizieren: http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "Der Benutzer hat die von {author} eingerichtete Überprüfung nicht bestanden (ignoriert)",
+        "user-kicked": "❌Benutzer gekickt",
         "reason": "Nicht überprüft.",
-        "no-kick-permission": "❌Der Benutzer hat dies nicht überprüft, kann jedoch aufgrund fehlender Berechtigungen **nicht** beitreten.",
-        "no-verify": "❌Der Benutzer hat sicg nicht überprüft."
+        "no-kick-permission": "❌Der Benutzer hat sich nicht verizifiert, allerdings kann ich ihn aufgrund mangelnder Rechte nicht kicken.",
+        "no-verify": "❌Der Benutzer hat sich nicht überprüft."
     },
     "autoban": {
-        "alreadyenabled": "❌Automatisches Ausschliesung des mitglieder ist auf dieser discord bereits aktiviert.",
-        "enabled": "✅Automatisches Ausschliesung des mitglieder sind jetzt in dieser **aktiviert**.",
-        "alreadydisabled": "❌Automatisches Ausschliesung des mitglieder ist beriets schon aus.",
-        "disabled": "✅Automatisches Ausschiesung des mitglieder is **aus**.",
-        "no-args": "❌Sende bitte `true` oder `false` nach dem command."
+        "alreadyenabled": "❌Automatisches Bannen eines Blacklist-Mitglieds ist bereits **aktiviert**.",
+        "enabled": "✅Automatisches Bannen ist nun **aktiviert**.",
+        "alreadydisabled": "❌Automatisches Bannen eines Blacklist-Mitglieds ist bereits **deaktiviert**.",
+        "disabled": "✅Automatisches Bannen ist nun **deaktiviert**.",
+        "no-args": "❌Nutze 'true' oder 'false' als Argument."
     },
     "userinfo": {
-        "no-user": "❌Konnte keinen benutzer mit der ID finden. Ist der benutzer mitglied?",
-        "no-user2": "❌Konnte keinen beuntuzer mit der ID finden.",
-        "joined": "Trat dem Server bei:",
+        "no-user": "❌Es konnte kein Account mit dieser ID gefunden werden. Ist die Person auf diesem Server?",
+        "no-user2": "❌s konnte kein Account mit dieser ID gefunden werden.",
+        "joined": "Hat den Server betreten:",
         "created": "Konto erstellt am:",
         "avatar-url": "Avatar URL",
-        "blacklisted": "Blacklisted",
+        "blacklisted": "Auf Blacklist",
         "roles": "Rollen",
         "none": "Nichts"
     },
     "autoverify": {
         "alreadyenabled": "❌Die automatische Überprüfung ist auf diesem Server bereits aktiviert.",
-        "enabled": "✅Die automatische Überprüfung ist jetzt **an**.",
+        "enabled": "✅Die automatische Überprüfung ist jetzt **aktiviert**.",
         "alreadydisabled": "❌Die automatische Überprüfung ist bereits deaktiviert.",
         "disabled": "✅Die automatische Überprüfung ist jetzt **deaktiviert**.",
-        "no-args": "❌Bitte schreib `true` oder `false` wenn du den Autokick ein- oder ausschalten möchtes. (Autokick will Benutzer kicken, wenn die nicht verifiziert sind)",
-        "no-args2": "❌Sende bitte `true` oder `false` nach dem command."
+        "no-args": "❌Nutze 'true' oder 'false' als Argument. (Autoverify kickt die Person, wenn diese sich nicht verifiziert)",
+        "no-args2": "❌Nutze 'true' oder 'false' als Argument."
     },
     "crosscheck": {
-        "success": "✅Momemt... Ich werde dich in 10 Sekunden einen DM mit Benutzern auf der blacklist von deinem Server senden.",
+        "success": "✅Bitte warten... Ich werde dir innerhalb von 10 Sekunden eine List mit allen Personen, die auf der Blacklist- und auf deinem Server sind senden.",
         "blacklisted-in": "Blacklisted benutzer in {guild}:",
-        "error": "❌Etwas ist schief gelaufen, kann dir die Liste nicht schicken.",
-        "no-dm": "❌Ich kann dich nicht DM senden, hast du DM's nur auf Freunde eingestellt??",
+        "error": "❌Etwas ist schief gelaufen, die Nachricht konnte nicht gesendet werden.",
+        "no-dm": "❌Die Nachricht konnte nicht gesendet werden. Hast du deine DM nur für Freunde aktiviert?",
         "cooldown": "❌Du kannst diesen Befehl nur einmal alle 24 Stunden verwenden."
     },
     "languages": {
-        "error": "❌Wähle dine sparache aus mit $languages und du bekommst eine liste mit sprachen.",
-        "success": "✅Sprache aktualisiert mit **{args}**",
+        "error": "❌Nutze $languages, um alle verfügbaren Sprachen einzusehen.",
+        "success": "✅Sprach geändert zu **{args}**",
         "all": "Alle sprachen",
-        "contribute": "Kannst du mir helfen mit übersetzten? Kannst du hier"
+        "contribute": "Möchtest du helfen, zu übersetzen? Das kannst du hier:"
     },
     "staffs": {
-        "intro": "Von alle bot Admins."
+        "intro": "Alle Bot Teammitglieder"
     },
     "serverinfo": {
         "title": "Serverinfo",
         "description": "{name}'s information",
         "owner": "Inhaber",
-        "members": "Anzahl mitglieder",
-        "created-at": "Hergestellt am",
-        "channel-count": "Kanal Anzahl",
+        "members": "Anzahl Mitglieder",
+        "created-at": "Erstellt am",
+        "channel-count": "Channel Anzahl",
         "region": "Server Region"
     },
     "vote": {
-        "title": "Bitte gib deine stimme hier für den Bot."
+        "title": "Bitte stimme für unseren Bot ab."
     },
     "dailyblacklists": {
-        "user": "Anzahl für blacklist Heute ({date}) von {user}: **{total}**",
-        "none": "Anzahl für blacklist Heute ({date}): **{total}**"
+        "user": "Anzahl für Blacklist heute ({date}) von {user}: **{total}**",
+        "none": "Anzahl für Blacklist heute ({date}): **{total}**"
     }
 }
