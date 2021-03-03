@@ -161,7 +161,7 @@
         "title": "Bitte gib deine stimme hier für den Bot."
     },
     "dailyblacklists": {
-        "user": "Anzahl für blacklist Heute ({date}) von {user}: **{total}**",
-        "none": "Anzahl für blacklist Heute ({date}): **{total}**"
+        "user": "Anzahl für Blacklist Heute ({date}) von {user}: **{total}**",
+        "none": "Anzahl für Blacklist Heute ({date}): **{total}**"
     }
 }
