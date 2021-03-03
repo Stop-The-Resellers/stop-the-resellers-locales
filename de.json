@@ -6,11 +6,9 @@
     "date": "Datum",
     "user-id": "Benutzer ID",
     "username": "Benutzername",
-    "no-permission": "❌Du hast keine Berchtigung um diesen Command zu benutzen, dafür brauchst du **ADMINISTRATOR**.",
+    "no-permission": "❌Du hast keine Berechtigung um diesen Command zu benutzen, dafür brauchst du **ADMINISTRATOR**.",
     "need-logs": "❌Du musst einen Log Channel haben! Mache einen mit: `$setlogchannel [kanal-id]`",
     "admin-comment": "Admin Kommentare",
-
-    
     "bans": {
         "bannedbystr": "Banned von STR",
         "userbanned": "BENUTZER GEBANNT",
@@ -35,14 +33,14 @@
         "nouser": "❌Kann keinen Account finden. Benutze @ Account, oder die Discord ID."
     },
     "blacklist": {
-        "isblacklisted": "BENUZTER IST BLACKLISTED",
+        "isblacklisted": "BENUTZER IST BLACKLISTED",
         "by": "Blacklisted von:",
-        "notblacklisted": "BENUTZER IST NICH AUF DER BLACKLIST"
+        "notblacklisted": "BENUTZER IST NICHT AUF DER BLACKLIST"
     },
     "report": {
         "report": "Bericht",
         "thanks": "✅Vielen dank für den Bericht! Bericht ID: {uuid}",
-        "no-proof": "❌Es muss ein Beweis dabei sein. (URL mit foto, ex: gyazo)",
+        "no-proof": "❌Es muss ein Beweis dabei sein. (URL mit foto, z.B. Gyazo)",
         "no-reason": "❌Es muss eine Erklärung und ein Beweis im Bericht dabei sein."
     },
     "fetch": {
@@ -150,7 +148,7 @@
     },
     "serverinfo": {
         "title": "Serverinfo",
-        "description": "{name}'s information",
+        "description": "{name}'s Information",
         "owner": "Inhaber",
         "members": "Anzahl Mitglieder",
         "created-at": "Erstellt am",
