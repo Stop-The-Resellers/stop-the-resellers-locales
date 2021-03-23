@@ -26,22 +26,22 @@
         "newacc": "Esta cuenta es solo {days} dia(s) de edad.",
         "alreadyenabled": "❌Ya tienes proteccion de cuentas secundarias, actualmente el minimo es **{days}** dia(s).",
         "alreadydisabled": "❌Proteccion contra cuentas secundarias esta desactivada.",
-        "disabled": "✅Successfully disabled Alt Protection",
-        "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args}** day(s)",
-        "minimum-age": "❌Please type in the minimum account age accepted in your server.",
+        "disabled": "✅Se ha deshabilitado la proteccion de cuentas secundarias exitosamente",
+        "enabled": "✅Se ha habilitado la **Proteccion de cuentas secundarias** con cuentas creadas hace **{args}** dia(s)",
+        "minimum-age": "❌Porfavor escrinba la edad minima de la cuenta, para ser aceptada en su servidor.",
         "no-args": "❌Please type true or false after the command."
     },
     "checking": {
-        "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
+        "nouser": "❌ No se ha encontrado ese usuario. Porfavor introduzca un @ valido o verifiquelo por su ID."
     },
     "blacklist": {
-        "isblacklisted": "USER IS BLACKLISTED",
-        "by": "Blacklisted by:",
-        "notblacklisted": "USER IS NOT BLACKLISTED"
+        "isblacklisted": "EL USUARIO ESTA EN LA BLACKLIST",
+        "by": "Blacklisted por:",
+        "notblacklisted": "EL USUARIO NO ESTA BLACKLISTED"
     },
     "report": {
-        "report": "Report",
-        "thanks": "✅Thanks for submitting the report! Report ID: {uuid}",
+        "report": "Reportar",
+        "thanks": "✅Gracias por enciar el reporte! ID de reporte: {uuid}",
         "no-proof": "❌Please submit proof. (URL with image, ex: gyazo)",
         "no-reason": "❌Please submit proof and the reason for the report."
     },
