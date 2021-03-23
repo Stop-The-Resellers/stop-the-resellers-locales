@@ -32,23 +32,23 @@
         "no-args": "❌ Por favor escriba verdadero o falso despues del comando."
     },
     "checking": {
-        "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
+        "nouser": "❌ No se ha encontrado a ese usuario . Porfavor ingrese un @ valido o revise la ID del usuario."
     },
     "blacklist": {
-        "isblacklisted": "USER IS BLACKLISTED",
-        "by": "Blacklisted by:",
-        "notblacklisted": "USER IS NOT BLACKLISTED"
+        "isblacklisted": "EL USUARIO ESTA BLACKLISTED",
+        "by": "Blacklisted por:",
+        "notblacklisted": "EL USUARIO NO ESTA EN BLACKLISTED"
     },
     "report": {
-        "report": "Report",
-        "thanks": "✅Thanks for submitting the report! Report ID: {uuid}",
-        "no-proof": "❌Please submit proof. (URL with image, ex: gyazo)",
-        "no-reason": "❌Please submit proof and the reason for the report."
+        "report": "Reporte",
+        "thanks": "✅ Gracias por enviar el reporte! ID de reporte: {uuid}",
+        "no-proof": "❌ Porfavor envie pruebas. (URL con imagen, ej: gyazo)",
+        "no-reason": "❌Porfavor envie pruebas y la razon del reporte."
     },
     "fetch": {
-        "failed": "BAN FAILED",
-        "could-not-ban": "Could not ban:",
-        "server": "Server:",
+        "failed": "BAN FALLIDO",
+        "could-not-ban": "No se ha podido banear:",
+        "server": "Servidor:",
         "serverowner": "Server Owner:",
         "is-admin": "This person is a admin",
         "banned": "USER BANNED",
