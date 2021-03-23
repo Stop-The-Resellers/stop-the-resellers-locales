@@ -49,11 +49,11 @@
         "failed": "BAN FALLIDO",
         "could-not-ban": "No se ha podido banear:",
         "server": "Servidor:",
-        "serverowner": "Dueno del servidor:",
+        "serverowner": "Dueño del servidor:",
         "is-admin": "Esta persona es admin",
         "banned": "USUARIO BANEADO",
         "role-above": "Esta persona es admin / tiene un rol arriba mio",
-        "banned-in": "Banned in",
+        "banned-in": "Baneado en",
         "no-permission": "NO TENGO PERMISO DE BANEAR PERSONAS"
     },
     "help": {
@@ -125,22 +125,22 @@
         "none": "None"
     },
     "autoverify": {
-        "alreadyenabled": "❌Auto verification are already enabled in this server.",
-        "enabled": "✅Auto verification is now **enabled** in this guild.",
-        "alreadydisabled": "❌Auto verification is already disabled in this server.",
-        "disabled": "✅Auto verification is now **disabled** in this guild.",
-        "no-args": "❌Please type `true` or `false` if you want autokick enabled. (Autokick will kick users not verifying)",
-        "no-args2": "❌Please type `true` or `false` after the command."
+        "alreadyenabled": "❌Verificacion automatica ya esta activada en este servidor.",
+        "enabled": "✅Verificacion automatica ahora esta **activada** en este discord.",
+        "alreadydisabled": "❌Verificacion automatica ya esta desactivada en este servidor.",
+        "disabled": "✅Verificacion automatica esta ahora **desactivada** en este discord.",
+        "no-args": "❌Por favor escribe `true` o `false` si quieres la opcion de autokickear. (Autokickear kickeara a usuarios no verificados)",
+        "no-args2": "❌Por favor escribe `true` o `false` despues del comando."
     }, 
     "crosscheck": {
-        "success": "✅Loading... I will dm you with a list of blacklisted users in your server in 10 seconds.",
-        "blacklisted-in": "Blacklisted users in {guild}:",
-        "error": "❌Something went wrong, could not send the list.",
-        "no-dm": "❌I can't dm you, do you have your dms set to friends only?",
-        "cooldown": "❌You can only use this command once per 24 hours."
+        "success": "✅Cargando... Te mandare un md con la lista de usuarios en la blacklist en 10 segundos.",
+        "blacklisted-in": "Usuarios blacklisteados en {guild}:",
+        "error": "❌Algo salio mal, no se pudo mandar la lista.",
+        "no-dm": "❌No puedos mandarte un md, tal vez tengas los mds solo a amigos?",
+        "cooldown": "❌Solamente puedes usar este comando una vez cada 24 horas."
     },
     "languages": {
-        "error": "❌Por favor de los lenguajes disponibles, use $languages to see all the supported ones.",
+        "error": "❌Por favor de los lenguajes disponibles, use $languages para ver todos los lenguajes disponibles.",
         "success": "✅Se ha cambiado el lenguaje del servidor **{args}**",
         "all": "Todos los lenguajes",
         "contribute": "Quieres contribuir y agregar mas lenguajes? Hazlo aqui!"
