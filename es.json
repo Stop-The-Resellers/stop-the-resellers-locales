@@ -49,12 +49,12 @@
         "failed": "BAN FALLIDO",
         "could-not-ban": "No se ha podido banear:",
         "server": "Servidor:",
-        "serverowner": "Server Owner:",
-        "is-admin": "This person is a admin",
-        "banned": "USER BANNED",
-        "role-above": "This person is a admin / have a role above me",
+        "serverowner": "Dueno del servidor:",
+        "is-admin": "Esta persona es admin",
+        "banned": "USUARIO BANEADO",
+        "role-above": "Esta persona es admin / tiene un rol arriba mio",
         "banned-in": "Banned in",
-        "no-permission": "I DON'T HAVE PERMISSION TO BAN PEOPLE"
+        "no-permission": "NO TENGO PERMISO DE BANEAR PERSONAS"
     },
     "help": {
         "blacklist": "Adds a user to the blacklist list **[BOT ADMINS ONLY]**",
