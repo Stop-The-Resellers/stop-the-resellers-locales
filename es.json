@@ -7,7 +7,7 @@
     "date": "Fecha",
     "user-id": "ID de usuario",
     "username": "Nombre de usuario",
-    "no-permission": "❌No tienes permisos para usar este comando, necesitas permisos de **ADMINISTRATOR** .",
+    "no-permission": "❌No tienes permisos para usar este comando, necesitas permisos de **ADMINISTRADOR**.",
     "need-logs": "❌Necesitas logs para este comando, activalos con el siguiente comando `$setlogchannel [channel-id]`",
     "admin-comment": "Comentario de Admin",
 
@@ -20,12 +20,12 @@
         "joinedserver": "Se ha unido al servidor"
     },
     "alt": {
-        "newaccount": "New account detected!",
-        "newacckick": "This account is only **{days} day(s)** old. This user got kicked.",
-        "newacclog": "User joined with a new account created at {created} and this server requires a minimum of {mindays} day(s) account age.",
-        "newacc": "This account is only {days} day(s) old.",
-        "alreadyenabled": "❌You already have Alt Protection on, currently set to minimum account age of **{days}** day(s).",
-        "alreadydisabled": "❌Alt Protection is already disabled",
+        "newaccount": "Nueva cuenta detectada!",
+        "newacckick": "Esta cuenta solamente es **{days} dia(s)** de edad. El usuario fue kickeado.",
+        "newacclog": "Usuario con una nueva cuenta creada en {created} y este server requiere un minimo de {mindays} dia(s) de tiempo de haberse creado la cuenta.",
+        "newacc": "Esta cuenta es solo {days} dia(s) de edad.",
+        "alreadyenabled": "❌Ya tienes proteccion de cuentas secundarias, actualmente el minimo es **{days}** dia(s).",
+        "alreadydisabled": "❌Proteccion contra cuentas secundarias esta desactivada.",
         "disabled": "✅Successfully disabled Alt Protection",
         "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args}** day(s)",
         "minimum-age": "❌Please type in the minimum account age accepted in your server.",
