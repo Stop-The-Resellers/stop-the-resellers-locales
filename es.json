@@ -26,22 +26,22 @@
         "newacc": "Esta cuenta es solo {days} dia(s) de edad.",
         "alreadyenabled": "❌Ya tienes proteccion de cuentas secundarias, actualmente el minimo es **{days}** dia(s).",
         "alreadydisabled": "❌Proteccion contra cuentas secundarias esta desactivada.",
-        "disabled": "✅Se ha deshabilitado la proteccion de cuentas secundarias exitosamente",
-        "enabled": "✅Se ha habilitado la **Proteccion de cuentas secundarias** con cuentas creadas hace **{args}** dia(s)",
-        "minimum-age": "❌Porfavor escrinba la edad minima de la cuenta, para ser aceptada en su servidor.",
+        "disabled": "✅Successfully disabled Alt Protection",
+        "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args}** day(s)",
+        "minimum-age": "❌Please type in the minimum account age accepted in your server.",
         "no-args": "❌Please type true or false after the command."
     },
     "checking": {
-        "nouser": "❌ No se ha encontrado ese usuario. Porfavor introduzca un @ valido o verifiquelo por su ID."
+        "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
     },
     "blacklist": {
-        "isblacklisted": "EL USUARIO ESTA EN LA BLACKLIST",
-        "by": "Blacklisted por:",
-        "notblacklisted": "EL USUARIO NO ESTA BLACKLISTED"
+        "isblacklisted": "USER IS BLACKLISTED",
+        "by": "Blacklisted by:",
+        "notblacklisted": "USER IS NOT BLACKLISTED"
     },
     "report": {
-        "report": "Reportar",
-        "thanks": "✅Gracias por enciar el reporte! ID de reporte: {uuid}",
+        "report": "Report",
+        "thanks": "✅Thanks for submitting the report! Report ID: {uuid}",
         "no-proof": "❌Please submit proof. (URL with image, ex: gyazo)",
         "no-reason": "❌Please submit proof and the reason for the report."
     },
@@ -140,28 +140,28 @@
         "cooldown": "❌You can only use this command once per 24 hours."
     },
     "languages": {
-        "error": "❌Please choose from the available languages, use $languages to see all the supported ones.",
-        "success": "✅Successfully set the guild language to **{args}**",
-        "all": "All available languages",
-        "contribute": "Do you want to contribute and add more languages? Do it here"
+        "error": "❌Por favor de los lenguajes disponibles, use $languages to see all the supported ones.",
+        "success": "✅Se ha cambiado el lenguaje del servidor **{args}**",
+        "all": "Todos los lenguajes",
+        "contribute": "Quieres contribuir y agregar mas lenguajes? Hazlo aqui!"
     },
     "staffs": {
-        "intro": "All Bot Staffs."
+        "intro": "Todos los bots."
     },
     "serverinfo": {
-        "title": "Serverinfo",
-        "description": "{name}'s information",
-        "owner": "Owner",
-        "members": "Membercount",
-        "created-at": "Created at",
-        "channel-count": "Channel count",
-        "region": "Server Region"
+        "title": "Informacion del Servidor",
+        "description": "Informacion de {name}",
+        "owner": "Dueño",
+        "members": "Cantidad de miembros",
+        "created-at": "Creado el",
+        "channel-count": "Contador de canal",
+        "region": "Region del servidor"
     },
     "vote": {
-        "title": "Please vote for our bot here."
+        "title": "Vota por nuestro bot aqui."
     },
     "dailyblacklists": {
-        "user": "Total blacklists today ({date}) by {user}: **{total}**",
-        "none": "Total blacklists today ({date}): **{total}**"
+        "user": "Total de blacklists hoy ({date}) por {user}: **{total}**",
+        "none": "Total de blacklists hoy ({date}): **{total}**"
     }
 }
