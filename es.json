@@ -74,17 +74,17 @@
         "languages": "Shows a list with all the current supported languages"
     },
     "botinfo": {
-        "bot-name": "Bot Name",
-        "bot-owner": "Bot Owner",
+        "bot-name": "Nombre del bot",
+        "bot-owner": "Owner del bot",
         "servers": "Servidores",
         "users": "Usuarios",
-        "uptime": "Uptime",
+        "uptime": "Tiempo activo",
         "ping": "Ping",
         "bot-library": "Libreria del Bot",
-        "created-on": "Created On",
-        "blacklisted-users": "Blacklisted users",
-        "website": "Website",
-        "support-server": "Support server"
+        "created-on": "Creado en",
+        "blacklisted-users": "Usuarios de blacklist",
+        "website": "Sitio Web",
+        "support-server": "Apoya al servidor"
     },
     "logs": {
         "updated": "✅Sucessfully updated log channel, logs will now be displayed in <#{channel}>",
