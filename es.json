@@ -26,10 +26,10 @@
         "newacc": "Esta cuenta es solo {days} dia(s) de edad.",
         "alreadyenabled": "❌Ya tienes proteccion de cuentas secundarias, actualmente el minimo es **{days}** dia(s).",
         "alreadydisabled": "❌Proteccion contra cuentas secundarias esta desactivada.",
-        "disabled": "✅Successfully disabled Alt Protection",
-        "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args}** day(s)",
+        "disabled": "✅ Se ha desactivado la proteccion de cuentas secundarias exitosamente.",
+        "enabled": "✅ Se ha activado la **Proteccion de cuentas secundarias** de cuentas creadas hace **{args}** daia(s)",
         "minimum-age": "❌Please type in the minimum account age accepted in your server.",
-        "no-args": "❌Please type true or false after the command."
+        "no-args": "❌ Por favor escriba verdadero o falso despues del comando."
     },
     "checking": {
         "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
