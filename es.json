@@ -95,34 +95,34 @@
         "no-logs": "❌You don't have logs enabled in this guild."
     },
     "verification": {
-        "verify-started": "Verification Started",
-        "joined-server": "Joined server",
-        "inleaking": "⚠️ <@{args}> Successfully verified and **is in the following leaking servers**",
-        "noleaking": "✅ <@{args}> Successfully verified and is not in any leaking servers.",
-        "forceverify": "{author} from {guild.name} wants you to verify yourself. Do it with this link http://stoptheresellers.xyz/auth/verify",
-        "autoverify": "Welcome to {guild.name}. In order to stay in the server you need to verify yourself with this link http://stoptheresellers.xyz/auth/verify.",
-        "kick-msg": "User did not verify the force verification made by {author}",
-        "user-kicked": "❌User kicked",
-        "reason": "Did not verify.",
-        "no-kick-permission": "❌User did not verify and i **can't** kick because of no kick permission.",
-        "no-verify": "❌User did not verify."
+        "verify-started": "Verificacion empezada",
+        "joined-server": "Se ha unido al servidor",
+        "inleaking": "⚠️ <@{args}> Se ha verificado y **esta en los siguientes servidores de leaks**",
+        "noleaking": "✅ <@{args}> Se ha verificado que no estes en ningun servidor de leaks.",
+        "forceverify": "{author} de {guild.name} necesita que te verifiques. Hazlo con este link http://stoptheresellers.xyz/auth/verify",
+        "autoverify": "Bienvenido a {guild.name}. Para seguir en el servidor, tienes que verificarte en este servidor http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "Usuario no se verifico por la verificacion hecha por {author}",
+        "user-kicked": "❌Usuario kickeado",
+        "reason": "No se verifico.",
+        "no-kick-permission": "❌Usuario no se verifico y no puedo expulsarlo por la falta de permisos.",
+        "no-verify": "❌El usuario no se verifico."
     },
     "autoban": {
-        "alreadyenabled": "❌Auto bans are already enabled in this server.",
-        "enabled": "✅Auto bans are now **enabled** in this guild.",
-        "alreadydisabled": "❌Auto bans are already disabled in this server.",
-        "disabled": "✅Auto bans are now **disabled** in this guild.",
-        "no-args": "❌Please type `true` or `false` after the command."
+        "alreadyenabled": "❌Baneos automaticos ya estan activados en este servidor.",
+        "enabled": "✅Baneos automaticos ahora estan **activados** in this guild.",
+        "alreadydisabled": "❌Baneos automaticos ya estan desactivados en este servidor.",
+        "disabled": "✅Baneos automaticos ahora estan **disabled** in this guild.",
+        "no-args": "❌Por favor escribe `true` o `false` despues del comando."
     },
     "userinfo": {
-        "no-user": "❌Did not find a user with that id. Are you sure that the user is in this server?",
-        "no-user2": "❌Could not find a user with that id.",
-        "joined": "Joined The Server On",
-        "created": "Account Created On:",
-        "avatar-url": "Avatar URL",
-        "blacklisted": "Blacklisted",
+        "no-user": "❌No se pudo encontrar a un usuario con esa id. Estas seguro de que este usuario esta en el servidor?",
+        "no-user2": "❌No se pudo encontrar a un usuario con esa id.",
+        "joined": "Se ha unido el servidor",
+        "created": "Cuenta creada el:",
+        "avatar-url": "URL de avatar",
+        "blacklisted": "En la blacklist",
         "roles": "Roles",
-        "none": "None"
+        "none": "Ninguna"
     },
     "autoverify": {
         "alreadyenabled": "❌Verificacion automatica ya esta activada en este servidor.",
