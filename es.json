@@ -1,7 +1,6 @@
 {
     "no-admin": "❌No eres admin",
-    "no-argsuser": "❌Ningun usuario seleccionado
-  ",
+    "no-argsuser": "❌Ningun usuario seleccionado",
     "no-args": "❌No se selecciono nada que decir",
     "reason": "Razon:",
     "date": "Fecha",
