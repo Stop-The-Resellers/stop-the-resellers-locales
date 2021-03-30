@@ -1,0 +1,167 @@
+{
+    "no-admin": "❌No eres admin",
+    "no-argsuser": "❌Ningun usuario seleccionado
+  ",
+    "no-args": "❌No se selecciono nada que decir",
+    "reason": "Razon:",
+    "date": "Fecha",
+    "user-id": "ID de usuario",
+    "username": "Nombre de usuario",
+    "no-permission": "❌No tienes permisos para usar este comando, necesitas permisos de **ADMINISTRADOR**.",
+    "need-logs": "❌Necesitas logs para este comando, activalos con el siguiente comando `$setlogchannel [channel-id]`",
+    "admin-comment": "Comentario de Admin",
+
+    "bans": {
+        "bannedbystr": "Baneado por STR",
+        "userbanned": "USUARIO BANEADO",
+        "joinedblacklisted": "Usuario se unio y esta en la blacklist"
+    },
+    "other": {
+        "joinedserver": "Se ha unido al servidor"
+    },
+    "alt": {
+        "newaccount": "Nueva cuenta detectada!",
+        "newacckick": "Esta cuenta solamente es **{days} dia(s)** de edad. El usuario fue kickeado.",
+        "newacclog": "Usuario con una nueva cuenta creada en {created} y este server requiere un minimo de {mindays} dia(s) de tiempo de haberse creado la cuenta.",
+        "newacc": "Esta cuenta es solo {days} dia(s) de edad.",
+        "alreadyenabled": "❌Ya tienes proteccion de cuentas secundarias, actualmente el minimo es **{days}** dia(s).",
+        "alreadydisabled": "❌Proteccion contra cuentas secundarias esta desactivada.",
+        "disabled": "✅ Se ha desactivado la proteccion de cuentas secundarias exitosamente.",
+        "enabled": "✅ Se ha activado la **Proteccion de cuentas secundarias** de cuentas creadas hace **{args}** daia(s)",
+        "minimum-age": "❌Please type in the minimum account age accepted in your server.",
+        "no-args": "❌ Por favor escriba verdadero o falso despues del comando."
+    },
+    "checking": {
+        "nouser": "❌ No se ha encontrado a ese usuario . Porfavor ingrese un @ valido o revise la ID del usuario."
+    },
+    "blacklist": {
+        "isblacklisted": "EL USUARIO ESTA BLACKLISTED",
+        "by": "Blacklisted por:",
+        "notblacklisted": "EL USUARIO NO ESTA EN BLACKLISTED"
+    },
+    "report": {
+        "report": "Reporte",
+        "thanks": "✅ Gracias por enviar el reporte! ID de reporte: {uuid}",
+        "no-proof": "❌ Porfavor envie pruebas. (URL con imagen, ej: gyazo)",
+        "no-reason": "❌Porfavor envie pruebas y la razon del reporte."
+    },
+    "fetch": {
+        "failed": "BAN FALLIDO",
+        "could-not-ban": "No se ha podido banear:",
+        "server": "Servidor:",
+        "serverowner": "Dueño del servidor:",
+        "is-admin": "Esta persona es admin",
+        "banned": "USUARIO BANEADO",
+        "role-above": "Esta persona es admin / tiene un rol arriba mio",
+        "banned-in": "Baneado en",
+        "no-permission": "NO TENGO PERMISO DE BANEAR PERSONAS"
+    },
+    "help": {
+        "blacklist": "Agrega un usuario a la blacklist **[SOLAMENTE ADMINS DEL BOT]**",
+        "unblacklist": "Remueve a un usuario de la blacklist **[SOLAMENTE ADMINS DEL BOT]**",
+        "checkuser": "Checa si un usuario esta en la blacklist",
+        "fetch": "Busca en tu discord y busca si tienes personas en la blacklist **[SOLAMENTE ADMINS DEL BOT]**",
+        "report": "Manda un report a los admins del bot",
+        "viewreport": "Manda un report con la ID. **[SOLAMENTE ADMINS DEL BOT]**",
+        "viewreports": "Muestra todos los reports pendientes. **[SOLAMENTE ADMINS DEL BOT]**",
+        "setlogchannel": "Asigna el canal de logs, el bot mandara logs cuando sea baneado.",
+        "setautoban": "Automaticamente banea a usuarios en la blacklist de tu servidor. *Nota: Activado predeterminado*",
+        "setaltprotection": "Asigna el minimo de edad de la cuenta en dias para tu servidor. Si esta asignado a true, entonces tratara de kickear a cualquier cuenta con edad menor que la asignada.",
+        "setautoverify": "Quieres que los nuevos miembros se verifiquen por ellos mismos y ver si estan en discords de leaks? Si el argumento de kickeo esta activado, los usuarios que no completan (ignoran) la verificacion seran kickeados.",
+        "botinfo": "Muestra informacion del bot",
+        "userinfo": "Muestra informacion del discord de la persona seleccionada.",
+        "setlanguage": "Asigna el lenguaje a este discord.",
+        "languages": "Muestra una lista con todos los lenguajes disponibles"
+    },
+    "botinfo": {
+        "bot-name": "Nombre del bot",
+        "bot-owner": "Owner del bot",
+        "servers": "Servidores",
+        "users": "Usuarios",
+        "uptime": "Tiempo activo",
+        "ping": "Ping",
+        "bot-library": "Libreria del Bot",
+        "created-on": "Creado en",
+        "blacklisted-users": "Usuarios de blacklist",
+        "website": "Sitio Web",
+        "support-server": "Apoya al servidor"
+    },
+    "logs": {
+        "updated": "✅Se ha actualizado el canal de logs correctamente. Ahora podran ser vistos en <#{channel}>",
+        "added": "✅Se ha asignado correctamente el canal de logs. Estos podran ser vistos en <#{channel}>",
+        "same-channel": "❌Logs ya se estan mandando en  <#{logchannel}>",
+        "not-correctly": "❌No se proveyo el canal correcto. Asegurate de mandar la id del canal. Ejemplo: **$setlogchannel 702876668422782988**",
+        "removed": "✅Se han removido logs de <#{havelogs}> exitosamente",
+        "no-logs": "❌No tienes logs activados en este discord."
+    },
+    "verification": {
+        "verify-started": "Verificacion empezada",
+        "joined-server": "Se ha unido al servidor",
+        "inleaking": "⚠️ <@{args}> Se ha verificado y **esta en los siguientes servidores de leaks**",
+        "noleaking": "✅ <@{args}> Se ha verificado que no estes en ningun servidor de leaks.",
+        "forceverify": "{author} de {guild.name} necesita que te verifiques. Hazlo con este link http://stoptheresellers.xyz/auth/verify",
+        "autoverify": "Bienvenido a {guild.name}. Para seguir en el servidor, tienes que verificarte en este servidor http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "Usuario no se verifico por la verificacion hecha por {author}",
+        "user-kicked": "❌Usuario kickeado",
+        "reason": "No se verifico.",
+        "no-kick-permission": "❌Usuario no se verifico y no puedo expulsarlo por la falta de permisos.",
+        "no-verify": "❌El usuario no se verifico."
+    },
+    "autoban": {
+        "alreadyenabled": "❌Baneos automaticos ya estan activados en este servidor.",
+        "enabled": "✅Baneos automaticos ahora estan **activados** in this guild.",
+        "alreadydisabled": "❌Baneos automaticos ya estan desactivados en este servidor.",
+        "disabled": "✅Baneos automaticos ahora estan **disabled** in this guild.",
+        "no-args": "❌Por favor escribe `true` o `false` despues del comando."
+    },
+    "userinfo": {
+        "no-user": "❌No se pudo encontrar a un usuario con esa id. Estas seguro de que este usuario esta en el servidor?",
+        "no-user2": "❌No se pudo encontrar a un usuario con esa id.",
+        "joined": "Se ha unido el servidor",
+        "created": "Cuenta creada el:",
+        "avatar-url": "URL de avatar",
+        "blacklisted": "En la blacklist",
+        "roles": "Roles",
+        "none": "Ninguna"
+    },
+    "autoverify": {
+        "alreadyenabled": "❌Verificacion automatica ya esta activada en este servidor.",
+        "enabled": "✅Verificacion automatica ahora esta **activada** en este discord.",
+        "alreadydisabled": "❌Verificacion automatica ya esta desactivada en este servidor.",
+        "disabled": "✅Verificacion automatica esta ahora **desactivada** en este discord.",
+        "no-args": "❌Por favor escribe `true` o `false` si quieres la opcion de autokickear. (Autokickear kickeara a usuarios no verificados)",
+        "no-args2": "❌Por favor escribe `true` o `false` despues del comando."
+    }, 
+    "crosscheck": {
+        "success": "✅Cargando... Te mandare un md con la lista de usuarios en la blacklist en 10 segundos.",
+        "blacklisted-in": "Usuarios blacklisteados en {guild}:",
+        "error": "❌Algo salio mal, no se pudo mandar la lista.",
+        "no-dm": "❌No puedos mandarte un md, tal vez tengas los mds solo a amigos?",
+        "cooldown": "❌Solamente puedes usar este comando una vez cada 24 horas."
+    },
+    "languages": {
+        "error": "❌Por favor de los lenguajes disponibles, use $languages para ver todos los lenguajes disponibles.",
+        "success": "✅Se ha cambiado el lenguaje del servidor **{args}**",
+        "all": "Todos los lenguajes",
+        "contribute": "Quieres contribuir y agregar mas lenguajes? Hazlo aqui!"
+    },
+    "staffs": {
+        "intro": "Todos los bots."
+    },
+    "serverinfo": {
+        "title": "Informacion del Servidor",
+        "description": "Informacion de {name}",
+        "owner": "Dueño",
+        "members": "Cantidad de miembros",
+        "created-at": "Creado el",
+        "channel-count": "Contador de canal",
+        "region": "Region del servidor"
+    },
+    "vote": {
+        "title": "Vota por nuestro bot aqui."
+    },
+    "dailyblacklists": {
+        "user": "Total de blacklists hoy ({date}) por {user}: **{total}**",
+        "none": "Total de blacklists hoy ({date}): **{total}**"
+    }
+}
