@@ -22,7 +22,7 @@
     "alt": {
         "newaccount": "Ny konto opdaget!",
         "newacckick": "Denne konto er kun **{days} dag(e)** gammel. Brugeren blev kicked.",
-        "newacclog": "Bruger joinede med en ny konto, oprettet den {member.user.createdAt} og denne server har brug for {mindays} dag(e) konto alder.",
+        "newacclog": "Bruger joinede med en ny konto, oprettet den {created} og denne server har brug for {mindays} dag(e) konto alder.",
         "newacc": "Denne konto er kun {days} dag(e) gammel.",
         "alreadyenabled": "❌Du har allerede alt beskyttelse til, i øjeblikket indstillet til minimum kontoalder på **{days}** dag(e).",
         "alreadydisabled": "❌Alt beskyttelse er allerede slået fra",
