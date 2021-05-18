@@ -22,7 +22,7 @@
     "alt": {
         "newaccount": "Neues konto wurde gefunden!",
         "newacckick": "Dieses konto ist nur **{days} Tag(e)** alt. Mitglied bekam ein Kick.",
-        "newacclog": "Benutzer hat sich angemeldet mit einen neuen konto, {member.user.createdAt} und dieser server muss mind. {mindays} Tag(e) älter sein.",
+        "newacclog": "Benutzer hat sich angemeldet mit einen neuen konto, {created} und dieser server muss mind. {mindays} Tag(e) älter sein.",
         "newacc": "Dieses Konto ist nur {days} Tag(e) alt.",
         "alreadyenabled": "❌Du bist schon geschützt gegen neuen konto. Im moment ist die einstellung: **{days}** Tag(e).",
         "alreadydisabled": "❌Alt-beschützung ist schon aktiviert",
