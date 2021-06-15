@@ -1,0 +1,166 @@
+{
+    "no-admin": "❌Je bent geen admin",
+    "no-argsuser": "❌Geen gebruiker opgegeven",
+    "no-args": "❌Niets opgegeven om te zeggen",
+    "reason": "Reden:",
+    "date": "Datum",
+    "user-id": "Gebruikers ID",
+    "username": "Gebruikersnaam",
+    "no-permission": "❌U heeft geen toestemming om deze command te gebruiken, u heeft **BEHEERDER** rechten nodig.",
+    "need-logs": "❌U moet logboeken hebben ingeschakeld om deze opdracht te gebruiken, schakel logboeken in door het volgende uit te voeren: `$setlogchannel [channel-id]`",
+    "admin-comment": "Opmerking admin",
+
+    "bans": {
+        "bannedbystr": "Verbannen door STR",
+        "userbanned": "GEBRUIKER VERBANNEN",
+        "joinedblacklisted": "Gebruiker is lid geworden van de server en staat op de zwarte lijst"
+    },
+    "other": {
+        "joinedserver": "Aangesloten server"
+    },
+    "alt": {
+        "newaccount": "Nieuw account gedetecteerd!",
+        "newacckick": "Dit account is pas **{days} dag(en)** oud. De gebruiker is gekickt.",
+        "newacclog": "Gebruiker is lid geworden met een nieuw account gemaakt op {created} en deze server vereist een accountleeftijd van minimaal {mindays} dag(en).",
+        "newacc": "Dit account is pas {days} dag(en) oud.",
+        "alreadyenabled": "❌Je hebt al Alt Protectie ingeschakeld, momenteel ingesteld op een minimale accountleeftijd van **{days}** dag(en).",
+        "alreadydisabled": "❌Alt Protectie is al uitgeschakeld",
+        "disabled": "✅Alt Protectie succesvol uitgeschakeld",
+        "enabled": "✅**Alt Protectie** is succesvol ingeschakeld met een minimale accountleeftijd van **{args}** dag(en)",
+        "minimum-age": "❌Voer de minimale accountleeftijd in die op uw server wordt geaccepteerd.",
+        "no-args": "❌Typ `true` of `false` na de command."
+    },
+    "checking": {
+        "nouser": "❌Kan die gebruiker niet vinden. Gelieve @ een geldige gebruiker of controleer op zijn id."
+    },
+    "blacklist": {
+        "isblacklisted": "GEBRUIKER IS OP DE ZWARTE LIJST",
+        "by": "Op de zwarte lijst gezet door:",
+        "notblacklisted": "GEBRUIKER STAAT NIET OP DE ZWARTE LIJST"
+    },
+    "report": {
+        "report": "Melding",
+        "thanks": "✅Bedankt voor het insturen van de melding! Rapport-ID: {uuid}",
+        "no-proof": "❌Gelieve bewijs in te leveren. (URL met afbeelding, vb: gyazo)",
+        "no-reason": "❌Gelieve het bewijs en de reden van de melding in te dienen."
+    },
+    "fetch": {
+        "failed": "BAN MISLUKT",
+        "could-not-ban": "Kan niet verbannen:",
+        "server": "Server:",
+        "serverowner": "Server Eigenaar:",
+        "is-admin": "Deze persoon is een admin",
+        "banned": "GEBRUIKER VERBANNEN",
+        "role-above": "Deze persoon is een admin / heeft een hogere rol dan mij",
+        "banned-in": "Verbannen in:",
+        "no-permission": "IK HEB GEEN RECHTEN OM TE BANNEN"
+    },
+    "help": {
+        "blacklist": "Voegt een gebruiker toe aan de zwarte lijst **[ALLEEN BOT ADMINS]**",
+        "unblacklist": "Verwijdert een gebruiker van de zwarte lijst **[ALLEEN BOT ADMINS]**",
+        "checkuser": "Controleer of een gebruiker op de zwarte lijst staat",
+        "fetch": "Haalt je discord op en controleert of er mensen op de zwarte lijst staan **[ALLEEN BOT ADMINS]**",
+        "report": "Verzendt een rapport naar de botbeheerders",
+        "viewreport": "Stuur het rapport met die id. **[ALLEEN BOT ADMINS]**",
+        "viewreports": "Toont alle lopende rapporten. **[ALLEEN BOT ADMINS]**",
+        "setlogchannel": "Stelt het logkanaal voor uw server in, de bot logt hier wanneer iemand verbannen wordt.",
+        "setautoban": "Blokkeert automatisch gebruikers op de zwarte lijst van uw server. *Notitie: Standaard ingeschakeld*",
+        "setaltprotection": "Stelt de minimale accountleeftijd in dagen in voor uw server. Als deze is ingesteld op true, wordt iedereen gekickt die probeert de discord probeert te joinen met een accountleeftijd die lager is dan u hebt ingesteld.",
+        "setautoverify": "Wil je dat nieuwe leden zichzelf verifiëren en kijken of ze in lekkende discords zitten? Als het kick-argument is ingeschakeld, worden gebruikers die de verificatie niet voltooien (negeren) gekickt.",
+        "botinfo": "Antwoord met informatie over de bot",
+        "userinfo": "Toont informatie over het genoemde discord-account van de gebruiker.",
+        "setlanguage": "Stel de bottaal in voor je gilde.",
+        "languages": "Toont een lijst met alle huidige ondersteunde talen"
+    },
+    "botinfo": {
+        "bot-name": "Bot Naam",
+        "bot-owner": "Bot Eigenaar",
+        "servers": "Servers",
+        "users": "Gebruikers",
+        "uptime": "Uptime",
+        "ping": "Ping",
+        "bot-library": "Bot Bibliotheek",
+        "created-on": "Gemaakt Op",
+        "blacklisted-users": "Gebruikers op zwarte lijst",
+        "website": "Website",
+        "support-server": "Support server"
+    },
+    "logs": {
+        "updated": "✅Logkanaal geüpdatet, logs worden nu weergegeven in <#{channel}>",
+        "added": "✅Log-kanaal succesvol ingesteld, logs worden nu weergegeven in <#{channel}>",
+        "same-channel": "❌Er worden al logboeken verzonden in <#{logchannel}>",
+        "not-correctly": "❌U heeft het kanaal niet correct opgegeven. Zorg ervoor dat u de id van het kanaal meestuurt. Bijv: **$setlogchannel 702876668422782988**",
+        "removed": "✅Logboeken verwijderd uit <#{havelogs}>",
+        "no-logs": "❌Je hebt geen logs ingeschakeld in deze guild."
+    },
+    "verification": {
+        "verify-started": "Verificatie Gestart",
+        "joined-server": "Lid geworden van server",
+        "inleaking": "⚠️ <@{args}> Met succes geverifieerd en **bevindt zich in de volgende lekkende servers**",
+        "noleaking": "✅ <@{args}> Met succes geverifieerd en bevindt zich niet in lekkende servers.",
+        "forceverify": "{author} van {guild.name} wilt dat je jezelf verifieerd. Doe het via de volgende link http://stoptheresellers.xyz/auth/verify",
+        "autoverify": "Welkom op {guild.name}. Om op de server te blijven, moet je jezelf verifiëren met deze link http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "Gebruiker heeft de door {author} geforceerde verificatie niet voltooid.",
+        "user-kicked": "❌Gebruiker gekicked",
+        "reason": "Niet geverifieerd.",
+        "no-kick-permission": "❌Gebruiker is niet geverifieerd en ik **kan niet** kicken vanwege geen kick-toestemming.",
+        "no-verify": "❌Gebruiker heeft zich niet geverifieerd."
+    },
+    "autoban": {
+        "alreadyenabled": "❌Automatische bans zijn al ingeschakeld op deze server.",
+        "enabled": "✅Automatische bans zijn nu **ingeschakeld** in deze gilde.",
+        "alreadydisabled": "❌Automatische bans zijn al uitgeschakeld op deze server.",
+        "disabled": "✅Automatische bans zijn nu **uitgeschakeld** in deze gilde.",
+        "no-args": "❌Typ `true` of `false` na het commando."
+    },
+    "userinfo": {
+        "no-user": "❌Geen gebruiker gevonden met die id. Weet u zeker dat de gebruiker zich op deze server bevindt?",
+        "no-user2": "❌Kon geen gebruiker met die id vinden.",
+        "joined": "Lid geworden van de server op",
+        "created": "Account aangemaakt op:",
+        "avatar-url": "Avatar URL",
+        "blacklisted": "Op de zwarte lijst",
+        "roles": "Rollen",
+        "none": "Geen"
+    },
+    "autoverify": {
+        "alreadyenabled": "❌Automatische verificatie is al ingeschakeld op deze server.",
+        "enabled": "✅Automatische verificatie is nu **ingeschakeld** in deze gilde.",
+        "alreadydisabled": "❌Automatische verificatie is al uitgeschakeld op deze server.",
+        "disabled": "✅Automatische verificatie is nu **uitgeschakeld** in deze gilde.",
+        "no-args": "❌Typ `true` of `false` als je autokick wilt inschakelen. (Autokick kickt gebruikers die niet verifiëren)",
+        "no-args2": "❌Typ `true` of `false` na het commando."
+    }, 
+    "crosscheck": {
+        "success": "✅Bezig met laden... Ik stuur je binnen 10 seconden een dm met een lijst van gebruikers op de zwarte lijst op je server.",
+        "blacklisted-in": "Gebruikers op de zwarte lijst in {guild}:",
+        "error": "❌Er ging iets mis, kon de lijst niet verzenden.",
+        "no-dm": "❌Ik kan je niet dm'en, heb je je dms alleen op vrienden ingesteld?",
+        "cooldown": "❌U kunt deze opdracht slechts eenmaal per 24 uur gebruiken."
+    },
+    "languages": {
+        "error": "❌Kies uit de beschikbare talen, gebruik $languages om alle ondersteunde talen te zien.",
+        "success": "✅Stel de gildetaal in op **{args}**",
+        "all": "Alle beschikbare talen",
+        "contribute": "Wil je bijdragen en meer talen toevoegen? Doe het hier"
+    },
+    "staffs": {
+        "intro": "Alle Bot Staffs."
+    },
+    "serverinfo": {
+        "title": "Serverinfo",
+        "description": "{name}'s informatie",
+        "owner": "Eigenaar",
+        "members": "Leden aantal",
+        "created-at": "Gemaakt op",
+        "channel-count": "Aantal kanalen",
+        "region": "Server Regio"
+    },
+    "vote": {
+        "title": "Stem hier op onze bot."
+    },
+    "dailyblacklists": {
+        "user": "Totaal aantal zwarte lijsten toegevoegd vandaag ({date}) door {user}: **{total}**",
+        "none": "Totaal aantal zwarte lijsten toegevoegd vandaag ({date}): **{total}**"
+    }
+}
