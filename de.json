@@ -1,6 +1,6 @@
 {
     "no-admin": "❌Du bist kein Admin",
-    "no-argsuser": "❌Du hast keinen benutzer angezeigt",
+    "no-argsuser": "❌Du hast keinen Benutzer angezeigt",
     "no-args": ":x:Hatte nichts zu sagen",
     "reason": "Begründung:",
     "date": "Datum",
@@ -140,10 +140,10 @@
         "cooldown": "❌Du kannst diesen Befehl nur einmal aller 24 Stunden verwenden."
     },
     "languages": {
-        "error": "❌Wähle deine Sprache aus mit $languages und du bekommst eine liste mit Sprachen.",
-        "success": "✅Sprache aktualisiert auf **{args}**",
+        "error": "❌Wähle deine Sprache aus mit $languages und du bekommst eine Liste mit  allen verfügbaren Sprachen.",
+        "success": "✅Die neue Sprache ist nun **{args}**",
         "all": "Alle Sprachen",
-        "contribute": "Kannst du mir mit dem übersetzen helfen? Klicke hier"
+        "contribute": "Kannst du mir mit dem Übersetzen helfen? Klicke hier"
     },
     "staffs": {
         "intro": "Von allen Bot Admins."
@@ -153,15 +153,44 @@
         "description": "{name}'s Information",
         "owner": "Inhaber",
         "members": "Anzahl der Mitglieder",
-        "created-at": "Hergestellt am",
+        "created-at": "Erstellt am",
         "channel-count": "Anzahlt der Kanäle",
         "region": "Server Region"
     },
     "vote": {
-        "title": "Bitte gib deine stimme hier für den Bot."
+        "title": "Stimme hier für den Bot ab!."
     },
     "dailyblacklists": {
-        "user": "Anzahl für blacklist Heute ({date}) von {user}: **{total}**",
-        "none": "Anzahl für blacklist Heute ({date}): **{total}**"
+        "user": "Anzahl der geblacklisteten heute ({date}) von {user}: **{total}**",
+        "none": "Anzahl der geblacklisteten heute ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Der geblacklistete Benutzer wurde freigegeben",
+        "userallowed2": "{user} einem geblacklistetem Benutzer wurde erlaubt dem Server beizutreten",
+        "success": "✅Freigabe Status wurde für den {user} erfolgreich geändert",
+        "error": "Den Benutzer den sie freigeben wollten ist nicht geblacklistet"
+    },
+    "viewreport": {
+        "no-args": "Es wurde kein gültiger Report angegeben",
+        "reportedby": "Gemeldet von",
+        "reportstatus": "Bearbeitungs Status",
+        "notreviewed": "Nicht bearbeitet",
+        "denied": "Abgelehnt",
+        "accepted": "Angenommen",
+        "noreport": "❌Es gibt keinen Report mit der ID {id}"
+    },
+    "id": {
+        "error": "Es konnten keine Informationen geladen werden...",
+        "info": "Informationen",
+        "no-args": "Bitte geben sie eine ID an."
+    },
+    "allowalt": {
+        "no-args": "❌Bitte geben sie eine gültige ID an oder erwähnen sie jemanden.",
+        "success": "✅ Alt-Account <@{userid}> wurde erfolgreich zugelassen."
+    },
+    "urlblacklisted": {
+        "ban-message": "Es wurde eine geblacklistete URL erkannt: {word}",
+        "log-msg": " **{word}**\n\n**Ganze Nachricht:** *{msg}*",
+        "detected": "geblacklistete URL erkannt"
     }
 }
