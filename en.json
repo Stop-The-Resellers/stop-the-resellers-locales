@@ -6,9 +6,11 @@
     "date": "Date",
     "user-id": "User ID",
     "username": "Username",
+    "has-been": "User has been blacklisted",
     "no-permission": "❌You don't have permission to use this command, you need **ADMINISTRATOR** rights.",
     "need-logs": "❌You need logs enabled in order to use this command, enable logs by running `$setlogchannel [channel-id]`",
     "admin-comment": "Admin Comment",
+    "settings": "Please head to our web-dashboard to change your settings: **https://stoptheresellers.xyz/dashboard/login",
 
     "bans": {
         "bannedbystr": "Banned by STR",
@@ -60,17 +62,18 @@
         "unblacklist": "Removes a user from the blacklist **[BOT ADMINS ONLY]**",
         "checkuser": "Checks if a user is blacklisted",
         "fetch": "Fetches your discord and checking if you have any blacklisted people inthere **[BOT ADMINS ONLY]**",
-        "report": "Sends a report to the bot admins",
-        "viewreport": "Send the report with that id. **[BOT ADMINS ONLY]**",
-        "viewreports": "Displays all pending reports. **[BOT ADMINS ONLY]**",
-        "setlogchannel": "Sets the log channel for your server, the bot will log here when someone is getting banned.",
-        "setautoban": "Automatically bans blacklisted users from your server. *Note: Enabled by default*",
-        "setaltprotection": "Sets the minimum account age in days for your server, if it's set to true it will kick anyone that tries to join with an account age lower than you set.",
-        "setautoverify": "Do you want new members to verify themselves and see if they're in leaking discords? If the kick argument is enabled then users that does not complete (ignore) the verification will get kicked.",
         "botinfo": "Returns info about the bot",
         "userinfo": "Shows info about the mentioned users discord account.",
         "setlanguage": "Sets the bot language for your guild.",
-        "languages": "Shows a list with all the current supported languages"
+        "languages": "Shows a list with all the current supported languages",
+        "allow": "Allows a blacklisted user to bypass autoban and join your server.",
+        "allowalt": "Allows a user with a new account to bypass alt identification and join your server.",
+        "id": "Provides basic information about the user as name and profile picture.",
+        "viewreport": "View your own report.",
+        "crosscheck": "Searches through your server and gives you a list of each blacklisted user with their blacklist reason.",
+        "invite": "Sends a invite link for the bot.",
+        "supportserver": "Sends a invite to the support server.",
+        "vote": "Sends a link where you can vote for the bot."
     },
     "botinfo": {
         "bot-name": "Bot Name",
@@ -162,6 +165,35 @@
     "dailyblacklists": {
         "user": "Total blacklists today ({date}) by {user}: **{total}**",
         "none": "Total blacklists today ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Allowed Blacklisted user",
+        "userallowed2": "{user} Allowed a blacklisted user to be in the server",
+        "success": "Successfully toggled allow status for {user}",
+        "error": "The user you are trying to allow is not blacklisted"
+    },
+    "viewreport": {
+        "no-args": "Didn't provide any report to view",
+        "reportedby": "Reported By",
+        "reportstatus": "Report Status",
+        "notreviewed": "Not Reviewed",
+        "denied": "Denied",
+        "accepted": "Accepted",
+        "noreport": "❌There's no report with the ID {id}"
+    },
+    "id": {
+        "error": "Couldn't load info...",
+        "info": "Info",
+        "no-args": "Please provide a id."
+    },
+    "allowalt": {
+        "no-args": "❌Please submit a user id / mention someone.",
+        "success": "Successfully allowed alt account <@{userid}> to be in the server."
+    },
+    "urlblacklisted": {
+        "ban-message": "Sending blacklisted URL containing word: {word}",
+        "log-msg": "User posted a blacklisted URL containing the word: **{word}**\n\n**Full message:** *{msg}*",
+        "detected": "Blacklisted URL Detected"
     }
 }
 
