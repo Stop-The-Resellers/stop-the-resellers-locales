@@ -11,6 +11,7 @@
     "need-logs": "❌Vous devez activer les logs afin d'utiliser cette commande, activez les logs en utilisant `$setlogchannel [channel-id]`",
     "admin-comment": "Commentaire administrateur",
     "settings": "Veuillez vous rendre sur notre tableau de bord web pour changer vos paramètres: **https://stoptheresellers.xyz/dashboard/login",
+    
     "bans": {
         "bannedbystr": "Banni par STR",
         "userbanned": "UTILISATEUR BANNI",
@@ -63,7 +64,6 @@
         "fetch": "Récupère votre discord et vérifie si il contient des personnes en liste noire **[BOT ADMINS ONLY]**",
         "botinfo": "Retourne des informations sur le bot",
         "userinfo": "Affiche des informations sur l'utilisateur discord mentionné.",
-        "setlanguage": "Définie la langue du bot pour votre guilde.",
         "languages": "Affiche une liste de toute les langues supportées",
         "allow": "Autorise un utilisateur blacklisté à rejoindre votre serveur.",
         "allowalt": "Autorise un utilisateur avec un nouveau compte à évader la protection d'alt.",
