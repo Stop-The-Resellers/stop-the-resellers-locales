@@ -6,9 +6,11 @@
     "date": "Datum",
     "user-id": "ID Uživatele",
     "username": "Jméno",
+    "has-been": "Uživatel byl na blacklistu",
     "no-permission": "❌Nemáš dostatečné právo pro tento příkaz, pro tento příkaz je potřeba **ADMINISTRATOR**.",
     "need-logs": "❌Musíš mít povolené logování na tvém serveru aby jsi použil tento příkaz, povol logování příkazem`$setlogchannel [id-kanálu]`",
     "admin-comment": "Komentář Administrátora",
+    "settings": "Prosím, zamiř do ovládacího panelu pro změnu nastavení: **https://stoptheresellers.xyz/dashboard/login",
 
     "bans": {
         "bannedbystr": "Zabanován STR",
@@ -60,17 +62,18 @@
         "unblacklist": "Odebere uživatele z blacklistu **[Jen pro BOT Administrátory]**",
         "checkuser": "Zjistí, jestli je uživatel na blacklistu",
         "fetch": "Zjistí informace o tvém serveru, jestli jsou nějací uživatelé na black listu **[Jen pro BOT Administrátory]**",
-        "report": "Nahlášení uživatele Administrátorům Bota",
-        "viewreport": "Zobrazí nahlášeni se specifickým ID. **[Jen pro BOT Administrátory]**",
-        "viewreports": "Zobrazí všechny nevyřízené nahlášení. **[Jen pro BOT Administrátory]**",
-        "setlogchannel": "Nastaví log kanál pro tvůj server, pokud někdo dostane BAN, tak se to zobrazí v daném kanále.",
-        "setautoban": "Automaticky zabanuje uživatele na tvém serveru, který je na blacklistu. *Poznámka: Zapnuto defaultně*",
-        "setaltprotection": "Nastaví protekci,že uživatel musí mít účet starý tolik dní, kolik zadáte.Pokud nastaveno na TRUE, tak to vyhodí uživatele, který nemají účet tak dlouho, kolik zadáte.",
-        "setautoverify": "Chcete, aby nový uživatel se musel ověřit a vidět jestli jsou na leak discordu? Pokud zapnuto, tak uživatele co neudělají verifikaci, nebo budou ignorovat, tak budou vyhozeni.",
         "botinfo": "Vypíše info o botovi",
         "userinfo": "Vypíše informace o označeném uživatelovi.",
         "setlanguage": "Nastaví podporovaný jazyk  bota pro váš server.",
-        "languages": "Vypíše list s podporovanými jazyky."
+        "languages": "Vypíše list s podporovanými jazyky.",
+        "allow": "Povolí uživateli na blacklistu připojení na server.",
+        "allowalt": "Povolí uživali s novým účtem obejít ALT verifikaci a přiopojit se na server",
+        "id": "Poskytuje informace o uživateli jako jméno a profilový obrázek.",
+        "viewreport": "Zobrazí vlastní report.",
+        "crosscheck": "Prohledá server a do SZ pošle seznam uživatelů na blacklistu s důvody jejich blacklistu.",
+        "invite": "Pošle invite link od bota.",
+        "supportserver": "Pošle invite link na support server.",
+        "vote": "Pošle link, kde můžete hlasovat pro bota."
     },
     "botinfo": {
         "bot-name": "Jméno bota",
@@ -161,7 +164,36 @@
     },
     "dailyblacklists": {
         "user": "Dnes ({date}) na blacklist bylo přidáno administrátorem {user}: celkem **{total}** uživatelů",
-        "none": "Dnes ({date}):celkem uživatelů na blacklistu **{total}**"
+        "none": "Dnes ({date}): celkem uživatelů na blacklistu **{total}**"
+            },
+    "allowed": {
+        "userallowed": "Blacklisted uživatel s výjimkou",
+        "userallowed2": "{user} Blacklisted uživatel s výjimkou se připojit na server",
+        "success": "Úspšně změněn status pro {user}",
+        "error": "Uživatel, kterému se snažíte dát výjimku pro připojení, není blacklisted"
+    },
+    "viewreport": {
+        "no-args": "Neposkytl jsi žádné údaje pro kontrolu žádosti",
+        "reportedby": "Nahlášen uživatelem: ",
+        "reportstatus": "Status reportu: ",
+        "notreviewed": "Zatím nezkontrolován",
+        "denied": "Zamítnut",
+        "accepted": "Přijat",
+        "noreport": "❌Neexistuje nahlášení s ID:  {id}"
+    },
+    "id": {
+        "error": "Informace nemohly být načteny ...",
+        "info": "Info",
+        "no-args": "Prosím, poskytni informace"
+    },
+    "allowalt": {
+        "no-args": "❌Prosím, poskytni ID / označ osobu",
+        "success": "Úspěšně povolen přístup pro ALT účet <@{userid}> na tento server."
+    },
+    "urlblacklisted": {
+        "ban-message": "Posílání zakázané URL: {word}",
+        "log-msg": "Uživatel poslal zprávu, která obsahovala zakázanou URL adresu: **{word}**\n\n**Celá zpráva:** *{msg}*",
+        "detected": "Detekována zakázaná URL adresa"
     }
 }
 
