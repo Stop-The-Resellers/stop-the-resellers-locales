@@ -7,22 +7,23 @@
     "user-id": "Bruger ID",
     "username": "Brugernavn",
     "no-permission": "❌Du har ikke adgang til at bruge denne kommando, du skal bruge **ADMINISTRATOR** rettigheder.",
+    "has-been": "Brugeren har været blacklisted",
     "need-logs": "❌Du skal have logs opsat for at bruge denne kommando, slå logs til ved at bruge følgende kommando `$setlogchannel [kanal-id]`",
     "admin-comment": "Kommentar fra admin",
-
+    "settings": "Gå over til vores hjemmeside for at ændre dine indstillinger: **https://stoptheresellers.xyz/dashboard/login**",
     
     "bans": {
         "bannedbystr": "Banned af STR",
         "userbanned": "BRUGER BANNED",
-        "joinedblacklisted": "Bruger joinede serveren & er blacklisted"
+        "joinedblacklisted": "Bruger tilsluttede serveren & er blacklisted"
     },
     "other": {
-        "joinedserver": "Joinede serveren"
+        "joinedserver": "Tilsluttede serveren"
     },
     "alt": {
         "newaccount": "Ny konto opdaget!",
         "newacckick": "Denne konto er kun **{days} dag(e)** gammel. Brugeren blev kicked.",
-        "newacclog": "Bruger joinede med en ny konto, oprettet den {created} og denne server har brug for {mindays} dag(e) konto alder.",
+        "newacclog": "Bruger tilsluttede med en ny konto, oprettet den {created} og denne server har brug for {mindays} dag(e) konto alder.",
         "newacc": "Denne konto er kun {days} dag(e) gammel.",
         "alreadyenabled": "❌Du har allerede alt beskyttelse til, i øjeblikket indstillet til minimum kontoalder på **{days}** dag(e).",
         "alreadydisabled": "❌Alt beskyttelse er allerede slået fra",
@@ -61,17 +62,18 @@
         "unblacklist": "Fjern en bruger fra blacklisten **[KUN FOR BOT ADMINS]**",
         "checkuser": "Tjek om en bruger har blacklist",
         "fetch": "Henter din discord og checker om der er blacklistede brugere derinde **[KUN FOR BOT ADMINS]**",
-        "report": "Sender en rapport til bot admins",
-        "viewreport": "Send rapporten med følgende ID. **[KUN FOR BOT ADMINS]**",
-        "viewreports": "Viser alle afventende rapporter. **[KUN FOR BOT ADMINS]**",
-        "setlogchannel": "Sætter log kanalen til din server, botten vil logge herinde hvis nogen bliver banned.",
-        "setautoban": "Automatisk ban af blacklistede brugere. *Note: Slået til fra starten*",
-        "setaltprotection": "Indstiller den mindste kontoalder i dage for din server, hvis den er indstillet til true, kicker den enhver, der forsøger at deltage i en kontoalder, der er lavere end du har angivet.",
-        "setautoverify": "Vil du have nye medlemmer til at verificere sig selv og se, om de er i leaking discords? Hvis kickargumentet er aktiveret, vil brugere, der ikke fuldfører (ignorerer) verificationen blive kicked.",
         "botinfo": "Giver info omkring botten.",
         "userinfo": "Viser info omkring den taggede bruger.",
         "setlanguage": "Sætter bottens sprog på din server.",
-        "languages": "Viser en liste med alle tilgængelige sprog"
+        "languages": "Viser en liste med alle tilgængelige sprog",
+        "allow": "Tillader en blacklisted bruger at gå igennem autoban og tilslutte din server.",
+        "allowalt": "Tillader en bruger med en ny profil at gå igennem alt identifikation og tilslutte sig din server.",
+        "id": "Giver dig standard information omkring brugeren som fx navn og profilbillede.",
+        "viewreport": "Se din egen rapport.",
+        "crosscheck": "Kigger igennem hele serveren og giver dig en liste af hver blacklistede bruger og deres blacklist grund.",
+        "invite": "Sender et invite link for botten.",
+        "supportserver": "Sender et invite til support serveren.",
+        "vote": "Sender et link hvor du kan stemme på botten."
     },
     "botinfo": {
         "bot-name": "Bot Navn",
@@ -96,7 +98,7 @@
     },
     "verification": {
         "verify-started": "Verification Startet",
-        "joined-server": "Joinede serveren",
+        "joined-server": "Tilsluttede serveren",
         "inleaking": "⚠️ <@{args}> verificerede succesfuldt **er i de følgende leaking servere**",
         "noleaking": "✅ <@{args}> verificerede succesfuldt og er ikke medlem af nogen leaking discords.",
         "forceverify": "{author} fra {guild.name} vil have dig til at verify dig selv. Gør dette ved følgende link: http://stoptheresellers.xyz/auth/verify",
@@ -117,7 +119,7 @@
     "userinfo": {
         "no-user": "❌Kunne ikke finde en bruger med det ID. Er brugeren med i serveren?",
         "no-user2": "❌Kunne ikke finde en bruger med det ID.",
-        "joined": "Joinede serveren den:",
+        "joined": "Tilsluttede serveren den:",
         "created": "Konto oprettet den:",
         "avatar-url": "Avatar URL",
         "blacklisted": "Blacklisted",
@@ -141,7 +143,7 @@
     },
     "languages": {
         "error": "❌Vælg venligst et af de tilgængelige sprog, brug $languages for at se alle tilgængelige sprog.",
-        "success": "✅Opdateret sproget til o **{args}**",
+        "success": "✅Opdaterede sproget til **{args}**",
         "all": "Alle tilgængelige sprog",
         "contribute": "Vil du hjælpe med at tilføje flere sprog? Gør det her"
     },
@@ -163,5 +165,34 @@
     "dailyblacklists": {
         "user": "Blacklists i dag ({date}) af {user}: **{total}**",
         "none": "Blacklists idag ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Tilladte en blacklisted bruger",
+        "userallowed2": "{user} Tilladede en blacklisted bruger at blive på serveren",
+        "success": "Tilladte brugeren {user}",
+        "error": "Brugeren du prøver at tillade er ikke blacklisted"
+    },
+    "viewreport": {
+        "no-args": "Skrev ikke en rapport at kigge på",
+        "reportedby": "Rapporteret af",
+        "reportstatus": "Rapport Status",
+        "notreviewed": "Ikke gennemgået",
+        "denied": "Afvist",
+        "accepted": "Accepteret",
+        "noreport": "❌Der er ingen rapporter med ID {id}"
+    },
+    "id": {
+        "error": "Ikke ikke indlæse info...",
+        "info": "Info",
+        "no-args": "Skriv et ID."
+    },
+    "allowalt": {
+        "no-args": "❌Skriv et ID / tag en person.",
+        "success": "Tilladte alt brugeren <@{userid}> at være på serveren."
+    },
+    "urlblacklisted": {
+        "ban-message": "Sender et blacklisted URL der indeholder følgende ord: {word}",
+        "log-msg": "Bruger skrev et blacklisted URl der indeholder følgende ord: **{word}**\n\n**Fulde besked:** *{msg}*",
+        "detected": "Blacklisted URL Opdaget"
     }
 }
