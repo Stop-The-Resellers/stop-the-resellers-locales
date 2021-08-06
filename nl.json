@@ -6,9 +6,11 @@
     "date": "Datum",
     "user-id": "Gebruikers ID",
     "username": "Gebruikersnaam",
+    "has-been": "Gebruiker staat op de zwarte lijst",
     "no-permission": "❌U heeft geen toestemming om deze command te gebruiken, u heeft **BEHEERDER** rechten nodig.",
     "need-logs": "❌U moet logboeken hebben ingeschakeld om deze opdracht te gebruiken, schakel logboeken in door het volgende uit te voeren: `$setlogchannel [channel-id]`",
     "admin-comment": "Opmerking admin",
+    "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.xyz/dashboard/login",
 
     "bans": {
         "bannedbystr": "Verbannen door STR",
@@ -60,17 +62,18 @@
         "unblacklist": "Verwijdert een gebruiker van de zwarte lijst **[ALLEEN BOT ADMINS]**",
         "checkuser": "Controleer of een gebruiker op de zwarte lijst staat",
         "fetch": "Haalt je discord op en controleert of er mensen op de zwarte lijst staan **[ALLEEN BOT ADMINS]**",
-        "report": "Verzendt een rapport naar de botbeheerders",
-        "viewreport": "Stuur het rapport met die id. **[ALLEEN BOT ADMINS]**",
-        "viewreports": "Toont alle lopende rapporten. **[ALLEEN BOT ADMINS]**",
-        "setlogchannel": "Stelt het logkanaal voor uw server in, de bot logt hier wanneer iemand verbannen wordt.",
-        "setautoban": "Blokkeert automatisch gebruikers op de zwarte lijst van uw server. *Notitie: Standaard ingeschakeld*",
-        "setaltprotection": "Stelt de minimale accountleeftijd in dagen in voor uw server. Als deze is ingesteld op true, wordt iedereen gekickt die probeert de discord probeert te joinen met een accountleeftijd die lager is dan u hebt ingesteld.",
-        "setautoverify": "Wil je dat nieuwe leden zichzelf verifiëren en kijken of ze in lekkende discords zitten? Als het kick-argument is ingeschakeld, worden gebruikers die de verificatie niet voltooien (negeren) gekickt.",
         "botinfo": "Antwoord met informatie over de bot",
         "userinfo": "Toont informatie over het genoemde discord-account van de gebruiker.",
         "setlanguage": "Stel de bottaal in voor je gilde.",
-        "languages": "Toont een lijst met alle huidige ondersteunde talen"
+        "languages": "Toont een lijst met alle huidige ondersteunde talen",
+        "allow": "Hiermee kan een gebruiker op de zwarte lijst de autoban omzeilen en lid worden van uw server.",
+        "allowalt": "Hiermee kan een gebruiker met een nieuwe account alt-identificatie omzeilen en lid worden van uw server.",
+        "id": "Biedt basisinformatie over de gebruiker zoals naam en profielfoto.",
+        "viewreport": "Bekijk je eigen rapport.",
+        "crosscheck": "Zoekt door je server en geeft je een lijst van elke gebruiker op de zwarte lijst met hun reden voor de zwarte lijst.",
+        "invite": "Stuurt een uitnodigingslink voor de bot.",
+        "supportserver": "Stuurt een uitnodiging naar de ondersteuningsserver.",
+        "vote": "Stuurt een link waar je op de bot kunt stemmen."
     },
     "botinfo": {
         "bot-name": "Bot Naam",
@@ -162,5 +165,33 @@
     "dailyblacklists": {
         "user": "Totaal aantal zwarte lijsten toegevoegd vandaag ({date}) door {user}: **{total}**",
         "none": "Totaal aantal zwarte lijsten toegevoegd vandaag ({date}): **{total}**"
-    }
+    },
+    "allowed": {
+        "userallowed": "Gebruiker op de zwarte lijst toegang gegeven",
+        "userallowed2": "{user} heeft een gebruiker op de zwarte lijst toegang gegeven tot de server",
+        "success": "Status van toegang geslaagd voor {user}",
+        "error": "De gebruiker die je probeert toe te staan staat niet op de zwarte lijst"
+    },
+    "viewreport": {
+        "no-args": "Geen rapport geleverd om te bekijken",
+        "reportedby": "Gerapporteerd door",
+        "reportstatus": "Rapport status",
+        "notreviewed": "Niet beoordeeld",
+        "denied": "Afgewezen",
+        "accepted": "Goedgekeurd",
+        "noreport": "❌Er is geen rapport met ID {id}"
+    },
+    "id": {
+        "error": "Kan informatie niet laden...",
+        "info": "Info",
+        "no-args": "Geef een ID op."
+    },
+    "allowalt": {
+        "no-args": "❌Dien een gebruikers-ID in / vermeld iemand.",
+        "success": "Succesvol alt-account <@{userid}> toegestaan op de server."
+    },
+    "urlblacklisted": {
+        "ban-message": "Op de zwarte lijst geplaatste URL met woord verzonden: {word}",
+        "log-msg": "Gebruiker plaatste een URL, die op de zwarte lisjt staat, met het volgende woord: **{word}**\n\n**Volledig bericht:** *{msg}*",
+        "detected": "URL op de zwarte lijst gedetecteerd"
 }
