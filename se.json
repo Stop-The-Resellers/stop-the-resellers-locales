@@ -6,9 +6,11 @@
     "date": "Datum",
     "user-id": "Användar ID",
     "username": "Användarnamn",
+    "has-been": "Användaren har varit blacklistad.",
     "no-permission": "❌Du har inte rättigheter till att använda detta kommando, du behöver **ADMINISTRATOR** rättigheter.",
     "need-logs": "❌Du behöver logs för att använda detta kommando, aktivera logs genom att göra `$setlogchannel [channel-id]`",
     "admin-comment": "Admin Kommentar",
+    "settings": "Gå till våran web panel för att ändra dina serverinställningar: **https://stoptheresellers.xyz/dashboard/login",
 
     "bans": {
         "bannedbystr": "Bannad av STR",
@@ -60,17 +62,17 @@
         "unblacklist": "Tar bort en användare från blacklist listan **[BOT ADMINS ONLY]**",
         "checkuser": "Kollar om en användare är blacklistad",
         "fetch": "Söker efter blacklistade människor i din discord **[BOT ADMINS ONLY]**",
-        "report": "Skickar en report till bot admins",
         "viewreport": "Visar reporten med det idt **[BOT ADMINS ONLY]**",
-        "viewreports": "Visar alla osvarade rapporter. **[BOT ADMINS ONLY]**",
-        "setlogchannel": "Sätter logg kanalen för din server, botten kommer att skicka ut logs här.",
-        "setautoban": "Bannlyser blacklistade användare från din discord automatiskt. *Note: Enabled by default*",
-        "setaltprotection": "Minimum ålder på nya konton i dagar för din server, om denna funktion e aktiverad så kommer den kicka alla som försöker gå med i din server som har ett nyare konto än åldern du satt.",
-        "setautoverify": "Om du vill att nya medlemmar ska verifiera sig själva för att se om dom är med i leaking server? Om kick argumentet är på så kommer botten kicka folk som ignorerar verifieringen.",
         "botinfo": "Visar info om botten",
         "userinfo": "Visar info om en användare.",
-        "setlanguage": "Sätter bot språket för din server",
-        "languages": "Visar en list med alla supportade språk"
+        "languages": "Visar en list med alla supportade språk",
+        "allow": "Tillåter en blacklistad användare att gå igenom autoban och gå med i din server.",
+        "allowalt": "Tillåter en användare med ett nytt konto att gå igenom alt identificationen och gå med i din server.",
+        "id": "Ger dig basic information om en användare, som profilbild & användarnamn.",
+        "crosscheck": "Söker igenom din server och ger dig en lista med alla blacklistade användare med deras blacklist anledning.",
+        "invite": "Skickar en länk för att bjuda in våran bot..",
+        "supportserver": "Skickar en inbjudningslänk till våran support server..",
+        "vote": "Skickar en länk där du kan rösta på vår bot."
     },
     "botinfo": {
         "bot-name": "Bot Namn",
@@ -162,6 +164,35 @@
     "dailyblacklists": {
         "user": "Total blacklistade idag ({date}) av {user}: **{total}**",
         "none": "Total blacklistade idag ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Tillät blacklistad användare",
+        "userallowed2": "{user} Tillät en blacklistad användare att gå med i servern",
+        "success": "Togglade tillåtelse status för {user}",
+        "error": "Användaren du försöker tillåta är inte blacklistad"
+    },
+    "viewreport": {
+        "no-args": "Du angav ingen giltig report att visa",
+        "reportedby": "Rapporterad av",
+        "reportstatus": "Rapport status",
+        "notreviewed": "Inte recensserad.",
+        "denied": "Nekad.",
+        "accepted": "Accepterad",
+        "noreport": "❌Det finns ingen rapport med idt: {id}"
+    },
+    "id": {
+        "error": "Kunde inte ladda information..",
+        "info": "Info",
+        "no-args": "Var god ange ett giltigt id."
+    },
+    "allowalt": {
+        "no-args": "❌Var god ange ett användar id / @ någon.",
+        "success": "Lyckades tillåta alt konto <@{userid}> att gå med i denna server."
+    },
+    "urlblacklisted": {
+        "ban-message": "Skickade blacklistad URL, inehåller ord:: {word}",
+        "log-msg": "Användaren skickade en blacklistad URL som inehållde ordet: **{word}**\n\n**Hela meddelandet:** *{msg}*",
+        "detected": "Blacklistad URL upptäckt."
     }
 }
 

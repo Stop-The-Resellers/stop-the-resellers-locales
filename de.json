@@ -10,7 +10,6 @@
     "need-logs": "❌Du musst dir einen Log Channel haben! Mach dir einen mit: `$setlogchannel [kanal-id]`",
     "admin-comment": "Admin Kommentare",
 
-    
     "bans": {
         "bannedbystr": "Gebannt von STR",
         "userbanned": "BENUTZER GEBANNT",

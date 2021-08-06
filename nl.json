@@ -64,7 +64,6 @@
         "fetch": "Haalt je discord op en controleert of er mensen op de zwarte lijst staan **[ALLEEN BOT ADMINS]**",
         "botinfo": "Antwoord met informatie over de bot",
         "userinfo": "Toont informatie over het genoemde discord-account van de gebruiker.",
-        "setlanguage": "Stel de bottaal in voor je gilde.",
         "languages": "Toont een lijst met alle huidige ondersteunde talen",
         "allow": "Hiermee kan een gebruiker op de zwarte lijst de autoban omzeilen en lid worden van uw server.",
         "allowalt": "Hiermee kan een gebruiker met een nieuwe account alt-identificatie omzeilen en lid worden van uw server.",
@@ -194,4 +193,5 @@
         "ban-message": "Op de zwarte lijst geplaatste URL met woord verzonden: {word}",
         "log-msg": "Gebruiker plaatste een URL, die op de zwarte lisjt staat, met het volgende woord: **{word}**\n\n**Volledig bericht:** *{msg}*",
         "detected": "URL op de zwarte lijst gedetecteerd"
+    }
 }

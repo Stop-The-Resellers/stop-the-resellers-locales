@@ -64,7 +64,6 @@
         "fetch": "Henter din discord og checker om der er blacklistede brugere derinde **[KUN FOR BOT ADMINS]**",
         "botinfo": "Giver info omkring botten.",
         "userinfo": "Viser info omkring den taggede bruger.",
-        "setlanguage": "Sætter bottens sprog på din server.",
         "languages": "Viser en liste med alle tilgængelige sprog",
         "allow": "Tillader en blacklisted bruger at gå igennem autoban og tilslutte din server.",
         "allowalt": "Tillader en bruger med en ny profil at gå igennem alt identifikation og tilslutte sig din server.",
