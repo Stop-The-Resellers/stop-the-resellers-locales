@@ -72,7 +72,12 @@
         "crosscheck": "Kigger igennem hele serveren og giver dig en liste af hver blacklistede bruger og deres blacklist grund.",
         "invite": "Sender et invite link for botten.",
         "supportserver": "Sender et invite til support serveren.",
-        "vote": "Sender et link hvor du kan stemme på botten."
+        "vote": "Sender et link hvor du kan stemme på botten.",
+        "dailyblacklists": "Giver mængden af blacklists uddelt i de sidste 24 timer.",
+        "leaderboard": "Viser de brugere med fleste accepteret rapporter",
+        "report": "Viser hjemmesiden rapporter sendes på",
+        "staffs": "Viser en liste over STR admins",
+        "deletelogs": "Fjerner log kanalen"
     },
     "botinfo": {
         "bot-name": "Bot Navn",

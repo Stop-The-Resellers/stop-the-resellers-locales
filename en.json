@@ -72,7 +72,12 @@
         "crosscheck": "Searches through your server and gives you a list of each blacklisted user with their blacklist reason.",
         "invite": "Sends a invite link for the bot.",
         "supportserver": "Sends a invite to the support server.",
-        "vote": "Sends a link where you can vote for the bot."
+        "vote": "Sends a link where you can vote for the bot.",
+        "dailyblacklists": "Returns the amount of blacklists done in the past 24 hours.",
+        "leaderboard": "Shows the users with most accepted reports",
+        "report": "Returns the website reports should be sent on",
+        "staffs": "Shows a list of STR admins",
+        "deletelogs": "Removes the log channel"
     },
     "botinfo": {
         "bot-name": "Bot Name",
