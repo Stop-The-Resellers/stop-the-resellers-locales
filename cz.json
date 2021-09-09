@@ -8,9 +8,8 @@
     "username": "Jméno",
     "has-been": "Uživatel byl na blacklistu",
     "no-permission": "❌Nemáš dostatečné právo pro tento příkaz, pro tento příkaz je potřeba **ADMINISTRATOR**.",
-    "need-logs": "❌Musíš mít povolené logování na tvém serveru aby jsi použil tento příkaz, povol logování příkazem`$setlogchannel [id-kanálu]`",
     "admin-comment": "Komentář Administrátora",
-    "settings": "Prosím, zamiř do ovládacího panelu pro změnu nastavení: **https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Prosím, zamiř do ovládacího panelu pro změnu nastavení: **https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Zabanován STR",
@@ -24,13 +23,7 @@
         "newaccount": "Byl zjištěn nový účet!",
         "newacckick": "Tento účet je jen **{days} dnů** starý. Uživatel byl vyhozen.",
         "newacclog": "Uživatel se napojil s novým účtem vytvořeným v {created} a vyžaduje minimální věk {mindays} dnů ",
-        "newacc": "Tento účet je jen  {days} dní  starý.",
-        "alreadyenabled": "❌Alt Protekce je již zapnuta, nastaveno na  **{days}** dní.",
-        "alreadydisabled": "❌Alt Protekce je již vypnuta.",
-        "disabled": "✅Úspěšně vypnuta Alt Protekce",
-        "enabled": "✅Úspěšně zapnuta **Alt Protekce** Uživatel musí mít starý účet **{args}** dní",
-        "minimum-age": "❌Prosím zadej minimální čas jak dlouho musí být starý účet, který uživatel musí splňovat aby mohl být na tvém serveru.",
-        "no-args": "❌Prosím zadej true nebo false za tento příkaz."
+        "newacc": "Tento účet je jen  {days} dní  starý."
     },
     "checking": {
         "nouser": "❌Nebylo možné najít uživatele. Prosím označ správného uživatele, nebo to zkus přes jeho ID."
@@ -41,10 +34,7 @@
         "notblacklisted": "UŽIVATEL NENÍ NA BLACKLISTU"
     },
     "report": {
-        "report": "Nahlásit",
-        "thanks": "✅Děkujeme za nahlášení uživatele! ID nahlášení: {uuid}",
-        "no-proof": "❌Prosím uveď důkaz. (URL s obrázkem, příklad: gyazo nebo imgur)",
-        "no-reason": "❌Prosím uveď důkaz a důvod."
+
     },
     "fetch": {
         "failed": "BAN SE NEZDAŘIL",
@@ -88,11 +78,6 @@
         "support-server": "Podpořit server"
     },
     "logs": {
-        "updated": "✅Úspěšně aktualizován log kanál, logy budou zobrazeny v  <#{channel}>",
-        "added": "✅Úspěšně nastaven log kanál, logy budou zobrazeny v  <#{channel}>",
-        "same-channel": "❌Logy už jsou zaslány v <#{logchannel}>",
-        "not-correctly": "❌Neuvedl jsi správně kanál. Ujisti se, že jsi poslal správné id kanálu. příklad: **$setlogchannel 702876668422782988**",
-        "removed": "✅Úspěšně smazány logy v  <#{havelogs}>",
         "no-logs": "❌Nemáš žádné logy na tomto serveru."
     },
     "verification": {
@@ -108,13 +93,6 @@
         "no-kick-permission": "❌Uživatel není ověřen a nemohu uživatele vyhodit, protože nemám dostatečné permisse.",
         "no-verify": "❌Uživatel není ověřen."
     },
-    "autoban": {
-        "alreadyenabled": "❌Automatické bany jsou na tomto serveru už zapnuté.",
-        "enabled": "✅**Zapnuté** Automatické bany pro tento server.",
-        "alreadydisabled": "❌Automatické bany jsou na tomto serveru už vypnuté.",
-        "disabled": "✅**Vypnuté** Automatické bany pro tento server.",
-        "no-args": "❌Prosím uveď `true` nebo `false` pro tento příkaz."
-    },
     "userinfo": {
         "no-user": "❌Uživatel s tímto ID nebyl nalezen. Ujisti se, že uživatel je na tomto serveru.",
         "no-user2": "❌Uživatel nenalezen s tímto ID.",
@@ -125,14 +103,6 @@
         "roles": "Role",
         "none": "Neuvedeno"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Automatická verifikace je na tomhle serveru už zapnuta.",
-        "enabled": "✅**Zapnuta** automatická verifikace pro tento server",
-        "alreadydisabled": "❌Automatická verifikace je na tomhle serveru už vypnuta.",
-        "disabled": "✅**Vypnuta** automatická verifikace pro tento server.",
-        "no-args": "❌Prosím uveď `true` nebo `false` jestli chceš povolit Auto Kick. (Autokick vyhodí uživatele, který nejsou ověřený",
-        "no-args2": "❌Prosím uveď `true` nebo  `false` za tento příkaz."
-    }, 
     "crosscheck": {
         "success": "✅Načítání... Pošlu ti soukromou zprávu do 10 sekund, jestli nemáš nějaké uživatele na serveru, kteří jsou na blacklistu.",
         "blacklisted-in": "Uživatelé na blacklistu v  {guild}:",
@@ -141,8 +111,6 @@
         "cooldown": "❌Tento příkaz můžeš použít jen jednou za 24h."
     },
     "languages": {
-        "error": "❌Prosím vyber platný jazyk ze všech dostupných jazyků, použij $languages a zobrazí se všechny dostupné jazyky.",
-        "success": "✅Úspěšně jsi nastavil jazyk serveru na  **{args}**",
         "all": "Všechny dostupné jazyky",
         "contribute": "Chcete podpořit server a přidat více jazyků? Tady je odkaz"
     },

@@ -8,9 +8,8 @@
     "username": "Username",
     "has-been": "User was blacklisted",
     "no-permission": "❌You don't have permission to use this command, you need **ADMINISTRATOR** rights.",
-    "need-logs": "❌You need logs enabled in order to use this command, enable logs by running `$setlogchannel [channel-id]`",
     "admin-comment": "Admin Comment",
-    "settings": "Please head to our web-dashboard to change your settings: **https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Please head to our web-dashboard to change your settings: **https://stoptheresellers.com/dashboard/",
 
     "bans": {
         "bannedbystr": "Banned by STR",
@@ -18,19 +17,15 @@
         "joinedblacklisted": "User joined the server & is blacklisted"
     },
     "other": {
-        "joinedserver": "Joined server"
+        "joinedserver": "Joined server",
+        "supportserver": "Join the support server.",
+        "invite": "Invite the bot here"
     },
     "alt": {
         "newaccount": "New account detected!",
         "newacckick": "This account is only **{days} day(s)** old. This user got kicked.",
         "newacclog": "User joined with a new account created at {created} and this server requires a minimum of {mindays} day(s) account age.",
-        "newacc": "This account is only {days} day(s) old.",
-        "alreadyenabled": "❌You already have Alt Protection on, currently set to minimum account age of **{days}** day(s).",
-        "alreadydisabled": "❌Alt Protection is already disabled",
-        "disabled": "✅Successfully disabled Alt Protection",
-        "enabled": "✅Successfully enabled **Alt Protection** for minimum account age to **{args}** day(s)",
-        "minimum-age": "❌Please type in the minimum account age accepted in your server.",
-        "no-args": "❌Please type true or false after the command."
+        "newacc": "This account is only {days} day(s) old."
     },
     "checking": {
         "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
@@ -41,10 +36,9 @@
         "notblacklisted": "USER IS NOT BLACKLISTED"
     },
     "report": {
-        "report": "Report",
-        "thanks": "✅Thanks for submitting the report! Report ID: {uuid}",
-        "no-proof": "❌Please submit proof. (URL with image, ex: gyazo)",
-        "no-reason": "❌Please submit proof and the reason for the report."
+        "dashboardonly": "Reports can be sent from the web dashboard: {url}",
+        "success": "✅Thanks for reporting, the report will be reviewed soon.",
+        "nourl": "❌Didn't provide any URL to report"
     },
     "fetch": {
         "failed": "BAN FAILED",
@@ -55,11 +49,9 @@
         "banned": "USER BANNED",
         "role-above": "This person is a admin / have a role above me",
         "banned-in": "Banned in",
-        "no-permission": "I DON'T HAVE PERMISSION TO BAN PEOPLE"
+        "no-permission": "I don't have permission to ban people"
     },
     "help": {
-        "blacklist": "Adds a user to the blacklist list **[BOT ADMINS ONLY]**",
-        "unblacklist": "Removes a user from the blacklist **[BOT ADMINS ONLY]**",
         "checkuser": "Checks if a user is blacklisted",
         "fetch": "Fetches your discord and checking if you have any blacklisted people inthere **[BOT ADMINS ONLY]**",
         "botinfo": "Returns info about the bot",
@@ -77,7 +69,9 @@
         "leaderboard": "Shows the users with most accepted reports",
         "report": "Returns the website reports should be sent on",
         "staffs": "Shows a list of STR admins",
-        "deletelogs": "Removes the log channel"
+        "deletelogs": "Removes the log channel",
+        "reportbug": "Report a bug",
+        "reportscamurl": "Report a scam url to be blacklisted"
     },
     "botinfo": {
         "bot-name": "Bot Name",
@@ -93,11 +87,6 @@
         "support-server": "Support server"
     },
     "logs": {
-        "updated": "✅Sucessfully updated log channel, logs will now be displayed in <#{channel}>",
-        "added": "✅Successfully set log channel, logs will now be displayed in <#{channel}>",
-        "same-channel": "❌Logs are already being sent out in <#{logchannel}>",
-        "not-correctly": "❌You did not provide the channel correctly. Make sure to send the id of the channel. ex: **$setlogchannel 702876668422782988**",
-        "removed": "✅Successfully removed logs from <#{havelogs}>",
         "no-logs": "❌You don't have logs enabled in this guild."
     },
     "verification": {
@@ -113,13 +102,6 @@
         "no-kick-permission": "❌User did not verify and i **can't** kick because of no kick permission.",
         "no-verify": "❌User did not verify."
     },
-    "autoban": {
-        "alreadyenabled": "❌Auto bans are already enabled in this server.",
-        "enabled": "✅Auto bans are now **enabled** in this guild.",
-        "alreadydisabled": "❌Auto bans are already disabled in this server.",
-        "disabled": "✅Auto bans are now **disabled** in this guild.",
-        "no-args": "❌Please type `true` or `false` after the command."
-    },
     "userinfo": {
         "no-user": "❌Did not find a user with that id. Are you sure that the user is in this server?",
         "no-user2": "❌Could not find a user with that id.",
@@ -130,24 +112,15 @@
         "roles": "Roles",
         "none": "None"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Auto verification are already enabled in this server.",
-        "enabled": "✅Auto verification is now **enabled** in this guild.",
-        "alreadydisabled": "❌Auto verification is already disabled in this server.",
-        "disabled": "✅Auto verification is now **disabled** in this guild.",
-        "no-args": "❌Please type `true` or `false` if you want autokick enabled. (Autokick will kick users not verifying)",
-        "no-args2": "❌Please type `true` or `false` after the command."
-    }, 
     "crosscheck": {
         "success": "✅Loading... I will dm you with a list of blacklisted users in your server in 10 seconds.",
         "blacklisted-in": "Blacklisted users in {guild}:",
         "error": "❌Something went wrong, could not send the list.",
         "no-dm": "❌I can't dm you, do you have your dms set to friends only?",
-        "cooldown": "❌You can only use this command once per 24 hours."
+        "cooldown": "❌You can only use this command once per 24 hours.",
+        "none-found": "No blacklisted users found while crosschecking"
     },
     "languages": {
-        "error": "❌Please choose from the available languages, use $languages to see all the supported ones.",
-        "success": "✅Successfully set the guild language to **{args}**",
         "all": "All available languages",
         "contribute": "Do you want to contribute and add more languages? Do it here"
     },
@@ -198,6 +171,10 @@
         "ban-message": "Sending blacklisted URL containing word: {word}",
         "log-msg": "User posted a blacklisted URL containing the word: **{word}**\n\n**Full message:** *{msg}*",
         "detected": "Blacklisted URL Detected"
+    },
+    "autorole": {
+        "role-above": "The desired role is above mine, move my role above the role you want them to have",
+        "success": "User is blacklisted and was given the blacklisted role",
     }
 }
 

@@ -8,9 +8,8 @@
     "username": "Brugernavn",
     "no-permission": "❌Du har ikke adgang til at bruge denne kommando, du skal bruge **ADMINISTRATOR** rettigheder.",
     "has-been": "Brugeren har været blacklisted",
-    "need-logs": "❌Du skal have logs opsat for at bruge denne kommando, slå logs til ved at bruge følgende kommando `$setlogchannel [kanal-id]`",
     "admin-comment": "Kommentar fra admin",
-    "settings": "Gå over til vores hjemmeside for at ændre dine indstillinger: **https://stoptheresellers.xyz/dashboard/login**",
+    "settings": "Gå over til vores hjemmeside for at ændre dine indstillinger: **https://stoptheresellers.com/dashboard**",
     
     "bans": {
         "bannedbystr": "Banned af STR",
@@ -24,13 +23,7 @@
         "newaccount": "Ny konto opdaget!",
         "newacckick": "Denne konto er kun **{days} dag(e)** gammel. Brugeren blev kicked.",
         "newacclog": "Bruger tilsluttede med en ny konto, oprettet den {created} og denne server har brug for {mindays} dag(e) konto alder.",
-        "newacc": "Denne konto er kun {days} dag(e) gammel.",
-        "alreadyenabled": "❌Du har allerede alt beskyttelse til, i øjeblikket indstillet til minimum kontoalder på **{days}** dag(e).",
-        "alreadydisabled": "❌Alt beskyttelse er allerede slået fra",
-        "disabled": "✅Alt-beskyttelse er deaktiveret",
-        "enabled": "✅Aktivering af ** Alt beskyttelse ** for minimum kontoalder på **{args}** dag(e)",
-        "minimum-age": "❌Indtast venligst den mindste kontoalder, der er accepteret på din server.",
-        "no-args": "❌Skriv venligst true eller false efter kommandoen."
+        "newacc": "Denne konto er kun {days} dag(e) gammel."
     },
     "checking": {
         "nouser": "❌Kan ikke finde brugern. Venligst @ brugeren, eller check gennem deres id."
@@ -41,10 +34,7 @@
         "notblacklisted": "BRUGER ER IKKE BLACKLISTED"
     },
     "report": {
-        "report": "Rapport",
-        "thanks": "✅Tak for din rapport! Rapport ID: {uuid}",
-        "no-proof": "❌Venligst bevis din rapport. (URL med billede, ex: gyazo)",
-        "no-reason": "❌Indsend venligst bevis og årsagen til rapporten."
+       
     },
     "fetch": {
         "failed": "BAN FEJLEDE",
@@ -93,11 +83,6 @@
         "support-server": "Support server"
     },
     "logs": {
-        "updated": "✅Logkanal opdateret, logs vises nu i <#{channel}>",
-        "added": "✅Logkanal er indstillet, logs vises nu i <#{channel}>",
-        "same-channel": "❌Logs bliver allerede sendt ud i <#{logchannel}>",
-        "not-correctly": "❌Du leverede ikke kanalen korrekt. Husk at sende ID af kanalen. ex: **$setlogchannel 702876668422782988**",
-        "removed": "✅Fjernet logs fra <#{havelogs}>",
         "no-logs": "❌Du har ikke log aktiveret i denne guild."
     },
     "verification": {
@@ -113,13 +98,6 @@
         "no-kick-permission": "❌Bruger verificerede ikke, men kan **ikke** kickes grundet manglede permissions.",
         "no-verify": "❌Brugeren verificerede ikke."
     },
-    "autoban": {
-        "alreadyenabled": "❌Automatiske bans er allerede slået til i denne discord.",
-        "enabled": "✅Automatiske bans er nu **slået til** i denne guild.",
-        "alreadydisabled": "❌Automatiske bans er allerede slået fra i denne guild.",
-        "disabled": "✅Automatiske bans er nu **slået fra** i denne guild.",
-        "no-args": "❌Venligst skriv `true` eller `false` efter kommandoen."
-    },
     "userinfo": {
         "no-user": "❌Kunne ikke finde en bruger med det ID. Er brugeren med i serveren?",
         "no-user2": "❌Kunne ikke finde en bruger med det ID.",
@@ -130,14 +108,6 @@
         "roles": "Roller",
         "none": "Ingen"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Auto verificering er allerede slået til på denne server.",
-        "enabled": "✅Auto verificering er nu **slået til** i denne guild.",
-        "alreadydisabled": "❌Auto verificering er allerede slået fra i denne guild.",
-        "disabled": "✅Auto verificering er nu **slået fra** i denne guild.",
-        "no-args": "❌Venligst skriv `true` eller `false` hvis du vil have autokick slået til/fra. (Autokick vil kicke brugere der ikke verificerer)",
-        "no-args2": "❌Venligst skriv `true` eller `false` efter kommandoen."
-    },
     "crosscheck": {
         "success": "✅Loader... Jeg sender dig en dm med blacklistede brugere fra din server om 10 sekunder.",
         "blacklisted-in": "Blacklistede brugere i {guild}:",
@@ -146,8 +116,6 @@
         "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24 timer."
     },
     "languages": {
-        "error": "❌Vælg venligst et af de tilgængelige sprog, brug $languages for at se alle tilgængelige sprog.",
-        "success": "✅Opdaterede sproget til **{args}**",
         "all": "Alle tilgængelige sprog",
         "contribute": "Vil du hjælpe med at tilføje flere sprog? Gør det her"
     },

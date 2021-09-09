@@ -8,9 +8,8 @@
     "username": "Nom d'utilisateur",
     "has-been": "Un utilisateur a été blacklisté",
     "no-permission": "❌Vous n'avez pas la permission d'utiliser cette commande, vous avez besoin des droits **ADMINISTRATEUR**.",
-    "need-logs": "❌Vous devez activer les logs afin d'utiliser cette commande, activez les logs en utilisant `$setlogchannel [channel-id]`",
     "admin-comment": "Commentaire administrateur",
-    "settings": "Veuillez vous rendre sur notre tableau de bord web pour changer vos paramètres: **https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Veuillez vous rendre sur notre tableau de bord web pour changer vos paramètres: **https://stoptheresellers.com/dashboard",
     
     "bans": {
         "bannedbystr": "Banni par STR",
@@ -24,13 +23,7 @@
         "newaccount": "Nouveau compte détecté!",
         "newacckick": "Ce compte est vieux de **{days} jour(s)**. L'utilisateur à été kické.",
         "newacclog": "Un utilisateur a rejoint le serveur avec un compte créé le {created} et ce serveur requiert un age de compte minimum de {mindays} jour(s).",
-        "newacc": "Ce compte a juste {days} jour(s).",
-        "alreadyenabled": "❌La protection d'Alt est déjà activée, actuellement configuré sur un age minimum de compte de **{days}** jour(s).",
-        "alreadydisabled": "❌Protection d'Alt désactivée",
-        "disabled": "✅Protection d'Alt désactivée avec succès",
-        "enabled": "✅**Protection d'Alt** activée avec succès pour les comptes agés de moins de **{args}** jour(s)",
-        "minimum-age": "❌Veuillez renseigner l'age minimum du compte accepté sur votre serveur.",
-        "no-args": "❌Veuillez taper true ou false après la commande."
+        "newacc": "Ce compte a juste {days} jour(s)."
     },
     "checking": {
         "nouser": "❌Impossible de trouver cet utilisateur. Veuillez @ un utilisateur valide ou vérifier son ID."
@@ -41,10 +34,7 @@
         "notblacklisted": "L'UTILISATEUR N'EST PAS BLACKLISTE"
     },
     "report": {
-        "report": "Signaler",
-        "thanks": "✅Merci d'avoir soumis un signalement! ID de signalement: {uuid}",
-        "no-proof": "❌Veuillez soumettre des preuves. (URL avec image, ex: gyazo)",
-        "no-reason": "❌Veuillez soumettre des preuves et une raison pour ce signalement."
+        
     },
     "fetch": {
         "failed": "BAN ECHOUE",
@@ -88,11 +78,6 @@
         "support-server": "Serveur de support"
     },
     "logs": {
-        "updated": "✅Canal de log mis à jour avec succès, les logs seront maintenant affichés dans <#{channel}>",
-        "added": "✅Canal de log assigné avec succès, loes logs seront maintenant affichés dans <#{channel}>",
-        "same-channel": "❌Les logs sont déjà envoyés dans <#{logchannel}>",
-        "not-correctly": "❌Vous n'avez pas renseigné le canal correctement. Vérifiez que vous envoyez bien l'id du canal. ex: **$setlogchannel 702876668422782988**",
-        "removed": "✅Logs supprimés avec succès <#{havelogs}>",
         "no-logs": "❌Les logs ne sont pas activé dans cette guilde."
     },
     "verification": {
@@ -108,13 +93,6 @@
         "no-kick-permission": "❌L'utilisateur ne s'est pas vérifié et je ne **peux pas** l'éjecter car je n'en ai pas la permission.",
         "no-verify": "❌L'utilisateur ne s'est pas vérifié."
     },
-    "autoban": {
-        "alreadyenabled": "❌Banissement automatique déjà activé sur ce serveur.",
-        "enabled": "✅Banissement automatique **activé** sur ce serveur.",
-        "alreadydisabled": "❌Banissement automatique déjà désactivé sur ce serveur.",
-        "disabled": "✅Banissement automatique **désactivé** sur ce serveur.",
-        "no-args": "❌Veuillez taper `true` ou `false` après la commande."
-    },
     "userinfo": {
         "no-user": "❌Impossible de trouver un utilisateur avec cet ID. Etes-vous sûr que cet utilisateur se trouve dans le serveur?",
         "no-user2": "❌Impossible de trouver un utilisateur avec cet ID.",
@@ -125,14 +103,6 @@
         "roles": "Rôles",
         "none": "Aucun"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Vérification automatique déjà activé sur ce serveur.",
-        "enabled": "✅Vérification automatique **activé** sur ce serveur.",
-        "alreadydisabled": "❌Vérification automatique déja désactivé sur ce serveur.",
-        "disabled": "✅Vérification automatique **désactivé** sur ce serveur.",
-        "no-args": "❌Veuillez taper `true` ou `false` si vous souhaitez activer le kick automatique. (L'autokick éjectera les utilisateurs non vérifiés)",
-        "no-args2": "❌Veuillez taper `true` ou `false` après cette commande."
-    },
     "crosscheck": {
         "success": "✅Chargement... Je vous enverrai un PM avec la liste des utilisateurs en liste noire de votre serveur dans quelques secondes.",
         "blacklisted-in": "Utilisateurs en liste noire sur le serveur {guild}:",
@@ -141,8 +111,6 @@
         "cooldown": "❌Vous ne pouvez utiliser cette commande qu'une fois toute les 24h."
     },
     "languages": {
-        "error": "❌Veuillez choisir parmis les langues disponible, utilisez $languages pour lister toute les langues supportés.",
-        "success": "✅Langue pour ce serveur changée en **{args}** avec succès",
         "all": "Toute les langues disponible",
         "contribute": "Voulez-vous contribuer et ajouter plus de langues? Faites-le ici"
     },

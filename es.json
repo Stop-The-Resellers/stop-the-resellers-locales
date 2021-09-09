@@ -10,7 +10,7 @@
     "no-permission": ":x:No tienes permisos para usar este comando, necesitas permisos de ADMINISTRADOR.",
     "need-logs": ":x:Necesitas logs para este comando, activalos con el siguiente comando $setlogchannel [channel-id]",
     "admin-comment": "Comentario de Admin",
-    "settings": "Porfavor entrar a nuestro sitio web para modificar tu configuracion: https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Porfavor entrar a nuestro sitio web para modificar tu configuracion: https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Baneado por STR",
@@ -24,13 +24,7 @@
         "newaccount": "Nueva cuenta detectada!",
         "newacckick": "Esta cuenta solamente es {days} dia(s) de edad. El usuario fue kickeado.",
         "newacclog": "Usuario con una nueva cuenta creada en {created} y este server requiere un minimo de {mindays} dia(s) de tiempo de haberse creado la cuenta.",
-        "newacc": "Esta cuenta es solo {days} dia(s) de edad.",
-        "alreadyenabled": ":x:Ya tienes proteccion de cuentas secundarias, actualmente el minimo es {days} dia(s).",
-        "alreadydisabled": ":x:Proteccion contra cuentas secundarias esta desactivada.",
-        "disabled": ":white_check_mark: Se ha desactivado la proteccion de cuentas secundarias exitosamente.",
-        "enabled": ":white_check_mark: Se ha activado la Proteccion de cuentas secundarias de cuentas creadas hace {args}** daia(s)",
-        "minimum-age": ":x:Porfavor escribir la minima edad requerida para entrar al servidor.",
-        "no-args": ":x: Por favor escriba verdadero o falso despues del comando."
+        "newacc": "Esta cuenta es solo {days} dia(s) de edad."
     },
 "checking": {
         "nouser": ":x: No se ha encontrado a ese usuario . Porfavor ingrese un @ valido o revise la ID del usuario."
@@ -41,10 +35,7 @@
         "notblacklisted": "EL USUARIO NO ESTA BLACKLISTED"
     },
     "report": {
-        "report": "Reporte",
-        "thanks": ":white_check_mark: Gracias por enviar el reporte! ID de reporte: {uuid}",
-        "no-proof": ":x: Porfavor envie pruebas. (URL con imagen, ej: gyazo)",
-        "no-reason": ":x:Porfavor envie pruebas y la razon del reporte."
+       
     },
     "fetch": {
         "failed": "BAN FALLIDO",
@@ -88,11 +79,6 @@
         "support-server": "Apoya al servidor"
     },
     "logs": {
-        "updated": ":white_check_mark:Se ha actualizado el canal de logs correctamente. Ahora podran ser vistos en <#{channel}>",
-        "added": ":white_check_mark:Se ha asignado correctamente el canal de logs. Estos podran ser vistos en <#{channel}>",
-        "same-channel": ":x:Logs ya se estan mandando en  <#{logchannel}>",
-        "not-correctly": ":x:No se proveyo el canal correcto. Asegurate de mandar la id del canal. Ejemplo: $setlogchannel 702876668422782988",
-        "removed": ":white_check_mark:Se han removido logs de <#{havelogs}> exitosamente",
         "no-logs": ":x:No tienes logs activados en este discord."
     },
     "verification": {
@@ -108,13 +94,6 @@
         "no-kick-permission": ":x:Usuario no se verifico y no puedo expulsarlo por la falta de permisos.",
         "no-verify": ":x:El usuario no se verifico."
     },
-    "autoban": {
-        "alreadyenabled": ":x:Baneos automaticos ya estan activados en este servidor.",
-        "enabled": ":white_check_mark:Baneos automaticos ahora estan activados in this guild.",
-        "alreadydisabled": ":x:Baneos automaticos ya estan desactivados en este servidor.",
-        "disabled": ":white_check_mark:Baneos automaticos ahora estan disabled in this guild.",
-        "no-args": ":x:Por favor escribe true o false despues del comando."
-    },
     "userinfo": {
         "no-user": ":x:No se pudo encontrar a un usuario con esa id. Estas seguro de que este usuario esta en el servidor?",
         "no-user2": ":x:No se pudo encontrar a un usuario con esa id.",
@@ -125,14 +104,6 @@
         "roles": "Roles",
         "none": "Ninguna"
     },
-    "autoverify": {
-        "alreadyenabled": ":x:Verificacion automatica ya esta activada en este servidor.",
-        "enabled": ":white_check_mark:Verificacion automatica ahora esta activada en este discord.",
-        "alreadydisabled": ":x:Verificacion automatica ya esta desactivada en este servidor.",
-        "disabled": ":white_check_mark:Verificacion automatica esta ahora desactivada en este discord.",
-        "no-args": ":x:Por favor escribe true o false si quieres la opcion de autokickear. (Autokickear kickeara a usuarios no verificados)",
-        "no-args2": ":x:Por favor escribe true o false despues del comando."
-    }, 
     "crosscheck": {
         "success": ":white_check_mark:Cargando... Te mandare un md con la lista de usuarios en la blacklist en 10 segundos.",
         "blacklisted-in": "Usuarios blacklisteados en {guild}:",

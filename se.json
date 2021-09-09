@@ -8,9 +8,8 @@
     "username": "Användarnamn",
     "has-been": "Användaren har varit blacklistad.",
     "no-permission": "❌Du har inte rättigheter till att använda detta kommando, du behöver **ADMINISTRATOR** rättigheter.",
-    "need-logs": "❌Du behöver logs för att använda detta kommando, aktivera logs genom att göra `$setlogchannel [channel-id]`",
     "admin-comment": "Admin Kommentar",
-    "settings": "Gå till våran web panel för att ändra dina serverinställningar: **https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Gå till våran web panel för att ändra dina serverinställningar: **https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Bannad av STR",
@@ -25,12 +24,6 @@
         "newacckick": "Detta konto är endast **{days} dagar** gammal. Denna användare blev sparkad.",
         "newacclog": "Användare gick med i ett nytt konto skapad: {created} och denna server kräver minst {mindays} dagar.",
         "newacc": "Detta konto är endast {days} dagar gammalt.",
-        "alreadyenabled": "❌Du har redan Alt Protection på, just nu satt på minimum **{days}** dagar.",
-        "alreadydisabled": "❌Alt Protection är redan inaktiverat",
-        "disabled": "✅Inaktiverade Alt Protection",
-        "enabled": "✅Aktiverade **Alt Protection** med minst: **{args}** dagar",
-        "minimum-age": "❌Var god skriv in minimum tillåtet konto ålder i dagar.",
-        "no-args": "❌Var god skriv true eller false efter kommandot."
     },
     "checking": {
         "nouser": "❌Kunde inte hitta den användaren, var god @ användaren eller sök upp med användarens id."
@@ -41,10 +34,7 @@
         "notblacklisted": "Användaren är inte blacklistad"
     },
     "report": {
-        "report": "Rapportera",
-        "thanks": "✅Tack för din rapport! Report ID: {uuid}",
-        "no-proof": "❌Var god skicka in bevis (URL med foto, ex: gyazo)",
-        "no-reason": "❌Var god skicka in bevis & anledningen för rapporten."
+        
     },
     "fetch": {
         "failed": "Ban misslyckades",
@@ -88,11 +78,6 @@
         "support-server": "Support server"
     },
     "logs": {
-        "updated": "✅Uppdaterade logg kanalen, logs kommer nu att skickas i <#{channel}>",
-        "added": "✅Satte logg kanalen, logs kommer du att skickas i <#{channel}>",
-        "same-channel": "❌Logs skickas redan ut i <#{logchannel}>",
-        "not-correctly": "❌Du angav inte kanalen korrekt. Var god skicka idt av kanalen. t.ex: **$setlogchannel 702876668422782988**",
-        "removed": "✅Tog bort logs från <#{havelogs}>",
         "no-logs": "❌Du har inte logs aktiverat i denna server."
     },
     "verification": {
@@ -108,13 +93,6 @@
         "no-kick-permission": "❌Användaren verifierade inte sig själv och jag **kan inte** sparka personen för att jag inte har kick rättigheter.",
         "no-verify": "❌Användaren verifierade inte sig själv."
     },
-    "autoban": {
-        "alreadyenabled": "❌Auto ban är redan aktiverat i denna server.",
-        "enabled": "✅Auto bans är nu **aktiverat** i denna server.",
-        "alreadydisabled": "❌Auto bans är redan avaktiverat i denna server",
-        "disabled": "✅Auto bans är nu **avaktiverat** i denna server.",
-        "no-args": "❌Var god skriv `true` eller `false` efter commandot."
-    },
     "userinfo": {
         "no-user": "❌Hittade ingen användare med det idt, Är du säker på att denna användare är med i en gemensam server?",
         "no-user2": "❌Hittade ingen användare med det idt.",
@@ -125,14 +103,6 @@
         "roles": "Roller",
         "none": "Inga"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Auto verification är redan aktiverat i denna server.",
-        "enabled": "✅Auto verification är nu **aktiverat** i denna server.",
-        "alreadydisabled": "❌Auto verification  är redan avaktiverat i denna server                                                       ",
-        "disabled": "✅Auto verification är nu **avaktiverat**i denna server.",
-        "no-args": "❌Var god skriv `true` eller `false` om du vill sätta på autokick. (Autokick kommer att sparka folk som inte svarar på verifikationen inom 10 minuter)",
-        "no-args2": "❌Var god skriv `true` eller `false` efter kommandot."
-    }, 
     "crosscheck": {
         "success": "Laddar... Jag kommer att dma dig en lista med blacklistade användare i din server inom 10 sekunder.",
         "blacklisted-in": "Blacklistade användare i {guild}:",

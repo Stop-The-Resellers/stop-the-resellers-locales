@@ -8,9 +8,8 @@
     "username": "Gebruikersnaam",
     "has-been": "Gebruiker staat op de zwarte lijst",
     "no-permission": "❌U heeft geen toestemming om deze command te gebruiken, u heeft **BEHEERDER** rechten nodig.",
-    "need-logs": "❌U moet logboeken hebben ingeschakeld om deze opdracht te gebruiken, schakel logboeken in door het volgende uit te voeren: `$setlogchannel [channel-id]`",
     "admin-comment": "Opmerking admin",
-    "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Verbannen door STR",
@@ -24,13 +23,7 @@
         "newaccount": "Nieuw account gedetecteerd!",
         "newacckick": "Dit account is pas **{days} dag(en)** oud. De gebruiker is gekickt.",
         "newacclog": "Gebruiker is lid geworden met een nieuw account gemaakt op {created} en deze server vereist een accountleeftijd van minimaal {mindays} dag(en).",
-        "newacc": "Dit account is pas {days} dag(en) oud.",
-        "alreadyenabled": "❌Je hebt al Alt Protectie ingeschakeld, momenteel ingesteld op een minimale accountleeftijd van **{days}** dag(en).",
-        "alreadydisabled": "❌Alt Protectie is al uitgeschakeld",
-        "disabled": "✅Alt Protectie succesvol uitgeschakeld",
-        "enabled": "✅**Alt Protectie** is succesvol ingeschakeld met een minimale accountleeftijd van **{args}** dag(en)",
-        "minimum-age": "❌Voer de minimale accountleeftijd in die op uw server wordt geaccepteerd.",
-        "no-args": "❌Typ `true` of `false` na de command."
+        "newacc": "Dit account is pas {days} dag(en) oud."
     },
     "checking": {
         "nouser": "❌Kan die gebruiker niet vinden. Gelieve @ een geldige gebruiker of controleer op zijn id."
@@ -41,10 +34,7 @@
         "notblacklisted": "GEBRUIKER STAAT NIET OP DE ZWARTE LIJST"
     },
     "report": {
-        "report": "Melding",
-        "thanks": "✅Bedankt voor het insturen van de melding! Rapport-ID: {uuid}",
-        "no-proof": "❌Gelieve bewijs in te leveren. (URL met afbeelding, vb: gyazo)",
-        "no-reason": "❌Gelieve het bewijs en de reden van de melding in te dienen."
+       
     },
     "fetch": {
         "failed": "BAN MISLUKT",
@@ -88,11 +78,6 @@
         "support-server": "Support server"
     },
     "logs": {
-        "updated": "✅Logkanaal geüpdatet, logs worden nu weergegeven in <#{channel}>",
-        "added": "✅Log-kanaal succesvol ingesteld, logs worden nu weergegeven in <#{channel}>",
-        "same-channel": "❌Er worden al logboeken verzonden in <#{logchannel}>",
-        "not-correctly": "❌U heeft het kanaal niet correct opgegeven. Zorg ervoor dat u de id van het kanaal meestuurt. Bijv: **$setlogchannel 702876668422782988**",
-        "removed": "✅Logboeken verwijderd uit <#{havelogs}>",
         "no-logs": "❌Je hebt geen logs ingeschakeld in deze guild."
     },
     "verification": {
@@ -108,13 +93,6 @@
         "no-kick-permission": "❌Gebruiker is niet geverifieerd en ik **kan niet** kicken vanwege geen kick-toestemming.",
         "no-verify": "❌Gebruiker heeft zich niet geverifieerd."
     },
-    "autoban": {
-        "alreadyenabled": "❌Automatische bans zijn al ingeschakeld op deze server.",
-        "enabled": "✅Automatische bans zijn nu **ingeschakeld** in deze gilde.",
-        "alreadydisabled": "❌Automatische bans zijn al uitgeschakeld op deze server.",
-        "disabled": "✅Automatische bans zijn nu **uitgeschakeld** in deze gilde.",
-        "no-args": "❌Typ `true` of `false` na het commando."
-    },
     "userinfo": {
         "no-user": "❌Geen gebruiker gevonden met die id. Weet u zeker dat de gebruiker zich op deze server bevindt?",
         "no-user2": "❌Kon geen gebruiker met die id vinden.",
@@ -125,14 +103,6 @@
         "roles": "Rollen",
         "none": "Geen"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Automatische verificatie is al ingeschakeld op deze server.",
-        "enabled": "✅Automatische verificatie is nu **ingeschakeld** in deze gilde.",
-        "alreadydisabled": "❌Automatische verificatie is al uitgeschakeld op deze server.",
-        "disabled": "✅Automatische verificatie is nu **uitgeschakeld** in deze gilde.",
-        "no-args": "❌Typ `true` of `false` als je autokick wilt inschakelen. (Autokick kickt gebruikers die niet verifiëren)",
-        "no-args2": "❌Typ `true` of `false` na het commando."
-    }, 
     "crosscheck": {
         "success": "✅Bezig met laden... Ik stuur je binnen 10 seconden een dm met een lijst van gebruikers op de zwarte lijst op je server.",
         "blacklisted-in": "Gebruikers op de zwarte lijst in {guild}:",
