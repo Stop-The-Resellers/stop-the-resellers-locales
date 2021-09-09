@@ -78,6 +78,7 @@
         "support-server": "Support server"
     },
     "logs": {
+        "removed": "✅Tog bort logs från <#{havelogs}>",
         "no-logs": "❌Du har inte logs aktiverat i denna server."
     },
     "verification": {

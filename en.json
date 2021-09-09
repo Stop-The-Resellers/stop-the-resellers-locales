@@ -87,6 +87,7 @@
         "support-server": "Support server"
     },
     "logs": {
+        "removed": "✅Successfully removed logs from <#{havelogs}>",
         "no-logs": "❌You don't have logs enabled in this guild."
     },
     "verification": {

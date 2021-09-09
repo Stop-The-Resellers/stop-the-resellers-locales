@@ -78,6 +78,7 @@
         "support-server": "Support server"
     },
     "logs": {
+        "removed": "✅Logboeken verwijderd uit <#{havelogs}>",
         "no-logs": "❌Je hebt geen logs ingeschakeld in deze guild."
     },
     "verification": {

@@ -78,6 +78,7 @@
         "support-server": "Serveur de support"
     },
     "logs": {
+        "removed": "✅Logs supprimés avec succès <#{havelogs}>",
         "no-logs": "❌Les logs ne sont pas activé dans cette guilde."
     },
     "verification": {

@@ -78,6 +78,7 @@
         "support-server": "Offizieller Discord Server"
     },
     "logs": {
+        "removed": "✅Der Bot-Verlauf wird nun nicht mehr in disem Kanal angezeigt <#{havelogs}>",
         "no-logs": "❌Sie haben für diesen Server keinen Bot-Verlauf aktiviert."
     },
     "verification": {

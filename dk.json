@@ -83,6 +83,7 @@
         "support-server": "Support server"
     },
     "logs": {
+        "removed": "✅Fjernet logs fra <#{havelogs}>",
         "no-logs": "❌Du har ikke log aktiveret i denne guild."
     },
     "verification": {

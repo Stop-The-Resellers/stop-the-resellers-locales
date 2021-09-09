@@ -78,6 +78,7 @@
         "support-server": "Podpořit server"
     },
     "logs": {
+        "removed": "✅Successfully removed logs from <#{havelogs}>",
         "no-logs": "❌Nemáš žádné logy na tomto serveru."
     },
     "verification": {

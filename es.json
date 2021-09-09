@@ -78,6 +78,7 @@
         "support-server": "Apoya al servidor"
     },
     "logs": {
+        "removed": ":white_check_mark:Se han removido logs de <#{havelogs}> exitosamente",
         "no-logs": ":x:No tienes logs activados en este discord."
     },
     "verification": {
