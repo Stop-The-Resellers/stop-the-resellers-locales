@@ -1,181 +1,180 @@
 {
-    "no-admin": "❌You're not an admin",
-    "no-argsuser": "❌Didn't provide any user",
-    "no-args": "❌Didn't provide anything to say",
-    "reason": "Reason:",
-    "date": "Date",
-    "user-id": "User ID",
-    "username": "Username",
-    "has-been": "User was blacklisted",
-    "no-permission": "❌You don't have permission to use this command, you need **ADMINISTRATOR** rights.",
-    "admin-comment": "Admin Comment",
-    "settings": "Please head to our web-dashboard to change your settings: **https://stoptheresellers.com/dashboard/",
+	"no-admin": "❌You're not an admin",
+	"no-argsuser": "❌Didn't provide any user",
+	"no-args": "❌Didn't provide anything to say",
+	"reason": "Reason:",
+	"date": "Date",
+	"user-id": "User ID",
+	"username": "Username",
+	"has-been": "User was blacklisted",
+	"no-permission": "❌You don't have permission to use this command, you need **ADMINISTRATOR** rights.",
+	"admin-comment": "Admin Comment",
+	"settings": "Please head to our web-dashboard to change your settings: **https://stoptheresellers.com/dashboard/",
 
-    "bans": {
-        "bannedbystr": "Banned by STR",
-        "userbanned": "USER BANNED",
-        "joinedblacklisted": "User joined the server & is blacklisted"
-    },
-    "other": {
-        "joinedserver": "Joined server",
-        "supportserver": "Join the support server.",
-        "invite": "Invite the bot here"
-    },
-    "alt": {
-        "newaccount": "New account detected!",
-        "newacckick": "This account is only **{days} day(s)** old. This user got kicked.",
-        "newacclog": "User joined with a new account created at {created} and this server requires a minimum of {mindays} day(s) account age.",
-        "newacc": "This account is only {days} day(s) old."
-    },
-    "checking": {
-        "nouser": "❌Can't find that user. Please @ a valid user or check by his id."
-    },
-    "blacklist": {
-        "isblacklisted": "USER IS BLACKLISTED",
-        "by": "Blacklisted by:",
-        "notblacklisted": "USER IS NOT BLACKLISTED"
-    },
-    "report": {
-        "dashboardonly": "Reports can be sent from the web dashboard: {url}",
-        "success": "✅Thanks for reporting, the report will be reviewed soon.",
-        "nourl": "❌Didn't provide any URL to report"
-    },
-    "fetch": {
-        "failed": "BAN FAILED",
-        "could-not-ban": "Could not ban:",
-        "server": "Server:",
-        "serverowner": "Server Owner:",
-        "is-admin": "This person is a admin",
-        "banned": "USER BANNED",
-        "role-above": "This person is a admin / have a role above me",
-        "banned-in": "Banned in",
-        "no-permission": "I don't have permission to ban people"
-    },
-    "help": {
-        "checkuser": "Checks if a user is blacklisted",
-        "fetch": "Fetches your discord and checking if you have any blacklisted people inthere **[BOT ADMINS ONLY]**",
-        "botinfo": "Returns info about the bot",
-        "userinfo": "Shows info about the mentioned users discord account.",
-        "languages": "Shows a list with all the current supported languages",
-        "allow": "Allows a blacklisted user to bypass autoban and join your server.",
-        "allowalt": "Allows a user with a new account to bypass alt identification and join your server.",
-        "id": "Provides basic information about the user as name and profile picture.",
-        "viewreport": "View your own report.",
-        "crosscheck": "Searches through your server and gives you a list of each blacklisted user with their blacklist reason.",
-        "invite": "Sends a invite link for the bot.",
-        "supportserver": "Sends a invite to the support server.",
-        "vote": "Sends a link where you can vote for the bot.",
-        "dailyblacklists": "Returns the amount of blacklists done in the past 24 hours.",
-        "leaderboard": "Shows the users with most accepted reports",
-        "report": "Returns the website reports should be sent on",
-        "staffs": "Shows a list of STR admins",
-        "deletelogs": "Removes the log channel",
-        "reportbug": "Report a bug",
-        "reportscamurl": "Report a scam url to be blacklisted"
-    },
-    "botinfo": {
-        "bot-name": "Bot Name",
-        "bot-owner": "Bot Owner",
-        "servers": "Servers",
-        "users": "Users",
-        "uptime": "Uptime",
-        "ping": "Ping",
-        "bot-library": "Bot Library",
-        "created-on": "Created On",
-        "blacklisted-users": "Blacklisted users",
-        "website": "Website",
-        "support-server": "Support server"
-    },
-    "logs": {
-        "removed": "✅Successfully removed logs from <#{havelogs}>",
-        "no-logs": "❌You don't have logs enabled in this guild."
-    },
-    "verification": {
-        "verify-started": "Verification Started",
-        "joined-server": "Joined server",
-        "inleaking": "⚠️ <@{args}> Successfully verified and **is in the following leaking servers**",
-        "noleaking": "✅ <@{args}> Successfully verified and is not in any leaking servers.",
-        "forceverify": "{author} from {guild.name} wants you to verify yourself. Do it with this link http://stoptheresellers.xyz/auth/verify",
-        "autoverify": "Welcome to {guild.name}. In order to stay in the server you need to verify yourself with this link http://stoptheresellers.xyz/auth/verify.",
-        "kick-msg": "User did not verify the force verification made by {author}",
-        "user-kicked": "❌User kicked",
-        "reason": "Did not verify.",
-        "no-kick-permission": "❌User did not verify and i **can't** kick because of no kick permission.",
-        "no-verify": "❌User did not verify."
-    },
-    "userinfo": {
-        "no-user": "❌Did not find a user with that id. Are you sure that the user is in this server?",
-        "no-user2": "❌Could not find a user with that id.",
-        "joined": "Joined The Server On",
-        "created": "Account Created On:",
-        "avatar-url": "Avatar URL",
-        "blacklisted": "Blacklisted",
-        "roles": "Roles",
-        "none": "None"
-    },
-    "crosscheck": {
-        "success": "✅Loading... I will dm you with a list of blacklisted users in your server in 10 seconds.",
-        "blacklisted-in": "Blacklisted users in {guild}:",
-        "error": "❌Something went wrong, could not send the list.",
-        "no-dm": "❌I can't dm you, do you have your dms set to friends only?",
-        "cooldown": "❌You can only use this command once per 24 hours.",
-        "none-found": "No blacklisted users found while crosschecking"
-    },
-    "languages": {
-        "all": "All available languages",
-        "contribute": "Do you want to contribute and add more languages? Do it here"
-    },
-    "staffs": {
-        "intro": "All Bot Staffs."
-    },
-    "serverinfo": {
-        "title": "Serverinfo",
-        "description": "{name}'s information",
-        "owner": "Owner",
-        "members": "Membercount",
-        "created-at": "Created at",
-        "channel-count": "Channel count",
-        "region": "Server Region"
-    },
-    "vote": {
-        "title": "Please vote for our bot here."
-    },
-    "dailyblacklists": {
-        "user": "Total blacklists today ({date}) by {user}: **{total}**",
-        "none": "Total blacklists today ({date}): **{total}**"
-    },
-    "allowed": {
-        "userallowed": "Allowed Blacklisted user",
-        "userallowed2": "{user} Allowed a blacklisted user to be in the server",
-        "success": "Successfully toggled allow status for {user}",
-        "error": "The user you are trying to allow is not blacklisted"
-    },
-    "viewreport": {
-        "no-args": "Didn't provide any report to view",
-        "reportedby": "Reported By",
-        "reportstatus": "Report Status",
-        "notreviewed": "Not Reviewed",
-        "denied": "Denied",
-        "accepted": "Accepted",
-        "noreport": "❌There's no report with the ID {id}"
-    },
-    "id": {
-        "error": "Couldn't load info...",
-        "info": "Info",
-        "no-args": "Please provide a id."
-    },
-    "allowalt": {
-        "no-args": "❌Please submit a user id / mention someone.",
-        "success": "Successfully allowed alt account <@{userid}> to be in the server."
-    },
-    "urlblacklisted": {
-        "ban-message": "Sending blacklisted URL containing word: {word}",
-        "log-msg": "User posted a blacklisted URL containing the word: **{word}**\n\n**Full message:** *{msg}*",
-        "detected": "Blacklisted URL Detected"
-    },
-    "autorole": {
-        "role-above": "The desired role is above mine, move my role above the role you want them to have",
-        "success": "User is blacklisted and was given the blacklisted role",
-    }
+	"bans": {
+		"bannedbystr": "Banned by STR",
+		"userbanned": "USER BANNED",
+		"joinedblacklisted": "User joined the server & is blacklisted"
+	},
+	"other": {
+		"joinedserver": "Joined server",
+		"supportserver": "Join the support server.",
+		"invite": "Invite the bot here"
+	},
+	"alt": {
+		"newaccount": "New account detected!",
+		"newacckick": "This account is only **{days} day(s)** old. This user got kicked.",
+		"newacclog": "User joined with a new account created at {created} and this server requires a minimum of {mindays} day(s) account age.",
+		"newacc": "This account is only {days} day(s) old."
+	},
+	"checking": {
+		"nouser": "❌Can't find that user. Please @ a valid user or check by his id."
+	},
+	"blacklist": {
+		"isblacklisted": "USER IS BLACKLISTED",
+		"by": "Blacklisted by:",
+		"notblacklisted": "USER IS NOT BLACKLISTED"
+	},
+	"report": {
+		"dashboardonly": "Reports can be sent from the web dashboard: {url}",
+		"success": "✅Thanks for reporting, the report will be reviewed soon.",
+		"nourl": "❌Didn't provide any URL to report"
+	},
+	"fetch": {
+		"failed": "BAN FAILED",
+		"could-not-ban": "Could not ban:",
+		"server": "Server:",
+		"serverowner": "Server Owner:",
+		"is-admin": "This person is a admin",
+		"banned": "USER BANNED",
+		"role-above": "This person is a admin / have a role above me",
+		"banned-in": "Banned in",
+		"no-permission": "I don't have permission to ban people"
+	},
+	"help": {
+		"checkuser": "Checks if a user is blacklisted",
+		"fetch": "Fetches your discord and checking if you have any blacklisted people inthere **[BOT ADMINS ONLY]**",
+		"botinfo": "Returns info about the bot",
+		"userinfo": "Shows info about the mentioned users discord account.",
+		"languages": "Shows a list with all the current supported languages",
+		"allow": "Allows a blacklisted user to bypass autoban and join your server.",
+		"allowalt": "Allows a user with a new account to bypass alt identification and join your server.",
+		"id": "Provides basic information about the user as name and profile picture.",
+		"viewreport": "View your own report.",
+		"crosscheck": "Searches through your server and gives you a list of each blacklisted user with their blacklist reason.",
+		"invite": "Sends a invite link for the bot.",
+		"supportserver": "Sends a invite to the support server.",
+		"vote": "Sends a link where you can vote for the bot.",
+		"dailyblacklists": "Returns the amount of blacklists done in the past 24 hours.",
+		"leaderboard": "Shows the users with most accepted reports",
+		"report": "Returns the website reports should be sent on",
+		"staffs": "Shows a list of STR admins",
+		"deletelogs": "Removes the log channel",
+		"reportbug": "Report a bug",
+		"reportscamurl": "Report a scam url to be blacklisted"
+	},
+	"botinfo": {
+		"bot-name": "Bot Name",
+		"bot-owner": "Bot Owner",
+		"servers": "Servers",
+		"users": "Users",
+		"uptime": "Uptime",
+		"ping": "Ping",
+		"bot-library": "Bot Library",
+		"created-on": "Created On",
+		"blacklisted-users": "Blacklisted users",
+		"website": "Website",
+		"support-server": "Support server"
+	},
+	"logs": {
+		"removed": "✅Successfully removed logs from <#{havelogs}>",
+		"no-logs": "❌You don't have logs enabled in this guild."
+	},
+	"verification": {
+		"verify-started": "Verification Started",
+		"joined-server": "Joined server",
+		"inleaking": "⚠️ <@{args}> Successfully verified and **is in the following leaking servers**",
+		"noleaking": "✅ <@{args}> Successfully verified and is not in any leaking servers.",
+		"forceverify": "{author} from {guild.name} wants you to verify yourself. Do it with this link http://stoptheresellers.xyz/auth/verify",
+		"autoverify": "Welcome to {guild.name}. In order to stay in the server you need to verify yourself with this link http://stoptheresellers.xyz/auth/verify.",
+		"kick-msg": "User did not verify the force verification made by {author}",
+		"user-kicked": "❌User kicked",
+		"reason": "Did not verify.",
+		"no-kick-permission": "❌User did not verify and i **can't** kick because of no kick permission.",
+		"no-verify": "❌User did not verify."
+	},
+	"userinfo": {
+		"no-user": "❌Did not find a user with that id. Are you sure that the user is in this server?",
+		"no-user2": "❌Could not find a user with that id.",
+		"joined": "Joined The Server On",
+		"created": "Account Created On:",
+		"avatar-url": "Avatar URL",
+		"blacklisted": "Blacklisted",
+		"roles": "Roles",
+		"none": "None"
+	},
+	"crosscheck": {
+		"success": "✅Loading... I will dm you with a list of blacklisted users in your server in 10 seconds.",
+		"blacklisted-in": "Blacklisted users in {guild}:",
+		"error": "❌Something went wrong, could not send the list.",
+		"no-dm": "❌I can't dm you, do you have your dms set to friends only?",
+		"cooldown": "❌You can only use this command once per 24 hours.",
+		"none-found": "No blacklisted users found while crosschecking"
+	},
+	"languages": {
+		"all": "All available languages",
+		"contribute": "Do you want to contribute and add more languages? Do it here"
+	},
+	"staffs": {
+		"intro": "All Bot Staffs."
+	},
+	"serverinfo": {
+		"title": "Serverinfo",
+		"description": "{name}'s information",
+		"owner": "Owner",
+		"members": "Membercount",
+		"created-at": "Created at",
+		"channel-count": "Channel count",
+		"region": "Server Region"
+	},
+	"vote": {
+		"title": "Please vote for our bot here."
+	},
+	"dailyblacklists": {
+		"user": "Total blacklists today ({date}) by {user}: **{total}**",
+		"none": "Total blacklists today ({date}): **{total}**"
+	},
+	"allowed": {
+		"userallowed": "Allowed Blacklisted user",
+		"userallowed2": "{user} Allowed a blacklisted user to be in the server",
+		"success": "Successfully toggled allow status for {user}",
+		"error": "The user you are trying to allow is not blacklisted"
+	},
+	"viewreport": {
+		"no-args": "Didn't provide any report to view",
+		"reportedby": "Reported By",
+		"reportstatus": "Report Status",
+		"notreviewed": "Not Reviewed",
+		"denied": "Denied",
+		"accepted": "Accepted",
+		"noreport": "❌There's no report with the ID {id}"
+	},
+	"id": {
+		"error": "Couldn't load info...",
+		"info": "Info",
+		"no-args": "Please provide a id."
+	},
+	"allowalt": {
+		"no-args": "❌Please submit a user id / mention someone.",
+		"success": "Successfully allowed alt account <@{userid}> to be in the server."
+	},
+	"urlblacklisted": {
+		"ban-message": "Sending blacklisted URL containing word: {word}",
+		"log-msg": "User posted a blacklisted URL containing the word: **{word}**\n\n**Full message:** *{msg}*",
+		"detected": "Blacklisted URL Detected"
+	},
+	"autorole": {
+		"role-above": "The desired role is above mine, move my role above the role you want them to have",
+		"success": "User is blacklisted and was given the blacklisted role"
+	}
 }
-
