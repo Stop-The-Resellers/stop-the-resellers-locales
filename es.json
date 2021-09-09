@@ -8,7 +8,6 @@
     "username": "Nombre de usuario",
     "has-been": "Usuario ha sido blacklisted",
     "no-permission": ":x:No tienes permisos para usar este comando, necesitas permisos de ADMINISTRADOR.",
-    "need-logs": ":x:Necesitas logs para este comando, activalos con el siguiente comando $setlogchannel [channel-id]",
     "admin-comment": "Comentario de Admin",
     "settings": "Porfavor entrar a nuestro sitio web para modificar tu configuracion: https://stoptheresellers.com/dashboard",
 
@@ -26,7 +25,7 @@
         "newacclog": "Usuario con una nueva cuenta creada en {created} y este server requiere un minimo de {mindays} dia(s) de tiempo de haberse creado la cuenta.",
         "newacc": "Esta cuenta es solo {days} dia(s) de edad."
     },
-"checking": {
+    "checking": {
         "nouser": ":x: No se ha encontrado a ese usuario . Porfavor ingrese un @ valido o revise la ID del usuario."
     },
     "blacklist": {
@@ -112,8 +111,6 @@
         "cooldown": ":x:Solamente puedes usar este comando una vez cada 24 horas."
     },
     "languages": {
-        "error": ":x:Por favor de los lenguajes disponibles, use $languages para ver todos los lenguajes disponibles.",
-        "success": ":white_check_mark:Se ha cambiado el lenguaje del servidor {args}",
         "all": "Todos los lenguajes",
         "contribute": "Quieres contribuir y agregar mas lenguajes? Hazlo aqui!"
     },

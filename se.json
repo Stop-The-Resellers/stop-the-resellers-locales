@@ -23,7 +23,7 @@
         "newaccount": "Nytt konto hittat",
         "newacckick": "Detta konto är endast **{days} dagar** gammal. Denna användare blev sparkad.",
         "newacclog": "Användare gick med i ett nytt konto skapad: {created} och denna server kräver minst {mindays} dagar.",
-        "newacc": "Detta konto är endast {days} dagar gammalt.",
+        "newacc": "Detta konto är endast {days} dagar gammalt."
     },
     "checking": {
         "nouser": "❌Kunde inte hitta den användaren, var god @ användaren eller sök upp med användarens id."
@@ -111,8 +111,6 @@
         "cooldown": "❌Du kan endast använda detta kommando varje 24 timmar."
     },
     "languages": {
-        "error": "❌Var god välj mellan dom tillgängliga språken, använd $languages för att se alla tillgängliga språk.",
-        "success": "✅Satte server språket till **{args}**",
         "all": "Alla tillgängliga språk",
         "contribute": "Vill du hjälpa till att lägga till fler språk? Gör det här"
     },

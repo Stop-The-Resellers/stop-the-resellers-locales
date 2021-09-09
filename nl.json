@@ -111,8 +111,6 @@
         "cooldown": "❌U kunt deze opdracht slechts eenmaal per 24 uur gebruiken."
     },
     "languages": {
-        "error": "❌Kies uit de beschikbare talen, gebruik $languages om alle ondersteunde talen te zien.",
-        "success": "✅Stel de gildetaal in op **{args}**",
         "all": "Alle beschikbare talen",
         "contribute": "Wil je bijdragen en meer talen toevoegen? Doe het hier"
     },
