@@ -3,13 +3,13 @@
     "no-argsuser": "❌Du har ikke valgt en bruger",
     "no-args": "❌ Intet input angivet",
     "reason": "Grundlag:",
-    "date": "Dato",
-    "user-id": "Bruger ID",
-    "username": "Brugernavn",
+    "date": "Dato:",
+    "user-id": "Bruger ID:",
+    "username": "Brugernavn:",
     "no-permission": "❌Du har ikke adgang til at bruge denne kommando, du skal bruge **ADMINISTRATOR** rettigheder.",
     "has-been": "Brugeren har været blacklisted",
-    "admin-comment": "Kommentar fra admin",
-    "settings": "Gå over til vores hjemmeside for at ændre dine indstillinger: **https://stoptheresellers.com/dashboard**",
+    "admin-comment": "Kommentar fra admin:",
+    "settings": "Henvend dig til vores hjemmeside for at ændre dine indstillinger: **https://stoptheresellers.com/dashboard**",
     
     "bans": {
         "bannedbystr": "Banned af STR",
@@ -17,7 +17,9 @@
         "joinedblacklisted": "Bruger tilsluttede serveren & er blacklisted"
     },
     "other": {
-        "joinedserver": "Tilsluttede serveren"
+        "joinedserver": "Tilsluttede serveren",
+        "supportserver": "Join support serveren.",
+        "invite": "Inviter botten her"
     },
     "alt": {
         "newaccount": "Ny konto opdaget!",
@@ -34,7 +36,9 @@
         "notblacklisted": "BRUGER ER IKKE BLACKLISTED"
     },
     "report": {
-       
+        "dashboardonly": "Rapporter kan blive sendt fra vores hjemmeside: {url}",
+        "nourl": "❌Skrev ikke et link at rapportere",
+        "success": "✅Tak for at rapportere, din rapport vil blive gennemgået snarest."
     },
     "fetch": {
         "failed": "BAN FEJLEDE",
@@ -48,8 +52,6 @@
         "no-permission": "JEG HAR IKKE ADGANG TIL AT BANNE PERSONER"
     },
     "help": {
-        "blacklist": "Tilføj en bruger til blacklisten **[KUN FOR BOT ADMINS]**",
-        "unblacklist": "Fjern en bruger fra blacklisten **[KUN FOR BOT ADMINS]**",
         "checkuser": "Tjek om en bruger har blacklist",
         "fetch": "Henter din discord og checker om der er blacklistede brugere derinde **[KUN FOR BOT ADMINS]**",
         "botinfo": "Giver info omkring botten.",
@@ -66,6 +68,8 @@
         "dailyblacklists": "Giver mængden af blacklists uddelt i de sidste 24 timer.",
         "leaderboard": "Viser de brugere med fleste accepteret rapporter",
         "report": "Viser hjemmesiden rapporter sendes på",
+        "reportbug": "Rapporter en fejl.",
+        "reportscamurl": "Rapporter et scam link, til at blive blacklisted.",
         "staffs": "Viser en liste over STR admins",
         "deletelogs": "Fjerner log kanalen"
     },
@@ -104,16 +108,17 @@
         "no-user2": "❌Kunne ikke finde en bruger med det ID.",
         "joined": "Tilsluttede serveren den:",
         "created": "Konto oprettet den:",
-        "avatar-url": "Avatar URL",
+        "avatar-url": "Avatar link",
         "blacklisted": "Blacklisted",
         "roles": "Roller",
         "none": "Ingen"
     },
     "crosscheck": {
-        "success": "✅Loader... Jeg sender dig en dm med blacklistede brugere fra din server om 10 sekunder.",
+        "success": "✅Loader... Jeg sender dig en dm med blacklistede brugere på din server om 10 sekunder.",
         "blacklisted-in": "Blacklistede brugere i {guild}:",
         "error": "❌Noget gik galt, kan ikke sende dig listen.",
-        "no-dm": "❌Jeg kan ikke dm dig, har du dms sat kun til venner??",
+        "no-dm": "❌Jeg kan ikke dm dig, har du dms sat kun til venner?",
+        "none-found": "Ingen blacklistede bruger fundet.",
         "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24 timer."
     },
     "languages": {
@@ -167,5 +172,15 @@
         "ban-message": "Sender et blacklisted URL der indeholder følgende ord: {word}",
         "log-msg": "Bruger skrev et blacklisted URl der indeholder følgende ord: **{word}**\n\n**Fulde besked:** *{msg}*",
         "detected": "Blacklisted URL Opdaget"
-    }
+    },
+    "autorole": {
+		"role-above": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
+		"success": "Brugeren er blacklisted og fik blacklisted rollen.",
+        "given": "Rolle givet",
+        "failed-give": "Kunne ikke give rollen.",
+        "removed": "Rolle fjernet.",
+        "failed-removed": "Kunne ikke fjerne rollen.",
+        "role-above-remove": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
+        "success-remove": "Brugeren er ikke længere blacklisted og blacklisted rollen blev fjernet."
+	}
 }
