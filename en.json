@@ -181,6 +181,6 @@
         "removed": "Role Removed",
         "failed-removed": "Failed to remove role",
         "role-above-remove": "The desired role is above mine, move my role above the role you want me to remove.",
-        "success-remove": "User is no longer blacklisted and was the blacklist role was taken away."
+        "success-remove": "User is no longer blacklisted and the blacklist role was taken away."
 	}
 }
