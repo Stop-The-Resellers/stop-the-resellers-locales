@@ -17,13 +17,25 @@
         "joinedblacklisted": "Benutzer ist dem Server beigetreten und ist geblacklistet"
     },
     "other": {
-        "joinedserver": "ist dem Server beigetreten"
+        "joinedserver": "ist dem Server beigetreten",
+        "invite": "Lade den Bot hier ein.",
+        "supportserver": "Tritt dem Support Server bei."
     },
     "alt": {
         "newaccount": "Neuer Account wurde entdeckt!",
         "newacckick": "Dieser Account ist nur **{days} day(s)** alt. Der Benutzer wurde gekicked.",
         "newacclog": "Benutzer ist mit einem Account dem Server beigetreten, welcher am {created} erstellt wurde. Der Account muss mindestens {mindays} Tag(e) alt sein.",
         "newacc": "Dieser Account ist nur {days} Tag(e) alt."
+    },
+    "autorole": {
+        "failed-give": "Rollenvergabe fehlgeschlagen",
+        "failed-removed": "Entfernen der Rolle fehlgeschlagen",
+        "given": "Rolle vergeben",
+        "removed": "Rolle entfernt",
+        "role-above": "Die gewünschte Rolle liegt über deiner eigenen. Schiebe deine Rolle über die Rolle, die du versuchst, zu vergeben.",
+        "role-above-remove": "Die gewünschte Rolle liegt über deiner eigenen. Schiebe deine Rolle über die Rolle, die du versuchst, zu entfernen.",
+        "success": "Benutzer wurde auf die Blacklist gesetzt und hat die entsprechende Rolle bekommen",
+        "success-remove": "Benutzer steht nicht mehr auf der Blacklist und die entsprechende Rolle wurde entfernt"
     },
     "checking": {
         "nouser": "❌Dieser Benutzer konnte nicht gefunden werden, geben sie bitte eine gültige ID oder @ an."
@@ -34,7 +46,9 @@
         "notblacklisted": "Benutzer ist nicht geblacklisted"
     },
     "report": {
-
+        "dashboardonly": "Meldungen können vom Web-Dashboard gesendet werden: {url}",
+        "nourl": "❌Du hast keine URL bei deiner Meldung angegeben",
+        "success": "✅Danke für deine Meldung, es wird sich schnellstmöglich darum gekümmert."
     },
     "fetch": {
         "failed": "BAN FEHLGESCHLAGEN",
@@ -60,6 +74,13 @@
         "id": "Zeigt Informationen über den jeweiligen Benutzer an (Benutzername & Profilbild).",
         "viewreport": "Schaue deine eigene Meldung an.",
         "crosscheck": "Durchsucht deinen Server nach Benutzern welche auf der Blacklist stehen.",
+        "dailyblacklists": "Zeigt die Gesamtanzahl der geblacklisteten Benutzer der letzten 24 Stunden.",
+        "deletelogs": "Entfernt den Log-Channel",
+        "leaderboard": "Zeigt den Benutzer mit den am meisten akzeptierten Meldungen an",
+        "report": "Zeigt die Webseite aun, auf welcher Meldungen gesendet werden können.",
+        "reportbug": "Melde einen Bug",
+        "reportscamurl": "Meldet eine URL, die geblacklistet werden soll.",
+        "staffs": "Zeigt eine Liste der STR Admins",
         "invite": "Sendet einen Einladungs-Link für den Bot.",
         "supportserver": "Sendet einen Einladungs-Link für den offiziellen Stop The Resellers Discord.",
         "vote": "Sendet einen Link mit dem sie für den Bot abstimmen können."
@@ -109,6 +130,7 @@
         "blacklisted-in": "Geblacklistete Benutzer in {guild}:",
         "error": "❌Etwas ist schief gelaufen, ich konnte ihnen die Nachricht nicht schicken.",
         "no-dm": "❌Ich konnte ihnen keine Nachricht schreiben, überprüfen sie ob sie Nachrichten nur von Freunden erlauben aktiviert haben.",
+        "none-found": "Es wurden keine Benutzer auf der Blacklist beim Abgleich gefunden.",
         "cooldown": "❌Sie können diesen Befehl nur alle 24h benutzen."
     },
     "languages": {
