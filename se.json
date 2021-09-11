@@ -17,7 +17,9 @@
         "joinedblacklisted": "Användare gick med i servern och är blacklistad"
     },
     "other": {
-        "joinedserver": "Gick med i servern"
+        "joinedserver": "Gick med i servern",
+        "supportserver": "Gå med i support servern.",
+		"invite": "Lägg till botten här"
     },
     "alt": {
         "newaccount": "Nytt konto hittat",
@@ -34,7 +36,9 @@
         "notblacklisted": "Användaren är inte blacklistad"
     },
     "report": {
-        
+        "dashboardonly": "Reports kan endast skickas från web panelen: {url}",
+		"success": "✅Tack för din report, den kommer att tittas på snarast.",
+		"nourl": "❌Du angav ingen länk att rapportera."
     },
     "fetch": {
         "failed": "Ban misslyckades",
@@ -48,21 +52,26 @@
         "no-permission": "Jag har inte tillåtelse att banna folk."
     },
     "help": {
-        "blacklist": "Lägget till en användare i blacklist listan **[BOT ADMINS ONLY]**",
-        "unblacklist": "Tar bort en användare från blacklist listan **[BOT ADMINS ONLY]**",
         "checkuser": "Kollar om en användare är blacklistad",
         "fetch": "Söker efter blacklistade människor i din discord **[BOT ADMINS ONLY]**",
-        "viewreport": "Visar reporten med det idt **[BOT ADMINS ONLY]**",
         "botinfo": "Visar info om botten",
         "userinfo": "Visar info om en användare.",
         "languages": "Visar en list med alla supportade språk",
         "allow": "Tillåter en blacklistad användare att gå igenom autoban och gå med i din server.",
         "allowalt": "Tillåter en användare med ett nytt konto att gå igenom alt identificationen och gå med i din server.",
         "id": "Ger dig basic information om en användare, som profilbild & användarnamn.",
+        "viewreport": "Visar reporten med det idt **[BOT ADMINS ONLY]**",
         "crosscheck": "Söker igenom din server och ger dig en lista med alla blacklistade användare med deras blacklist anledning.",
         "invite": "Skickar en länk för att bjuda in våran bot..",
         "supportserver": "Skickar en inbjudningslänk till våran support server..",
-        "vote": "Skickar en länk där du kan rösta på vår bot."
+        "vote": "Skickar en länk där du kan rösta på vår bot.",
+		"dailyblacklists": "Visar hur många blacklists som gjorts dom senaste 24 timmarna.",
+		"leaderboard": "Visar användarna med mest accepterade reports",
+		"report": "Skickar en länk där du kan rapportera användare",
+		"staffs": "Alla STR admins",
+		"deletelogs": "Tar bort logg kanalen",
+		"reportbug": "Rapportera en bugg",
+		"reportscamurl": "Rapportera en scam länk"
     },
     "botinfo": {
         "bot-name": "Bot Namn",
@@ -109,7 +118,8 @@
         "blacklisted-in": "Blacklistade användare i {guild}:",
         "error": "❌Någonting gick snett, kunde inte skicka listan.",
         "no-dm": "❌Jag kan inte dma dig, har du dina dm på endast vänner?",
-        "cooldown": "❌Du kan endast använda detta kommando varje 24 timmar."
+        "cooldown": "❌Du kan endast använda detta kommando varje 24 timmar.",
+        "none-found": "Hittade inga blacklistade användare när jag crosscheckade"
     },
     "languages": {
         "all": "Alla tillgängliga språk",
@@ -162,6 +172,16 @@
         "ban-message": "Skickade blacklistad URL, inehåller ord:: {word}",
         "log-msg": "Användaren skickade en blacklistad URL som inehållde ordet: **{word}**\n\n**Hela meddelandet:** *{msg}*",
         "detected": "Blacklistad URL upptäckt."
-    }
+    },
+    "autorole": {
+		"role-above": "Rollen jag försöker ge är över min roll, flytta min roll högre upp än den du vill att jag ska ge",
+		"success": "Användaren är blacklistad och fick blacklist rollen",
+        "given": "Roll Given",
+        "failed-give": "Kunde inte ge roll",
+        "removed": "Role Borttagen",
+        "failed-removed": "Kunde inte ta bort rollen",
+        "role-above-remove": "ollen jag försöker ge är över min roll, flytta min roll högre upp än den du vill att jag ska ta bort.",
+        "success-remove": "Användaren är inte längre blacklistad och blacklist rollen har blivit borttagenm."
+	}
 }
 
