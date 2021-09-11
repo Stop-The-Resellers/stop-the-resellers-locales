@@ -17,7 +17,9 @@
         "joinedblacklisted": "Uživatel, který je na blacklistu se napojil na server"
     },
     "other": {
-        "joinedserver": "Se připojil na server"
+        "invite": "Pozvěte robota zde",
+        "joinedserver": "Připojil se",
+        "supportserver": "Připojte se na STR."
     },
     "alt": {
         "newaccount": "Byl zjištěn nový účet!",
@@ -34,7 +36,9 @@
         "notblacklisted": "UŽIVATEL NENÍ NA BLACKLISTU"
     },
     "report": {
-
+        "dashboardonly": "Reporty se mohou zasílat skrz: {url}",
+        "success": ":white_check_mark:Děkujeme za report.",
+        "nourl": ":x:Neposkytli jste žádnou adresu URL v reportu"
     },
     "fetch": {
         "failed": "BAN SE NEZDAŘIL",
@@ -48,8 +52,6 @@
         "no-permission": "NEMÁM DOSTATEČNÉ PRÁVA PRO ZABANOVÁNÍ UŽIVATELE"
     },
     "help": {
-        "blacklist": "Přidá uživatele na blacklist **[Jen pro BOT Administrátory]**",
-        "unblacklist": "Odebere uživatele z blacklistu **[Jen pro BOT Administrátory]**",
         "checkuser": "Zjistí, jestli je uživatel na blacklistu",
         "fetch": "Zjistí informace o tvém serveru, jestli jsou nějací uživatelé na black listu **[Jen pro BOT Administrátory]**",
         "botinfo": "Vypíše info o botovi",
@@ -62,7 +64,14 @@
         "crosscheck": "Prohledá server a do SZ pošle seznam uživatelů na blacklistu s důvody jejich blacklistu.",
         "invite": "Pošle invite link od bota.",
         "supportserver": "Pošle invite link na support server.",
-        "vote": "Pošle link, kde můžete hlasovat pro bota."
+        "vote": "Pošle link, kde můžete hlasovat pro bota.",
+        "dailyblacklists": "Napíše počet nových blacklistů za posledních 24 hodin",
+        "leaderboard": "Ukáže žebříček uživatelů s nejvíce přijatými reporty",
+        "report": "Zašle odkaz pro zaslání reportu",
+        "staffs": "Napíše list adminů STR",
+        "deletelogs": "Odstraní logování",
+        "reportbug": "Nahlásit chybu",
+        "reportscamurl": "Nahlásit podvodnou URL adresu"
     },
     "botinfo": {
         "bot-name": "Jméno bota",
@@ -109,7 +118,8 @@
         "blacklisted-in": "Uživatelé na blacklistu v  {guild}:",
         "error": "❌Něco se pokazilo, nezdařilo se mi zaslat PM.",
         "no-dm": "❌Nemohu ti poslat soukromou zprávu, ujisti se, že nemáš zapnuté soukromé zprávy jen pro své kamarády.",
-        "cooldown": "❌Tento příkaz můžeš použít jen jednou za 24h."
+        "cooldown": "❌Tento příkaz můžeš použít jen jednou za 24h.",
+        "none-found": "Nebyli nalezeni žádní uživatele na blacklistu"
     },
     "languages": {
         "all": "Všechny dostupné jazyky",
@@ -162,6 +172,16 @@
         "ban-message": "Posílání zakázané URL: {word}",
         "log-msg": "Uživatel poslal zprávu, která obsahovala zakázanou URL adresu: **{word}**\n\n**Celá zpráva:** *{msg}*",
         "detected": "Detekována zakázaná URL adresa"
+    },
+    "autorole": {
+        "failed-give": "Nepodařilo se dát roli",
+        "failed-removed": "Nepodařilo se odstranit roli",
+        "given": "Role dána",
+        "removed": "Role odstraněna",
+        "role-above": "Požadovaná role je nad mou rolí.",
+        "role-above-remove": "Požadovaná role je nad mou rolí.",
+        "success": "Uživatel je na blacklistu, byla mu přidělena blacklisted role",
+        "success-remove": "Uživatel již není na blacklistu, blacklisted role byla odebrána"
     }
 }
 
