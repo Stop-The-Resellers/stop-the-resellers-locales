@@ -17,7 +17,9 @@
         "joinedblacklisted": "Gebruiker is lid geworden van de server en staat op de zwarte lijst"
     },
     "other": {
-        "joinedserver": "Aangesloten server"
+        "joinedserver": "Aangesloten server",
+        "supportserver": "Join de support server",
+		    "invite": "Nodig de bot hier uit"
     },
     "alt": {
         "newaccount": "Nieuw account gedetecteerd!",
@@ -34,7 +36,9 @@
         "notblacklisted": "GEBRUIKER STAAT NIET OP DE ZWARTE LIJST"
     },
     "report": {
-       
+        "dashboardonly": "Reports kunnen via het web dashboard verstuurd worden: {url}",
+		    "success": "✅Bedankt voor je report, deze zal spoedig worden gecontroleerd.",
+		    "nourl": "❌Geen URL opgegeven om te rapporteren"
     },
     "fetch": {
         "failed": "BAN MISLUKT",
@@ -48,8 +52,6 @@
         "no-permission": "IK HEB GEEN RECHTEN OM TE BANNEN"
     },
     "help": {
-        "blacklist": "Voegt een gebruiker toe aan de zwarte lijst **[ALLEEN BOT ADMINS]**",
-        "unblacklist": "Verwijdert een gebruiker van de zwarte lijst **[ALLEEN BOT ADMINS]**",
         "checkuser": "Controleer of een gebruiker op de zwarte lijst staat",
         "fetch": "Haalt je discord op en controleert of er mensen op de zwarte lijst staan **[ALLEEN BOT ADMINS]**",
         "botinfo": "Antwoord met informatie over de bot",
@@ -62,7 +64,14 @@
         "crosscheck": "Zoekt door je server en geeft je een lijst van elke gebruiker op de zwarte lijst met hun reden voor de zwarte lijst.",
         "invite": "Stuurt een uitnodigingslink voor de bot.",
         "supportserver": "Stuurt een uitnodiging naar de ondersteuningsserver.",
-        "vote": "Stuurt een link waar je op de bot kunt stemmen."
+        "vote": "Stuurt een link waar je op de bot kunt stemmen.",
+        "dailyblacklists": "Geeft het aantal zwarte lijsten dat in de afgelopen 24 uur is gemaakt weer.",
+		    "leaderboard": "Toont de gebruikers met de meeste geaccepteerde rapporten",
+	    	"report": "Geeft de webstie weer waarop de reports moeten worden toegezonden",
+	    	"staffs": "Geeft een lijst weer van STR admins",
+	    	"deletelogs": "Verwijdert het log kanaal",
+    		"reportbug": "Meld een bug",
+    		"reportscamurl": "Rapporteer een scam URL die geblacklist moet worden"
     },
     "botinfo": {
         "bot-name": "Bot Naam",
@@ -109,7 +118,8 @@
         "blacklisted-in": "Gebruikers op de zwarte lijst in {guild}:",
         "error": "❌Er ging iets mis, kon de lijst niet verzenden.",
         "no-dm": "❌Ik kan je niet dm'en, heb je je dms alleen op vrienden ingesteld?",
-        "cooldown": "❌U kunt deze opdracht slechts eenmaal per 24 uur gebruiken."
+        "cooldown": "❌U kunt deze opdracht slechts eenmaal per 24 uur gebruiken.",
+        "none-found": "Geen gebruikers op de zwarte lijst gevonden tijdens kruiscontrole"
     },
     "languages": {
         "all": "Alle beschikbare talen",
@@ -162,5 +172,15 @@
         "ban-message": "Op de zwarte lijst geplaatste URL met woord verzonden: {word}",
         "log-msg": "Gebruiker plaatste een URL, die op de zwarte lisjt staat, met het volgende woord: **{word}**\n\n**Volledig bericht:** *{msg}*",
         "detected": "URL op de zwarte lijst gedetecteerd"
-    }
+    },
+    "autorole": {
+		    "role-above": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die jij wilt dat ze hebben",
+		    "success": "Gebruiker staat op de zwarte lijst en heeft de blacklisted rol gekregen",
+        "given": "Rol toegewezen",
+        "failed-give": "Kan geen rol geven",
+        "removed": "Rol verwijderd",
+        "failed-removed": "Kan rol niet verwijderen",
+        "role-above-remove": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die je wilt dat ik verwijder.",
+        "success-remove": "De gebruiker staat niet langer op de zwarte lijst en de blacklisted rol is weggenomen."
+	}
 }
