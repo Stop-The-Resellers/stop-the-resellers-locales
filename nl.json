@@ -9,7 +9,7 @@
     "has-been": "Gebruiker staat op de zwarte lijst",
     "no-permission": "❌U heeft geen toestemming om deze command te gebruiken, u heeft **BEHEERDER** rechten nodig.",
     "admin-comment": "Opmerking admin",
-    "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.xyz/dashboard/login",
+    "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Verbannen door STR",
@@ -19,7 +19,7 @@
     "other": {
         "joinedserver": "Aangesloten server",
         "supportserver": "Join de support server",
-		"invite": "Nodig de bot hier uit"
+		    "invite": "Nodig de bot hier uit"
     },
     "alt": {
         "newaccount": "Nieuw account gedetecteerd!",
@@ -37,8 +37,8 @@
     },
     "report": {
         "dashboardonly": "Reports kunnen via het web dashboard verstuurd worden: {url}",
-		"success": "✅Bedankt voor je report, deze zal spoedig worden gecontroleerd.",
-		"nourl": "❌Geen URL opgegeven om te rapporteren"
+		    "success": "✅Bedankt voor je report, deze zal spoedig worden gecontroleerd.",
+		    "nourl": "❌Geen URL opgegeven om te rapporteren"
     },
     "fetch": {
         "failed": "BAN MISLUKT",
@@ -66,12 +66,12 @@
         "supportserver": "Stuurt een uitnodiging naar de ondersteuningsserver.",
         "vote": "Stuurt een link waar je op de bot kunt stemmen.",
         "dailyblacklists": "Geeft het aantal zwarte lijsten dat in de afgelopen 24 uur is gemaakt weer.",
-		"leaderboard": "Toont de gebruikers met de meeste geaccepteerde rapporten",
-		"report": "Geeft de webstie weer waarop de reports moeten worden toegezonden",
-		"staffs": "Geeft een lijst weer van STR admins",
-		"deletelogs": "Verwijdert het log kanaal",
-		"reportbug": "Meld een bug",
-		"reportscamurl": "Rapporteer een scam URL die geblacklist moet worden"
+		    "leaderboard": "Toont de gebruikers met de meeste geaccepteerde rapporten",
+	    	"report": "Geeft de webstie weer waarop de reports moeten worden toegezonden",
+	    	"staffs": "Geeft een lijst weer van STR admins",
+	    	"deletelogs": "Verwijdert het log kanaal",
+    		"reportbug": "Meld een bug",
+    		"reportscamurl": "Rapporteer een scam URL die geblacklist moet worden"
     },
     "botinfo": {
         "bot-name": "Bot Naam",
@@ -174,8 +174,8 @@
         "detected": "URL op de zwarte lijst gedetecteerd"
     },
     "autorole": {
-		"role-above": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die jij wilt dat ze hebben",
-		"success": "Gebruiker staat op de zwarte lijst en heeft de blacklisted rol gekregen",
+		    "role-above": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die jij wilt dat ze hebben",
+		    "success": "Gebruiker staat op de zwarte lijst en heeft de blacklisted rol gekregen",
         "given": "Rol toegewezen",
         "failed-give": "Kan geen rol geven",
         "removed": "Rol verwijderd",

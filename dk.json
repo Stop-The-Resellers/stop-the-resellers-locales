@@ -1,0 +1,186 @@
+{
+    "no-admin": "❌Du er ikke admin",
+    "no-argsuser": "❌Du har ikke valgt en bruger",
+    "no-args": "❌ Intet input angivet",
+    "reason": "Grundlag:",
+    "date": "Dato:",
+    "user-id": "Bruger ID:",
+    "username": "Brugernavn:",
+    "no-permission": "❌Du har ikke adgang til at bruge denne kommando, du skal bruge **ADMINISTRATOR** rettigheder.",
+    "has-been": "Brugeren har været blacklisted",
+    "admin-comment": "Kommentar fra admin:",
+    "settings": "Henvend dig til vores hjemmeside for at ændre dine indstillinger: **https://stoptheresellers.com/dashboard**",
+    
+    "bans": {
+        "bannedbystr": "Banned af STR",
+        "userbanned": "BRUGER BANNED",
+        "joinedblacklisted": "Bruger tilsluttede serveren & er blacklisted"
+    },
+    "other": {
+        "joinedserver": "Tilsluttede serveren",
+        "supportserver": "Join support serveren.",
+        "invite": "Inviter botten her"
+    },
+    "alt": {
+        "newaccount": "Ny konto opdaget!",
+        "newacckick": "Denne konto er kun **{days} dag(e)** gammel. Brugeren blev kicked.",
+        "newacclog": "Bruger tilsluttede med en ny konto, oprettet den {created} og denne server har brug for {mindays} dag(e) konto alder.",
+        "newacc": "Denne konto er kun {days} dag(e) gammel."
+    },
+    "checking": {
+        "nouser": "❌Kan ikke finde brugern. Venligst @ brugeren, eller check gennem deres id."
+    },
+    "blacklist": {
+        "isblacklisted": "BRUGEREN ER BLACKLISTED",
+        "by": "Blacklisted af:",
+        "notblacklisted": "BRUGER ER IKKE BLACKLISTED"
+    },
+    "report": {
+        "dashboardonly": "Rapporter kan blive sendt fra vores hjemmeside: {url}",
+        "nourl": "❌Skrev ikke et link at rapportere",
+        "success": "✅Tak for at rapportere, din rapport vil blive gennemgået snarest."
+    },
+    "fetch": {
+        "failed": "BAN FEJLEDE",
+        "could-not-ban": "Kunne ikke banne:",
+        "server": "Server:",
+        "serverowner": "Server Ejer:",
+        "is-admin": "Denne person er admin",
+        "banned": "BRUGER BANNED",
+        "role-above": "Dette er en admin / Der er en rolle over mig",
+        "banned-in": "Banned I",
+        "no-permission": "JEG HAR IKKE ADGANG TIL AT BANNE PERSONER"
+    },
+    "help": {
+        "checkuser": "Tjek om en bruger har blacklist",
+        "fetch": "Henter din discord og checker om der er blacklistede brugere derinde **[KUN FOR BOT ADMINS]**",
+        "botinfo": "Giver info omkring botten.",
+        "userinfo": "Viser info omkring den taggede bruger.",
+        "languages": "Viser en liste med alle tilgængelige sprog",
+        "allow": "Tillader en blacklisted bruger at gå igennem autoban og tilslutte din server.",
+        "allowalt": "Tillader en bruger med en ny profil at gå igennem alt identifikation og tilslutte sig din server.",
+        "id": "Giver dig standard information omkring brugeren som fx navn og profilbillede.",
+        "viewreport": "Se din egen rapport.",
+        "crosscheck": "Kigger igennem hele serveren og giver dig en liste af hver blacklistede bruger og deres blacklist grund.",
+        "invite": "Sender et invite link for botten.",
+        "supportserver": "Sender et invite til support serveren.",
+        "vote": "Sender et link hvor du kan stemme på botten.",
+        "dailyblacklists": "Giver mængden af blacklists uddelt i de sidste 24 timer.",
+        "leaderboard": "Viser de brugere med fleste accepteret rapporter",
+        "report": "Viser hjemmesiden rapporter sendes på",
+        "reportbug": "Rapporter en fejl.",
+        "reportscamurl": "Rapporter et scam link, til at blive blacklisted.",
+        "staffs": "Viser en liste over STR admins",
+        "deletelogs": "Fjerner log kanalen"
+    },
+    "botinfo": {
+        "bot-name": "Bot Navn",
+        "bot-owner": "Bot Ejer",
+        "servers": "Servere",
+        "users": "Brugere",
+        "uptime": "Uptime",
+        "ping": "Ping",
+        "bot-library": "Bot Bibliotek",
+        "created-on": "Oprettet den",
+        "blacklisted-users": "Blacklistede brugere",
+        "website": "Hjemmeside",
+        "support-server": "Support server"
+    },
+    "logs": {
+        "removed": "✅Fjernet logs fra <#{havelogs}>",
+        "no-logs": "❌Du har ikke log aktiveret i denne guild."
+    },
+    "verification": {
+        "verify-started": "Verification Startet",
+        "joined-server": "Tilsluttede serveren",
+        "inleaking": "⚠️ <@{args}> verificerede succesfuldt **er i de følgende leaking servere**",
+        "noleaking": "✅ <@{args}> verificerede succesfuldt og er ikke medlem af nogen leaking discords.",
+        "forceverify": "{author} fra {guild.name} vil have dig til at verify dig selv. Gør dette ved følgende link: http://stoptheresellers.xyz/auth/verify",
+        "autoverify": "Velkommen til {guild.name}. For at være medlem af denne discord skal du verificere dig selv med følgende link: http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "Brugeren verificerede ikke den vericicering, som {author} opsatte",
+        "user-kicked": "❌Bruger kicked",
+        "reason": "Verificerede ikke.",
+        "no-kick-permission": "❌Bruger verificerede ikke, men kan **ikke** kickes grundet manglede permissions.",
+        "no-verify": "❌Brugeren verificerede ikke."
+    },
+    "userinfo": {
+        "no-user": "❌Kunne ikke finde en bruger med det ID. Er brugeren med i serveren?",
+        "no-user2": "❌Kunne ikke finde en bruger med det ID.",
+        "joined": "Tilsluttede serveren den:",
+        "created": "Konto oprettet den:",
+        "avatar-url": "Avatar link",
+        "blacklisted": "Blacklisted",
+        "roles": "Roller",
+        "none": "Ingen"
+    },
+    "crosscheck": {
+        "success": "✅Loader... Jeg sender dig en dm med blacklistede brugere på din server om 10 sekunder.",
+        "blacklisted-in": "Blacklistede brugere i {guild}:",
+        "error": "❌Noget gik galt, kan ikke sende dig listen.",
+        "no-dm": "❌Jeg kan ikke dm dig, har du dms sat kun til venner?",
+        "none-found": "Ingen blacklistede bruger fundet.",
+        "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24 timer."
+    },
+    "languages": {
+        "all": "Alle tilgængelige sprog",
+        "contribute": "Vil du hjælpe med at tilføje flere sprog? Gør det her"
+    },
+    "staffs": {
+        "intro": "Alle bottens personale."
+    },
+    "serverinfo": {
+        "title": "Serverinfo",
+        "description": "{name}'s information",
+        "owner": "Ejer",
+        "members": "Medlemstal",
+        "created-at": "Oprettet den",
+        "channel-count": "Kanaltal",
+        "region": "Server Region"
+    },
+    "vote": {
+        "title": "Venligst stem på vores bot her."
+    },
+    "dailyblacklists": {
+        "user": "Blacklists i dag ({date}) af {user}: **{total}**",
+        "none": "Blacklists idag ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Tilladte en blacklisted bruger",
+        "userallowed2": "{user} Tilladede en blacklisted bruger at blive på serveren",
+        "success": "Tilladte brugeren {user}",
+        "error": "Brugeren du prøver at tillade er ikke blacklisted"
+    },
+    "viewreport": {
+        "no-args": "Skrev ikke en rapport at kigge på",
+        "reportedby": "Rapporteret af",
+        "reportstatus": "Rapport Status",
+        "notreviewed": "Ikke gennemgået",
+        "denied": "Afvist",
+        "accepted": "Accepteret",
+        "noreport": "❌Der er ingen rapporter med ID {id}"
+    },
+    "id": {
+        "error": "Ikke ikke indlæse info...",
+        "info": "Info",
+        "no-args": "Skriv et ID."
+    },
+    "allowalt": {
+        "no-args": "❌Skriv et ID / tag en person.",
+        "success": "Tilladte alt brugeren <@{userid}> at være på serveren."
+    },
+    "urlblacklisted": {
+        "ban-message": "Sender et blacklisted URL der indeholder følgende ord: {word}",
+        "log-msg": "Bruger skrev et blacklisted URl der indeholder følgende ord: **{word}**\n\n**Fulde besked:** *{msg}*",
+        "detected": "Blacklisted URL Opdaget"
+    },
+    "autorole": {
+		"role-above": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
+		"success": "Brugeren er blacklisted og fik blacklisted rollen.",
+        "given": "Rolle givet",
+        "failed-give": "Kunne ikke give rollen.",
+        "removed": "Rolle fjernet.",
+        "failed-removed": "Kunne ikke fjerne rollen.",
+        "role-above-remove": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
+        "success-remove": "Brugeren er ikke længere blacklisted og blacklisted rollen blev fjernet."
+	}
+}

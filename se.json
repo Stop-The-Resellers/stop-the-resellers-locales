@@ -6,9 +6,10 @@
     "date": "Datum",
     "user-id": "Användar ID",
     "username": "Användarnamn",
+    "has-been": "Användaren har varit blacklistad.",
     "no-permission": "❌Du har inte rättigheter till att använda detta kommando, du behöver **ADMINISTRATOR** rättigheter.",
-    "need-logs": "❌Du behöver logs för att använda detta kommando, aktivera logs genom att göra `$setlogchannel [channel-id]`",
     "admin-comment": "Admin Kommentar",
+    "settings": "Gå till våran web panel för att ändra dina serverinställningar: **https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Bannad av STR",
@@ -22,13 +23,7 @@
         "newaccount": "Nytt konto hittat",
         "newacckick": "Detta konto är endast **{days} dagar** gammal. Denna användare blev sparkad.",
         "newacclog": "Användare gick med i ett nytt konto skapad: {created} och denna server kräver minst {mindays} dagar.",
-        "newacc": "Detta konto är endast {days} dagar gammalt.",
-        "alreadyenabled": "❌Du har redan Alt Protection på, just nu satt på minimum **{days}** dagar.",
-        "alreadydisabled": "❌Alt Protection är redan inaktiverat",
-        "disabled": "✅Inaktiverade Alt Protection",
-        "enabled": "✅Aktiverade **Alt Protection** med minst: **{args}** dagar",
-        "minimum-age": "❌Var god skriv in minimum tillåtet konto ålder i dagar.",
-        "no-args": "❌Var god skriv true eller false efter kommandot."
+        "newacc": "Detta konto är endast {days} dagar gammalt."
     },
     "checking": {
         "nouser": "❌Kunde inte hitta den användaren, var god @ användaren eller sök upp med användarens id."
@@ -39,10 +34,7 @@
         "notblacklisted": "Användaren är inte blacklistad"
     },
     "report": {
-        "report": "Rapportera",
-        "thanks": "✅Tack för din rapport! Report ID: {uuid}",
-        "no-proof": "❌Var god skicka in bevis (URL med foto, ex: gyazo)",
-        "no-reason": "❌Var god skicka in bevis & anledningen för rapporten."
+        
     },
     "fetch": {
         "failed": "Ban misslyckades",
@@ -60,17 +52,17 @@
         "unblacklist": "Tar bort en användare från blacklist listan **[BOT ADMINS ONLY]**",
         "checkuser": "Kollar om en användare är blacklistad",
         "fetch": "Söker efter blacklistade människor i din discord **[BOT ADMINS ONLY]**",
-        "report": "Skickar en report till bot admins",
         "viewreport": "Visar reporten med det idt **[BOT ADMINS ONLY]**",
-        "viewreports": "Visar alla osvarade rapporter. **[BOT ADMINS ONLY]**",
-        "setlogchannel": "Sätter logg kanalen för din server, botten kommer att skicka ut logs här.",
-        "setautoban": "Bannlyser blacklistade användare från din discord automatiskt. *Note: Enabled by default*",
-        "setaltprotection": "Minimum ålder på nya konton i dagar för din server, om denna funktion e aktiverad så kommer den kicka alla som försöker gå med i din server som har ett nyare konto än åldern du satt.",
-        "setautoverify": "Om du vill att nya medlemmar ska verifiera sig själva för att se om dom är med i leaking server? Om kick argumentet är på så kommer botten kicka folk som ignorerar verifieringen.",
         "botinfo": "Visar info om botten",
         "userinfo": "Visar info om en användare.",
-        "setlanguage": "Sätter bot språket för din server",
-        "languages": "Visar en list med alla supportade språk"
+        "languages": "Visar en list med alla supportade språk",
+        "allow": "Tillåter en blacklistad användare att gå igenom autoban och gå med i din server.",
+        "allowalt": "Tillåter en användare med ett nytt konto att gå igenom alt identificationen och gå med i din server.",
+        "id": "Ger dig basic information om en användare, som profilbild & användarnamn.",
+        "crosscheck": "Söker igenom din server och ger dig en lista med alla blacklistade användare med deras blacklist anledning.",
+        "invite": "Skickar en länk för att bjuda in våran bot..",
+        "supportserver": "Skickar en inbjudningslänk till våran support server..",
+        "vote": "Skickar en länk där du kan rösta på vår bot."
     },
     "botinfo": {
         "bot-name": "Bot Namn",
@@ -86,10 +78,6 @@
         "support-server": "Support server"
     },
     "logs": {
-        "updated": "✅Uppdaterade logg kanalen, logs kommer nu att skickas i <#{channel}>",
-        "added": "✅Satte logg kanalen, logs kommer du att skickas i <#{channel}>",
-        "same-channel": "❌Logs skickas redan ut i <#{logchannel}>",
-        "not-correctly": "❌Du angav inte kanalen korrekt. Var god skicka idt av kanalen. t.ex: **$setlogchannel 702876668422782988**",
         "removed": "✅Tog bort logs från <#{havelogs}>",
         "no-logs": "❌Du har inte logs aktiverat i denna server."
     },
@@ -106,13 +94,6 @@
         "no-kick-permission": "❌Användaren verifierade inte sig själv och jag **kan inte** sparka personen för att jag inte har kick rättigheter.",
         "no-verify": "❌Användaren verifierade inte sig själv."
     },
-    "autoban": {
-        "alreadyenabled": "❌Auto ban är redan aktiverat i denna server.",
-        "enabled": "✅Auto bans är nu **aktiverat** i denna server.",
-        "alreadydisabled": "❌Auto bans är redan avaktiverat i denna server",
-        "disabled": "✅Auto bans är nu **avaktiverat** i denna server.",
-        "no-args": "❌Var god skriv `true` eller `false` efter commandot."
-    },
     "userinfo": {
         "no-user": "❌Hittade ingen användare med det idt, Är du säker på att denna användare är med i en gemensam server?",
         "no-user2": "❌Hittade ingen användare med det idt.",
@@ -123,14 +104,6 @@
         "roles": "Roller",
         "none": "Inga"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Auto verification är redan aktiverat i denna server.",
-        "enabled": "✅Auto verification är nu **aktiverat** i denna server.",
-        "alreadydisabled": "❌Auto verification  är redan avaktiverat i denna server                                                       ",
-        "disabled": "✅Auto verification är nu **avaktiverat**i denna server.",
-        "no-args": "❌Var god skriv `true` eller `false` om du vill sätta på autokick. (Autokick kommer att sparka folk som inte svarar på verifikationen inom 10 minuter)",
-        "no-args2": "❌Var god skriv `true` eller `false` efter kommandot."
-    }, 
     "crosscheck": {
         "success": "Laddar... Jag kommer att dma dig en lista med blacklistade användare i din server inom 10 sekunder.",
         "blacklisted-in": "Blacklistade användare i {guild}:",
@@ -139,8 +112,6 @@
         "cooldown": "❌Du kan endast använda detta kommando varje 24 timmar."
     },
     "languages": {
-        "error": "❌Var god välj mellan dom tillgängliga språken, använd $languages för att se alla tillgängliga språk.",
-        "success": "✅Satte server språket till **{args}**",
         "all": "Alla tillgängliga språk",
         "contribute": "Vill du hjälpa till att lägga till fler språk? Gör det här"
     },
@@ -162,6 +133,35 @@
     "dailyblacklists": {
         "user": "Total blacklistade idag ({date}) av {user}: **{total}**",
         "none": "Total blacklistade idag ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Tillät blacklistad användare",
+        "userallowed2": "{user} Tillät en blacklistad användare att gå med i servern",
+        "success": "Togglade tillåtelse status för {user}",
+        "error": "Användaren du försöker tillåta är inte blacklistad"
+    },
+    "viewreport": {
+        "no-args": "Du angav ingen giltig report att visa",
+        "reportedby": "Rapporterad av",
+        "reportstatus": "Rapport status",
+        "notreviewed": "Inte recensserad.",
+        "denied": "Nekad.",
+        "accepted": "Accepterad",
+        "noreport": "❌Det finns ingen rapport med idt: {id}"
+    },
+    "id": {
+        "error": "Kunde inte ladda information..",
+        "info": "Info",
+        "no-args": "Var god ange ett giltigt id."
+    },
+    "allowalt": {
+        "no-args": "❌Var god ange ett användar id / @ någon.",
+        "success": "Lyckades tillåta alt konto <@{userid}> att gå med i denna server."
+    },
+    "urlblacklisted": {
+        "ban-message": "Skickade blacklistad URL, inehåller ord:: {word}",
+        "log-msg": "Användaren skickade en blacklistad URL som inehållde ordet: **{word}**\n\n**Hela meddelandet:** *{msg}*",
+        "detected": "Blacklistad URL upptäckt."
     }
 }
 
