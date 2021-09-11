@@ -8,7 +8,6 @@
     "username": "Gebruikersnaam",
     "has-been": "Gebruiker staat op de zwarte lijst",
     "no-permission": "❌U heeft geen toestemming om deze command te gebruiken, u heeft **BEHEERDER** rechten nodig.",
-    "need-logs": "❌U moet logboeken hebben ingeschakeld om deze opdracht te gebruiken, schakel logboeken in door het volgende uit te voeren: `$setlogchannel [channel-id]`",
     "admin-comment": "Opmerking admin",
     "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.xyz/dashboard/login",
 
@@ -18,19 +17,15 @@
         "joinedblacklisted": "Gebruiker is lid geworden van de server en staat op de zwarte lijst"
     },
     "other": {
-        "joinedserver": "Aangesloten server"
+        "joinedserver": "Aangesloten server",
+        "supportserver": "Join de support server",
+		"invite": "Nodig de bot hier uit"
     },
     "alt": {
         "newaccount": "Nieuw account gedetecteerd!",
         "newacckick": "Dit account is pas **{days} dag(en)** oud. De gebruiker is gekickt.",
         "newacclog": "Gebruiker is lid geworden met een nieuw account gemaakt op {created} en deze server vereist een accountleeftijd van minimaal {mindays} dag(en).",
         "newacc": "Dit account is pas {days} dag(en) oud.",
-        "alreadyenabled": "❌Je hebt al Alt Protectie ingeschakeld, momenteel ingesteld op een minimale accountleeftijd van **{days}** dag(en).",
-        "alreadydisabled": "❌Alt Protectie is al uitgeschakeld",
-        "disabled": "✅Alt Protectie succesvol uitgeschakeld",
-        "enabled": "✅**Alt Protectie** is succesvol ingeschakeld met een minimale accountleeftijd van **{args}** dag(en)",
-        "minimum-age": "❌Voer de minimale accountleeftijd in die op uw server wordt geaccepteerd.",
-        "no-args": "❌Typ `true` of `false` na de command."
     },
     "checking": {
         "nouser": "❌Kan die gebruiker niet vinden. Gelieve @ een geldige gebruiker of controleer op zijn id."
@@ -41,10 +36,9 @@
         "notblacklisted": "GEBRUIKER STAAT NIET OP DE ZWARTE LIJST"
     },
     "report": {
-        "report": "Melding",
-        "thanks": "✅Bedankt voor het insturen van de melding! Rapport-ID: {uuid}",
-        "no-proof": "❌Gelieve bewijs in te leveren. (URL met afbeelding, vb: gyazo)",
-        "no-reason": "❌Gelieve het bewijs en de reden van de melding in te dienen."
+        "dashboardonly": "Reports kunnen via het web dashboard verstuurd worden: {url}",
+		"success": "✅Bedankt voor je report, deze zal spoedig worden gecontroleerd.",
+		"nourl": "❌Geen URL opgegeven om te rapporteren"
     },
     "fetch": {
         "failed": "BAN MISLUKT",
@@ -58,13 +52,10 @@
         "no-permission": "IK HEB GEEN RECHTEN OM TE BANNEN"
     },
     "help": {
-        "blacklist": "Voegt een gebruiker toe aan de zwarte lijst **[ALLEEN BOT ADMINS]**",
-        "unblacklist": "Verwijdert een gebruiker van de zwarte lijst **[ALLEEN BOT ADMINS]**",
         "checkuser": "Controleer of een gebruiker op de zwarte lijst staat",
         "fetch": "Haalt je discord op en controleert of er mensen op de zwarte lijst staan **[ALLEEN BOT ADMINS]**",
         "botinfo": "Antwoord met informatie over de bot",
         "userinfo": "Toont informatie over het genoemde discord-account van de gebruiker.",
-        "setlanguage": "Stel de bottaal in voor je gilde.",
         "languages": "Toont een lijst met alle huidige ondersteunde talen",
         "allow": "Hiermee kan een gebruiker op de zwarte lijst de autoban omzeilen en lid worden van uw server.",
         "allowalt": "Hiermee kan een gebruiker met een nieuwe account alt-identificatie omzeilen en lid worden van uw server.",
@@ -73,7 +64,14 @@
         "crosscheck": "Zoekt door je server en geeft je een lijst van elke gebruiker op de zwarte lijst met hun reden voor de zwarte lijst.",
         "invite": "Stuurt een uitnodigingslink voor de bot.",
         "supportserver": "Stuurt een uitnodiging naar de ondersteuningsserver.",
-        "vote": "Stuurt een link waar je op de bot kunt stemmen."
+        "vote": "Stuurt een link waar je op de bot kunt stemmen.",
+        "dailyblacklists": "Geeft het aantal zwarte lijsten dat in de afgelopen 24 uur is gemaakt weer.",
+		"leaderboard": "Toont de gebruikers met de meeste geaccepteerde rapporten",
+		"report": "Geeft de webstie weer waarop de reports moeten worden toegezonden",
+		"staffs": "Geeft een lijst weer van STR admins",
+		"deletelogs": "Verwijdert het log kanaal",
+		"reportbug": "Meld een bug",
+		"reportscamurl": "Rapporteer een scam URL die geblacklist moet worden"
     },
     "botinfo": {
         "bot-name": "Bot Naam",
@@ -89,10 +87,6 @@
         "support-server": "Support server"
     },
     "logs": {
-        "updated": "✅Logkanaal geüpdatet, logs worden nu weergegeven in <#{channel}>",
-        "added": "✅Log-kanaal succesvol ingesteld, logs worden nu weergegeven in <#{channel}>",
-        "same-channel": "❌Er worden al logboeken verzonden in <#{logchannel}>",
-        "not-correctly": "❌U heeft het kanaal niet correct opgegeven. Zorg ervoor dat u de id van het kanaal meestuurt. Bijv: **$setlogchannel 702876668422782988**",
         "removed": "✅Logboeken verwijderd uit <#{havelogs}>",
         "no-logs": "❌Je hebt geen logs ingeschakeld in deze guild."
     },
@@ -109,13 +103,6 @@
         "no-kick-permission": "❌Gebruiker is niet geverifieerd en ik **kan niet** kicken vanwege geen kick-toestemming.",
         "no-verify": "❌Gebruiker heeft zich niet geverifieerd."
     },
-    "autoban": {
-        "alreadyenabled": "❌Automatische bans zijn al ingeschakeld op deze server.",
-        "enabled": "✅Automatische bans zijn nu **ingeschakeld** in deze gilde.",
-        "alreadydisabled": "❌Automatische bans zijn al uitgeschakeld op deze server.",
-        "disabled": "✅Automatische bans zijn nu **uitgeschakeld** in deze gilde.",
-        "no-args": "❌Typ `true` of `false` na het commando."
-    },
     "userinfo": {
         "no-user": "❌Geen gebruiker gevonden met die id. Weet u zeker dat de gebruiker zich op deze server bevindt?",
         "no-user2": "❌Kon geen gebruiker met die id vinden.",
@@ -126,24 +113,15 @@
         "roles": "Rollen",
         "none": "Geen"
     },
-    "autoverify": {
-        "alreadyenabled": "❌Automatische verificatie is al ingeschakeld op deze server.",
-        "enabled": "✅Automatische verificatie is nu **ingeschakeld** in deze gilde.",
-        "alreadydisabled": "❌Automatische verificatie is al uitgeschakeld op deze server.",
-        "disabled": "✅Automatische verificatie is nu **uitgeschakeld** in deze gilde.",
-        "no-args": "❌Typ `true` of `false` als je autokick wilt inschakelen. (Autokick kickt gebruikers die niet verifiëren)",
-        "no-args2": "❌Typ `true` of `false` na het commando."
-    }, 
     "crosscheck": {
         "success": "✅Bezig met laden... Ik stuur je binnen 10 seconden een dm met een lijst van gebruikers op de zwarte lijst op je server.",
         "blacklisted-in": "Gebruikers op de zwarte lijst in {guild}:",
         "error": "❌Er ging iets mis, kon de lijst niet verzenden.",
         "no-dm": "❌Ik kan je niet dm'en, heb je je dms alleen op vrienden ingesteld?",
-        "cooldown": "❌U kunt deze opdracht slechts eenmaal per 24 uur gebruiken."
+        "cooldown": "❌U kunt deze opdracht slechts eenmaal per 24 uur gebruiken.",
+        "none-found": "Geen gebruikers op de zwarte lijst gevonden tijdens kruiscontrole"
     },
     "languages": {
-        "error": "❌Kies uit de beschikbare talen, gebruik $languages om alle ondersteunde talen te zien.",
-        "success": "✅Stel de gildetaal in op **{args}**",
         "all": "Alle beschikbare talen",
         "contribute": "Wil je bijdragen en meer talen toevoegen? Doe het hier"
     },
@@ -194,4 +172,15 @@
         "ban-message": "Op de zwarte lijst geplaatste URL met woord verzonden: {word}",
         "log-msg": "Gebruiker plaatste een URL, die op de zwarte lisjt staat, met het volgende woord: **{word}**\n\n**Volledig bericht:** *{msg}*",
         "detected": "URL op de zwarte lijst gedetecteerd"
+    },
+    "autorole": {
+		"role-above": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die jij wilt dat ze hebben",
+		"success": "Gebruiker staat op de zwarte lijst en heeft de blacklisted rol gekregen",
+        "given": "Rol toegewezen",
+        "failed-give": "Kan geen rol geven",
+        "removed": "Rol verwijderd",
+        "failed-removed": "Kan rol niet verwijderen",
+        "role-above-remove": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die je wilt dat ik verwijder.",
+        "success-remove": "De gebruiker staat niet langer op de zwarte lijst en de blacklisted rol is weggenomen."
+	}
 }
