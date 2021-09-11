@@ -25,7 +25,7 @@
         "newaccount": "Nieuw account gedetecteerd!",
         "newacckick": "Dit account is pas **{days} dag(en)** oud. De gebruiker is gekickt.",
         "newacclog": "Gebruiker is lid geworden met een nieuw account gemaakt op {created} en deze server vereist een accountleeftijd van minimaal {mindays} dag(en).",
-        "newacc": "Dit account is pas {days} dag(en) oud.",
+        "newacc": "Dit account is pas {days} dag(en) oud."
     },
     "checking": {
         "nouser": "❌Kan die gebruiker niet vinden. Gelieve @ een geldige gebruiker of controleer op zijn id."
