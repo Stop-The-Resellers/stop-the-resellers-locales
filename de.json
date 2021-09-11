@@ -27,16 +27,6 @@
         "newacclog": "Benutzer ist mit einem Account dem Server beigetreten, welcher am {created} erstellt wurde. Der Account muss mindestens {mindays} Tag(e) alt sein.",
         "newacc": "Dieser Account ist nur {days} Tag(e) alt."
     },
-    "autorole": {
-        "failed-give": "Rollenvergabe fehlgeschlagen",
-        "failed-removed": "Entfernen der Rolle fehlgeschlagen",
-        "given": "Rolle vergeben",
-        "removed": "Rolle entfernt",
-        "role-above": "Die gewünschte Rolle liegt über deiner eigenen. Schiebe deine Rolle über die Rolle, die du versuchst, zu vergeben.",
-        "role-above-remove": "Die gewünschte Rolle liegt über deiner eigenen. Schiebe deine Rolle über die Rolle, die du versuchst, zu entfernen.",
-        "success": "Benutzer wurde auf die Blacklist gesetzt und hat die entsprechende Rolle bekommen",
-        "success-remove": "Benutzer steht nicht mehr auf der Blacklist und die entsprechende Rolle wurde entfernt"
-    },
     "checking": {
         "nouser": "❌Dieser Benutzer konnte nicht gefunden werden, geben sie bitte eine gültige ID oder @ an."
     },
@@ -62,8 +52,6 @@
         "no-permission": "Der Bot hat keine Berechtigungen Benutzer zu bannen"
     },
     "help": {
-        "blacklist": "Einen Benutzer zu der Blacklist hinzufügen **[ADMIN RECHTE BENÖTIGT]**",
-        "unblacklist": "Einen Benutzer von der Blacklist entfernen **[ADMIN RECHTE BENÖTIGT]**",
         "checkuser": "Prüfen ob ein Benutzer auf der Blacklist steht.",
         "fetch": "Durchsucht diesen Discord Server nach Benutzern die auf der Blacklist stehen **[ADMIN RECHTE BENÖTIGT]**",
         "botinfo": "Zeigt Infos über den Bot an",
@@ -184,5 +172,15 @@
         "ban-message": "Benutzer hat eine geblacklistete URL gesendet welche dieses Wort beinhaltet hatte: {word}",
         "log-msg": "Benutzer hat eine geblacklistete URL gesendet welche dieses Wort beinhaltet hatte: **{word}**\n\n**Ganze Nachricht:** *{msg}*",
         "detected": "Geblacklistete URL erkannt"
+    },
+    "autorole": {
+        "failed-give": "Rollenvergabe fehlgeschlagen",
+        "failed-removed": "Entfernen der Rolle fehlgeschlagen",
+        "given": "Rolle vergeben",
+        "removed": "Rolle entfernt",
+        "role-above": "Die gewünschte Rolle liegt über deiner eigenen. Schiebe deine Rolle über die Rolle, die du versuchst, zu vergeben.",
+        "role-above-remove": "Die gewünschte Rolle liegt über deiner eigenen. Schiebe deine Rolle über die Rolle, die du versuchst, zu entfernen.",
+        "success": "Benutzer wurde auf die Blacklist gesetzt und hat die entsprechende Rolle bekommen",
+        "success-remove": "Benutzer steht nicht mehr auf der Blacklist und die entsprechende Rolle wurde entfernt"
     }
 }
