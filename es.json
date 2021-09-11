@@ -34,7 +34,9 @@
         "notblacklisted": "EL USUARIO NO ESTA BLACKLISTED"
     },
     "report": {
-       
+       "dashboardonly": "Los Reportars se pueden enviar desde el panel web: {url}",
+	   "success": "✅Gracias por reportar, el reportar se revisará pronto..",
+	   "nourl": "❌No proporcionaste ninguna URL para reporte"
     },
     "fetch": {
         "failed": "BAN FALLIDO",
@@ -62,7 +64,14 @@
         "crosscheck": "Busca en tu servidor y te da una lista de cada usuario en blacklist con su razon de blacklist.",
         "invite": "Manda un link de invitacion del bot.",
         "supportserver": "Manda una invitacion al servidor de soporte.",
-        "vote": "Manda un link donde puedes votar por el bot."
+        "vote": "Manda un link donde puedes votar por el bot.",
+        "dailyblacklists": "Devuelve la cantidad de blacklist en las últimas 24 horas...",
+		"leaderboard": "Muestra las usuarias con los informes más aceptados",
+		"report": "Devuelve los informes del sitio web deben enviarse en",
+		"staffs": "Muestra una lista de administradores de STR",
+		"deletelogs": "remoto logs",
+		"reportbug": "Reportar un error",
+		"reportscamurl": "Informar una URL fraudulenta para ser blacklist"
     },
     "botinfo": {
         "bot-name": "Nombre del bot",
@@ -109,7 +118,8 @@
         "blacklisted-in": "Usuarios blacklisteados en {guild}:",
         "error": ":x:Algo salio mal, no se pudo mandar la lista.",
         "no-dm": ":x:No puedos mandarte un md, tal vez tengas los mds solo a amigos?",
-        "cooldown": ":x:Solamente puedes usar este comando una vez cada 24 horas."
+        "cooldown": ":x:Solamente puedes usar este comando una vez cada 24 horas.",
+        "none-found": ":x:No Usuario fundar en blacklist"
     },
     "languages": {
         "all": "Todos los lenguajes",
@@ -162,5 +172,15 @@
         "ban-message": "Mandando URL en blacklist que contiene la palabra: {word}",
         "log-msg": "El usuario a posteado una URL de la blacklist que contiene la palabra: {word}\n\nFull message: {msg}",
         "detected": "URL en blacklist detectada"
-    }
+    },
+    "autorole": {
+		"role-above": "El rol deseado está por encima del mío, mueva mi rol por encima del rol que desea que tengan",
+		"success": "User en blacklist y se le dio en blacklist rol",
+        "given": "Rol dado",
+        "failed-give": "Rol dado fallido",
+        "removed": "Rol remoto",
+        "failed-removed": "Rol remoto fallido",
+        "role-above-remove": "Rol está por encima de mí, arrastra el mío sobre el rollo.",
+        "success-remove": "Usuario ya no esta en blacklist y su rol remoto."
+	}
 }
