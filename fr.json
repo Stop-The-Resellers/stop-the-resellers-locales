@@ -17,7 +17,9 @@
         "joinedblacklisted": "Un utilisateur a rejoint le serveur et est blacklisté"
     },
     "other": {
-        "joinedserver": "Rejoint le serveur"
+        "joinedserver": "Rejoint le serveur",
+        "supportserver": "Rejoindre he server d'assistance.",
+		"invite": "Invite le bot ici"
     },
     "alt": {
         "newaccount": "Nouveau compte détecté!",
@@ -34,7 +36,9 @@
         "notblacklisted": "L'UTILISATEUR N'EST PAS BLACKLISTE"
     },
     "report": {
-        
+        "dashboardonly": "Les rapports peuvent être envoyés ici: {url}",
+		"success": "✅Merci d'avoir envoyé un rapport, il sera examiné bientôt.",
+		"nourl": "❌N'a pas fourni de lien Web"
     },
     "fetch": {
         "failed": "BAN ECHOUE",
@@ -48,21 +52,26 @@
         "no-permission": "JE N'AI PAS LA PERMISSION DE BANNIR DES PERSONNES"
     },
     "help": {
-        "blacklist": "Ajoute un utilisateur à la liste noire **[BOT ADMINS ONLY]**",
-        "unblacklist": "Retire un utilisateur de la liste noire **[BOT ADMINS ONLY]**",
-        "checkuser": "Vérifie si un utilisateur est dans la liste noire",
-        "fetch": "Récupère votre discord et vérifie si il contient des personnes en liste noire **[BOT ADMINS ONLY]**",
-        "botinfo": "Retourne des informations sur le bot",
-        "userinfo": "Affiche des informations sur l'utilisateur discord mentionné.",
-        "languages": "Affiche une liste de toute les langues supportées",
-        "allow": "Autorise un utilisateur blacklisté à rejoindre votre serveur.",
-        "allowalt": "Autorise un utilisateur avec un nouveau compte à évader la protection d'alt.",
-        "id": "Affiche des informations basique sur l'utilisateur tel que son nom et sa photo de profil.",
-        "viewreport": "Afficher votre propre signalement.",
-        "crosscheck": "Lance une recherche dans votre serveur et vous donne la liste des utilisateurs en liste noire ainsi que la raison de leur ajout.",
-        "invite": "Envoi un lien d'invitation pour le bot.",
-        "supportserver": "Envoi un lien d'invitation pour le serveur de support.",
-        "vote": "Envoi un lien afin de voter pour le bot."
+		"checkuser": "vérifier si un utlisateur est sur list noire",
+		"fetch": "Récupère votre serveur Discord et vérifie si vous avez des personnes sur liste noire là-dedans **[BOT ADMINS SEULMENT]**",
+		"botinfo": "donner des informations sur le bot",
+		"userinfo": "Afficher les informations sur l'utilisateur marqué",
+		"languages": "Affiche une liste avec toutes les langues",
+		"allow": "Permet à un utilisateur sur liste noire de contourner l'interdiction automatique et de rejoindre votre serveur.",
+		"allowalt": "Permet à un utilisateur avec un nouveau compte de ne pas effectuer l'identification de compte alternatif et de rejoindre votre serveur.",
+		"id": "Fournit des informations de base sur l'utilisateur comme le nom et la photo de profil.",
+		"viewreport": "Affichez votre propre rapport.",
+		"crosscheck": "Recherche votre serveur et vous donne une liste de chaque utilisateur sur liste noire avec la raison.",
+		"invite": "Envoie un lien d'invitation pour le bot.",
+		"supportserver": "Envoie une invitation au serveur de support.",
+		"vote": "Envoie un lien où vous pouvez voter pour le bot.",
+		"dailyblacklists": "donner le nombre de listes noires effectuées au cours des dernières 24 heures.",
+		"leaderboard": "Affiche les utilisateurs avec les rapports les plus approuvés",
+		"report": "indique le site Web auquel les rapports doivent être envoyés",
+		"staffs": "Affiche une liste des administrateurs STR",
+		"deletelogs": "Supprime le canal de logs",
+		"reportbug": "Signaler un bug",
+		"reportscamurl": "Signaler une URL d'arnaque pour être mis sur liste noire"
     },
     "botinfo": {
         "bot-name": "Nom du bot",
@@ -109,7 +118,8 @@
         "blacklisted-in": "Utilisateurs en liste noire sur le serveur {guild}:",
         "error": "❌Une erreur s'est produite, impossible d'envoyer la liste.",
         "no-dm": "❌Je ne peux pas vous PM, avez-vous vos PM en 'amis uniquement'?",
-        "cooldown": "❌Vous ne pouvez utiliser cette commande qu'une fois toute les 24h."
+        "cooldown": "❌Vous ne pouvez utiliser cette commande qu'une fois toute les 24h.",
+		"none-found": "Aucun utilisateur sur liste noire trouvé lors de la vérification"
     },
     "languages": {
         "all": "Toute les langues disponible",
@@ -162,5 +172,15 @@
         "ban-message": "Envoi d'un lien contenant le mot: {word}",
         "log-msg": "Un utilisateur à envoyé un lien contenant le mot: **{word}**\n\n**Message entier:** *{msg}*",
         "detected": "URL blacklisté détectée!"
-    }
+    },
+    "autorole": {
+		"role-above": "Le rôle souhaité est au dessus du mien, déplacez mon rôle au dessus du rôle que vous voulez qu'ils aient",
+		"success": "L'utilisateur est sur liste noire et a reçu le rôle de liste noire",
+        "given": "rôle donné",
+        "failed-give": "n'a pas réussi à donner le rôle",
+        "removed": "Rôle supprimé",
+        "failed-removed": "n'a pas réussi à supprimer le rôle",
+        "role-above-remove": "Le rôle souhaité est au dessus du mien, déplacez mon rôle au dessus du rôle que vous voulez que je supprime.",
+        "success-remove": "L'utilisateur n'est plus sur liste noire et le rôle de liste noire a été supprimé."
+	}
 }
