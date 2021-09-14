@@ -1,0 +1,186 @@
+{
+	"no-admin": "❌Nie jesteś administratorem",
+	"no-argsuser": "❌nie podałeś użytkownika",
+	"no-args": "❌nie podałeś niczego do powiedzenia",
+	"reason": "Powód:",
+	"date": "Data",
+	"user-id": "ID użytkownika",
+	"username": "użytkownik",
+	"has-been": "użytkownik został blacklistowany",
+	"no-permission": "❌Nie masz uprawnień do korzystania z tego polecenia, potrzebujesz prawa **ADMINISTRATOR**.",
+	"admin-comment": "Komentarz Administratora",
+	"settings": "Przejdź do naszego pulpitu nawigacyjnego, aby zmienić ustawienia: **https://stoptheresellers.com/dashboard/",
+
+	"bans": {
+		"bannedbystr": "Blacklistowany przez STR",
+		"userbanned": "UŻYTKOWNIK BLACKLISTOWANY",
+		"joinedblacklisted": "Użytkownik dołączył do serwera i jest blacklistowany"
+	},
+	"other": {
+		"joinedserver": "Dołączył do serwera",
+		"supportserver": "Dołącz do serwera pomocy technicznej",
+		"invite": "Zaproś bota tutaj"
+	},
+	"alt": {
+		"newaccount": "Wykryto nowe konto!",
+		"newacckick": "Te konto ma tylko **{days} dzień/dni**. Użytkownik został wyrzucony.",
+		"newacclog": "Użytkownik dołączył się z nowym kontem które było stworzone {created} i ten serwer wymaga aby konto istniało przez {mindays} dni.",
+		"newacc": "Te konto było stworzone {days} dzień/dni temu."
+	},
+	"checking": {
+		"nouser": "❌Nie istnieje taki użytkownik. Przosze ztagowac użytkownika lub uzyc ich User ID ."
+	},
+	"blacklist": {
+		"isblacklisted": "UŻYTKOWNIK BLACKLISTOWANY",
+		"by": "Blacklistowany przez:",
+		"notblacklisted": "UŻYTKOWNIK NIE JEST BLACKLISTOWANY"
+	},
+	"report": {
+		"dashboardonly": "Raporty można wysyłać z pulpitu nawigacyjnego strony: {url}",
+		"success": "✅Dziękujemy za zgłoszenie, raport zostanie wkrótce sprawdzony.",
+		"nourl": "❌Nie był podany żaden adres URL do zgłoszenia"
+	},
+	"fetch": {
+		"failed": "ZAKAZENIE NIE ZŁORZONE",
+		"could-not-ban": "Nie można zakazać:",
+		"server": "Serwer:",
+		"serverowner": "Właściciel serwera:",
+		"is-admin": "Ta osoba nie jest administratorem",
+		"banned": "UŻYTKOWNIK ZOSTAŁ ZAKAZANY",
+		"role-above": "Użytkownik jest administratorem / posiada role nad moją",
+		"banned-in": "Zakazany w",
+		"no-permission": "Nie mam uprawnień do zakazania ludzi"
+	},
+	"help": {
+		"checkuser": "Sprawdza czy użytkownik jest blacklistowany",
+		"fetch": "Pobiera twój Discord i sprawdza czy masz jakieś osoby blacklistowane **[BOT ADMINS ONLY]**",
+		"botinfo": "Zwraca informacje o bocie",
+		"userinfo": "Pokazuje informacje o wymienionego użytkownika konta discord.",
+		"languages": "Wyświetla listę ze wszystkimi aktualnie obsługiwanymi językami.",
+		"allow": "Zezwala użytkownikowa blacklistowanego na ominięcie autobanowania i dołączenie do serwera.",
+		"allowalt": "Umożliwia użytkownikowi z nowym kontem ominięcie identyfikacji alternatywnej i dołączenie do serwera.",
+		"id": "Zawiera podstawowe informacje o użytkowniku, taką jak nazwa i zdjęcie profilowe.",
+		"viewreport": "Wyświetl własny raport.",
+		"crosscheck": "Przeszukuje serwer i podaje listę każdego użytkownika blacklistowanego wraz z jego przyczyną blacklisty.",
+		"invite": "Wysyła link z zaproszeniem dla bota.",
+		"supportserver": "Wysyła zaproszenie do serwera pomocy technicznej.",
+		"vote": "Wysyła link, w którym możesz głosować na bota.",
+		"dailyblacklists": "Zwraca liczbę blacklistowań wykonanych w ciągu ostatnich 24 godzin.",
+		"leaderboard": "Pokazuje użytkowników z najbardziej akceptowanymi raportami",
+		"report": "Zwraca strone na której można wysłać raporty",
+		"staffs": "Zwraca liste administratórow STR",
+		"deletelogs": "Usuwa kanał logs",
+		"reportbug": "Zgłoś błąd",
+		"reportscamurl": "Zgłoś adres URL oszustwa do blacklisty"
+	},
+	"botinfo": {
+		"bot-name": "Nazwa Bota",
+		"bot-owner": "Właściciel Bota",
+		"servers": "Serwery",
+		"users": "Użytkowniki",
+		"uptime": "Uptime",
+		"ping": "Ping",
+		"bot-library": "biblioteka botów",
+		"created-on": "Stworzony",
+		"blacklisted-users": "Blacklistowane Użytkowniki",
+		"website": "Strona",
+		"support-server": "serwer wsparcia technicznego"
+	},
+	"logs": {
+		"removed": "✅Pomyślnie usunięto logs z <#{havelogs}>",
+		"no-logs": "❌W tej gildii nie masz włączonych logs."
+	},
+	"verification": {
+		"verify-started": "Rozpoczęto weryfikację",
+		"joined-server": "Dołączył do serwera",
+		"inleaking": "⚠️ <@{args}> Pomyślnie zweryfikowany i **jest w następujących leaking serwerach**",
+		"noleaking": "✅ <@{args}> Pomyślnie zweryfikowany i nie znajduje się na żadnych leaking serwerach.",
+		"forceverify": "{author} z {guild.name} chce, abyś się zweryfikował. Zrób to za pomocą tego linku http://stoptheresellers.xyz/auth/verify",
+		"autoverify": "Witamy do {guild.name}. Aby pozostać na serwerze musisz zweryfikować się za pomocą tego linku http://stoptheresellers.xyz/auth/verify.",
+		"kick-msg": "Użytkownik nie zweryfikował weryfikacji siły dokonanej przez {author}",
+		"user-kicked": "❌Użytkownik wykopany",
+		"reason": "Nie zweryfikowany.",
+		"no-kick-permission": "❌Użytkownik nie zweryfikował i nie mogę kopnąć z powodu braku uprawnień do kopania.",
+		"no-verify": "❌Użytkownik nie zweryfikował."
+	},
+	"userinfo": {
+		"no-user": "❌Nie znalazłeś użytkownika z tym ID. Czy jesteś pewien, że użytkownik jest na tym serwerze?",
+		"no-user2": "❌Nie znalazłeś użytkownika z tym ID.",
+		"joined": "Dołączył do serwera:",
+		"created": "Konto stworzone:",
+		"avatar-url": "Avatar URL",
+		"blacklisted": "Blacklistowany",
+		"roles": "Role",
+		"none": "Nic"
+	},
+	"crosscheck": {
+		"success": "✅Ładowanie... Wyśle dm z listą użytkowników blacklistowanych na twoim serwerze w 10 sekund.",
+		"blacklisted-in": "Użytkowniki blacklistowane w {guild}:",
+		"error": "❌Coś nie tak, nie mogłem wysłać listy.",
+		"no-dm": "❌Nie moge wysłać DM. Czy masz ustawione DM tylko od znajomych?",
+		"cooldown": "❌Tego polecenia można używać tylko raz na 24 godziny.",
+		"none-found": "Nie znaleziono użytkowników blacklistowanych podczas sprawdzania krzyżowego"
+	},
+	"languages": {
+		"all": "Wszystkie dostępne języki",
+		"contribute": "Czy chcesz wnieść swój wkład i dodać więcej języków? Zrób to tutaj"
+	},
+	"staffs": {
+		"intro": "Wszyscy Pracownicy Bota."
+	},
+	"serverinfo": {
+		"title": "Serverinfo",
+		"description": "{name} informacje",
+		"owner": "Właściciel",
+		"members": "Membercount",
+		"created-at": "Stworzone",
+		"channel-count": "Ilość kanałów",
+		"region": "Region Serwera"
+	},
+	"vote": {
+		"title": "Zagłosuj na naszego bota tutaj."
+	},
+	"dailyblacklists": {
+		"user": "Ilość dzisiejszych blacklistowań ({date}) przez {user}: **{total}**",
+		"none": "Ilość dzisiejszych blacklistowań ({date}): **{total}**"
+	},
+	"allowed": {
+		"userallowed": "Dozwolony użytkownik blacklistowany",
+		"userallowed2": "{user} pozwolił aby użytkownik blacklistowany połączył się do serwera",
+		"success": "Pomyślnie przełączono stan zezwolenia dla {user}",
+		"error": "Użytkownik, na który próbujesz zezwolić, nie znajduje się na blacklist"
+	},
+	"viewreport": {
+		"no-args": "Nie był podany żaden raport do wyświetlenia",
+		"reportedby": "Raportowany przez",
+		"reportstatus": "Stan raportu",
+		"notreviewed": "Nie recenzowane",
+		"denied": "Odmówiony",
+		"accepted": "Akceptowany",
+		"noreport": "❌Nie ma raportu z ID {id}"
+	},
+	"id": {
+		"error": "Nie można załadować informacji...",
+		"info": "Informacje",
+		"no-args": "Podaj ID."
+	},
+	"allowalt": {
+		"no-args": "❌Podaj ID / Tagoj kogoś.",
+		"success": "Pomyślnie zezwolono na konto alternatywne <@{userid}> na serwerze."
+	},
+	"urlblacklisted": {
+		"ban-message": "Wysyłanie adresu URL z blacklisty zawierającego słowo: {word}",
+		"log-msg": "Użytkownik opublikował adres URL z czarnej listy zawierający słowo: **{word}**\n\n**Pełna Wiadomość:** *{msg}*",
+		"detected": "Wykryto adres URL z czarnej listy"
+	},
+	"autorole": {
+		"role-above": "Pożądana rola jest ponad moją, przenieś moją rolę ponad rolę, którą chcesz aby mieli",
+		"success": "Użytkownik znajduje się na blackliśćie i otrzymał rolę Blacklist",
+        "given": "Podana rola",
+        "failed-give": "Nie udało się podać roli",
+        "removed": "Rola usunięta",
+        "failed-removed": "Nie udało się usunąć roli",
+        "role-above-remove": "Pożądana rola jest ponad moją, przenieś moją rolę ponad rolę, która chcesz żebym usunął.",
+        "success-remove": "Użytkownik już nie jest blacklistowany, rola została usunięta."
+	}
+}
