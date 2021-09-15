@@ -1,0 +1,186 @@
+{
+    "no-admin": "❌Non sei un admin",
+    "no-argsuser": "❌Nessun utente selezionato",
+    "no-args": "❌Non hai fornito nulla da dichiarare",
+    "reason": "Ragione:",
+    "date": "Data",
+    "user-id": "ID Utente",
+    "username": "Nome utente",
+    "has-been": "L'utente era precedentemente blacklistato",
+    "no-permission": "❌Non hai il permesso di usare questo commando devi essere un **AMMINISTRATORE**.",
+    "admin-comment": "Commento Admin",
+    "settings": "Utilizza il nostro sito web per poter cambiare le impostazione: **https://stoptheresellers.com/dashboard/",
+
+    "bans": {
+        "bannedbystr": "Bannato da STR",
+        "userbanned": "UTENTE BANNATO",
+        "joinedblacklisted": "L'utente è entrato nel server ed è stato blacklistato"
+    },
+    "other": {
+        "joinedserver": "E' Entrato nel server",
+        "supportserver": "Entra nel discord di supporto.",
+        "invite": "Invita il bot qui!"
+    },
+    "alt": {
+        "newaccount": "Nuovo account rilevato!",
+        "newacckick": "Questo account non è abbastanza vecchio: **{days} day(s)**. L'utente è stato kickato.",
+        "newacclog": "L'utente è entrato nel server con uno novo account, creato il {created}, questo server richiede un minimo di {mindays} day(s) per poter entrare all'interno del server.",
+        "newacc": "Questo account ha solo {days} day(s)."
+    },
+    "checking": {
+        "nouser": "❌Non sono riuscito a trovare l'utente. Perfavore @ un valido utente o utilizzi l'ID utente."
+    },
+    "blacklist": {
+        "isblacklisted": "UTENTE BLACKLISTATO",
+        "by": "Blacklistato da:",
+        "notblacklisted": "UTENTE NON BLACKLISTATO"
+    },
+    "report": {
+        "dashboardonly": "Un report può essere scritto nel sito: {url}",
+        "success": "✅Grazie per aver scritto un report, verrà letto al piu' presto possibile.",
+        "nourl": "❌Non hai inserito nessun link da reportare, controlla se hai commesso qualche errore"
+    },
+    "fetch": {
+        "failed": "BAN FALLITO",
+        "could-not-ban": "Non ho potuto bannare:",
+        "server": "Server:",
+        "serverowner": "Propietario Server:",
+        "is-admin": "è un admin",
+        "banned": "UTENTE BANNATO",
+        "role-above": "Questa persona è un admin/ ha un ruolo sopra il mio",
+        "banned-in": "Bannato su",
+        "no-permission": "Non ho il permesso per poter bannare"
+    },
+    "help": {
+        "checkuser": "Controlla se un utente è blacklistato",
+        "fetch": "Controlla se ci sono persone all'interno del tuo discord blacklistate e vengono bannate **[SOLO ADMIN DELL'BOT]**",
+        "botinfo": "Informazioni riguardo al bot",
+        "userinfo": "Mostra le informazione per quanto riguarda l'utente selezionato.",
+        "languages": "Mostra una lista di tutte le lingue supportate",
+        "allow": "Consente a un utente blacklistato di ignorare l'autoban e di unirsi al tuo server.",
+        "allowalt": "Consente a un utente con un nuovo account di ignorare l'identificazione alternativa e unirsi al tuo server.",
+        "id": "Mostra informazioni base, con l'immagine profilo.",
+        "viewreport": "Controlla il tuo report.",
+        "crosscheck": "Controlla nel tuo server e ti fornisce un elenco di ciascun utente nella blacklist con il motivo del blacklist.",
+        "invite": "Invia un link del bot.",
+        "supportserver": "Invia un invito per il server di supporto.",
+        "vote": "Invia un link dove puoi votare per il bot.",
+        "dailyblacklists": "Mostra la quantità di blacklist effettuate nelle ultime 24 ore.",
+        "leaderboard": "Mostra gli utenti con i report accettati",
+        "report": "Mostra i rapporti del sito Web su cui devono essere inviati",
+        "staffs": "Mostra una list dello staff di STR",
+        "deletelogs": "Rimuove il canale di logs",
+        "reportbug": "Segnala un bug",
+        "reportscamurl": "Segnala un url da blacklistare"
+    },
+    "botinfo": {
+        "bot-name": "Nome bot",
+        "bot-owner": "Propietario bot",
+        "servers": "Servers",
+        "users": "Utenti",
+        "uptime": "Tempo di attività",
+        "ping": "Ping",
+        "bot-library": "Bot Library",
+        "created-on": "Creato il",
+        "blacklisted-users": "Utenti blacklistati",
+        "website": "Sito Web",
+        "support-server": "Server di Supporto"
+    },
+    "logs": {
+        "removed": "✅Logs rimossi con successo da <#{havelogs}>",
+        "no-logs": "❌Non hai i logs attivi in questo server."
+    },
+    "verification": {
+        "verify-started": "Verifica avviata.",
+        "joined-server": "Entrato il",
+        "inleaking": "⚠️ <@{args}> Verificato corretamente, **si trova in server di leaks **",
+        "noleaking": "✅ <@{args}> Verificato corretamente, non si trova all'interno di nessun discord di leak.",
+        "forceverify": "{author} da {guild.name} vuole che ti verifichi. Fallo tramite questo link http://stoptheresellers.xyz/auth/verify",
+        "autoverify": "Benvenuto su {guild.name}. per poter restare all'interno del server dovrai verificarti utilizi questo link per poter verificarti. http://stoptheresellers.xyz/auth/verify.",
+        "kick-msg": "L'utente non ha effettuato la verifica forzata attivata da {author}",
+        "user-kicked": "❌Utente kickato",
+        "reason": "Non si è verificato.",
+        "no-kick-permission": "❌L'utente non ha verificato e io **non posso** kickarlo a causa della mancata autorizzazione di kick.",
+        "no-verify": "❌L'utente non è stato verificato."
+    },
+    "userinfo": {
+        "no-user": "❌Non ho trovato un utente con quell'id. Sei sicuro che l'utente sia in questo server?",
+        "no-user2": "❌Non ho trovato nessun utente con quell'id.",
+        "joined": "Si è unito il",
+        "created": "Account creato il:",
+        "avatar-url": "URL Imaggine profilo",
+        "blacklisted": "Blacklistato",
+        "roles": "Ruoli",
+        "none": "Nulla"
+    },
+    "crosscheck": {
+        "success": "✅Caricamento in corso... Ti invierò un messaggio di posta elettronica con un elenco di tutti gli utenti blacklistati nel tuo server in 10 secondi.",
+        "blacklisted-in": "Utenti blacklistati in {guild}:",
+        "error": "❌Qualcosa è andato storto, impossibile inviare la lista.",
+        "no-dm": "❌Non posso scriverti, hai i messaggi impostato solo sugli amici?",
+        "cooldown": "❌Puoi usare questo comando solo una volta ogni 24 ore.",
+        "none-found": "Nessun utente blacklistato trovato durante il controllo incrociato"
+    },
+    "languages": {
+        "all": "Tutte le lingue attive",
+        "contribute": "Vuoi contribuire ad aggiungere lingue? puoi farlo qui!"
+    },
+    "staffs": {
+        "intro": "Tutto lo Staff dell bot."
+    },
+    "serverinfo": {
+        "title": "Serverinfo",
+        "description": "{name} informazioni",
+        "owner": "Propietario",
+        "members": "Conteggio Membri",
+        "created-at": "Creato il",
+        "channel-count": "Conteggo canali",
+        "region": "Regione del Server"
+    },
+    "vote": {
+        "title": "Si prega di votare per il nostro bot qui."
+    },
+    "dailyblacklists": {
+        "user": "Totale blacklistati di ({date}) da {user}: **{total}**",
+        "none": "Totale blacklistati di ({date}): **{total}**"
+    },
+    "allowed": {
+        "userallowed": "Utente nella blacklist consentito",
+        "userallowed2": "{user} Ha consentito a un utente nella blacklist di entrare nel server",
+        "success": "Stato di autorizzazione attivato con successo per {user}",
+        "error": "L'utente che stai cercando di consentire non è blacklistato"
+    },
+    "viewreport": {
+        "no-args": "Non ha fornito alcun report da visualizzare",
+        "reportedby": "Segnalato da",
+        "reportstatus": "Status del Report",
+        "notreviewed": "Non ancora revisionato",
+        "denied": "Negato",
+        "accepted": "Accettato",
+        "noreport": "❌Non c'è nessuno report con l'{id}"
+    },
+    "id": {
+        "error": "Non ho potuto caricare le informazioni...",
+        "info": "Info",
+        "no-args": "Inserisca un ID."
+    },
+    "allowalt": {
+        "no-args": "❌Si prega di inviare un ID utente / menzionare qualcuno.",
+        "success": "Account alternativo consentito con successo <@{userid}> ad entrare nel server."
+    },
+    "urlblacklisted": {
+        "ban-message": "Invio di URL nella blacklist contenenti parole: {word}",
+        "log-msg": "L'utente ha pubblicato un URL nella blacklist contenente la parola: **{word}**\n\n**Intero messaggio:** *{msg}*",
+        "detected": "URL Blacklistato rilevato"
+    },
+    "autorole": {
+        "role-above": "Il ruolo desiderato è sopra il mio, sposta il mio ruolo sopra il ruolo che vuoi che abbiano",
+        "success": "L'utente è blacklistato e gli è stato assegnato il ruolo blacklistato",
+        "given": "Ruolo dato",
+        "failed-give": "Non ho potuto dare il ruolo",
+        "removed": "Ruolo rimosso",
+        "failed-removed": "Non ho potuto rimuovere il ruolo",
+        "role-above-remove": "Il ruolo desiderato è sopra il mio, sposta il mio ruolo sopra il ruolo che vuoi che rimuova.",
+        "success-remove": "L'utente non è più nella blacklist e il ruolo blacklistato è stato rimosso."
+    }
+}
