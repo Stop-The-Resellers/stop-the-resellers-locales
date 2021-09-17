@@ -3,12 +3,12 @@
     "no-argsuser": "❌Geen gebruiker opgegeven",
     "no-args": "❌Niets opgegeven om te zeggen",
     "reason": "Reden:",
-    "date": "Datum",
-    "user-id": "Gebruikers ID",
-    "username": "Gebruikersnaam",
-    "has-been": "Gebruiker staat op de zwarte lijst",
+    "date": "Datum:",
+    "user-id": "Gebruikers ID:",
+    "username": "Gebruikersnaam:",
+    "has-been": "Gebruiker stond op de zwarte lijst",
     "no-permission": "❌U heeft geen toestemming om deze command te gebruiken, u heeft **BEHEERDER** rechten nodig.",
-    "admin-comment": "Opmerking admin",
+    "admin-comment": "Opmerking admin:",
     "settings": "Ga naar onze web-dashboard om je instellingen te wijzigen: **https://stoptheresellers.com/dashboard",
 
     "bans": {
@@ -31,8 +31,8 @@
         "nouser": "❌Kan die gebruiker niet vinden. Gelieve @ een geldige gebruiker of controleer op zijn id."
     },
     "blacklist": {
-        "isblacklisted": "GEBRUIKER IS OP DE ZWARTE LIJST",
-        "by": "Op de zwarte lijst gezet door:",
+        "isblacklisted": "GEBRUIKER STAAT OP DE ZWARTE LIJST",
+        "by": "Op de zwarte lijst geplaatst door:",
         "notblacklisted": "GEBRUIKER STAAT NIET OP DE ZWARTE LIJST"
     },
     "report": {
@@ -65,7 +65,7 @@
         "invite": "Stuurt een uitnodigingslink voor de bot.",
         "supportserver": "Stuurt een uitnodiging naar de ondersteuningsserver.",
         "vote": "Stuurt een link waar je op de bot kunt stemmen.",
-        "dailyblacklists": "Geeft het aantal zwarte lijsten dat in de afgelopen 24 uur is gemaakt weer.",
+        "dailyblacklists": "Geeft het aantal mensen weer die in de afgelopen 24 uur op de zwarte lijst is geplaatst.",
 		    "leaderboard": "Toont de gebruikers met de meeste geaccepteerde rapporten",
 	    	"report": "Geeft de webstie weer waarop de reports moeten worden toegezonden",
 	    	"staffs": "Geeft een lijst weer van STR admins",
@@ -141,8 +141,8 @@
         "title": "Stem hier op onze bot."
     },
     "dailyblacklists": {
-        "user": "Totaal aantal zwarte lijsten toegevoegd vandaag ({date}) door {user}: **{total}**",
-        "none": "Totaal aantal zwarte lijsten toegevoegd vandaag ({date}): **{total}**"
+        "user": "Totaal aantal mensen op de zwarte lijst toegevoegd vandaag ({date}) door {user}: **{total}**",
+        "none": "Totaal aantal mensen op de zwarte lijst toegevoegd vandaag ({date}): **{total}**"
     },
     "allowed": {
         "userallowed": "Gebruiker op de zwarte lijst toegang gegeven",
@@ -174,8 +174,8 @@
         "detected": "URL op de zwarte lijst gedetecteerd"
     },
     "autorole": {
-		    "role-above": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die jij wilt dat ze hebben",
-		    "success": "Gebruiker staat op de zwarte lijst en heeft de blacklisted rol gekregen",
+        "role-above": "De gewenste rol staat boven de mijne, verplaats mijn rol boven de rol die jij wilt dat ze hebben",
+        "success": "Gebruiker staat op de zwarte lijst en heeft de blacklisted rol gekregen",
         "given": "Rol toegewezen",
         "failed-give": "Kan geen rol geven",
         "removed": "Rol verwijderd",
