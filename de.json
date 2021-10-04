@@ -1,7 +1,7 @@
 {
     "no-admin": "❌Du bist kein Admin",
     "no-argsuser": "❌Es wurde kein Benutzer angegeben",
-    "no-args": "❌Bitte gebe einen gültigen Befehl",
+    "no-args": "❌Bitte gebe einen gültigen Befehl an",
     "reason": "Grund:",
     "date": "Datum",
     "user-id": "Discord ID",
