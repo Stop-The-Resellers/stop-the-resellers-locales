@@ -95,8 +95,8 @@
 		"joined-server": "Joined server",
 		"inleaking": "⚠️ <@{args}> Successfully verified and **is in the following leaking servers**",
 		"noleaking": "✅ <@{args}> Successfully verified and is not in any leaking servers.",
-		"forceverify": "{author} from {guild.name} wants you to verify yourself. Do it with this link http://stoptheresellers.xyz/auth/verify",
-		"autoverify": "Welcome to {guild.name}. In order to stay in the server you need to verify yourself with this link http://stoptheresellers.xyz/auth/verify.",
+		"forceverify": "{author} from {guild.name} wants you to verify yourself. Do it with this link https://stoptheresellers.xyz/auth/verify",
+		"autoverify": "Welcome to {guild.name}. In order to stay in the server you need to verify yourself with this link https://stoptheresellers.xyz/auth/verify.",
 		"kick-msg": "User did not verify the force verification made by {author}",
 		"user-kicked": "❌User kicked",
 		"reason": "Did not verify.",
@@ -106,8 +106,8 @@
 	"userinfo": {
 		"no-user": "❌Did not find a user with that id. Are you sure that the user is in this server?",
 		"no-user2": "❌Could not find a user with that id.",
-		"joined": "Joined The Server On",
-		"created": "Account Created On:",
+		"joined": "Joined the server on",
+		"created": "Account created on:",
 		"avatar-url": "Avatar URL",
 		"blacklisted": "Blacklisted",
 		"roles": "Roles",
@@ -162,10 +162,10 @@
 	"id": {
 		"error": "Couldn't load info...",
 		"info": "Info",
-		"no-args": "Please provide a id."
+		"no-args": "Please provide an ID."
 	},
 	"allowalt": {
-		"no-args": "❌Please submit a user id / mention someone.",
+		"no-args": "❌Please submit a User-ID/mention someone.",
 		"success": "Successfully allowed alt account <@{userid}> to be in the server."
 	},
 	"urlblacklisted": {
@@ -176,11 +176,11 @@
 	"autorole": {
 		"role-above": "The desired role is above mine, move my role above the role you want them to have",
 		"success": "User is blacklisted and was given the blacklisted role",
-        "given": "Role Given",
-        "failed-give": "Failed to give role",
-        "removed": "Role Removed",
-        "failed-removed": "Failed to remove role",
-        "role-above-remove": "The desired role is above mine, move my role above the role you want me to remove.",
-        "success-remove": "User is no longer blacklisted and the blacklist role was taken away."
+    "given": "Role Given",
+    "failed-give": "Failed to give role",
+    "removed": "Role Removed",
+    "failed-removed": "Failed to remove role",
+    "role-above-remove": "The desired role is above mine, move my role above the role you want me to remove.",
+    "success-remove": "User is no longer blacklisted and the blacklist role was taken away."
 	}
 }
