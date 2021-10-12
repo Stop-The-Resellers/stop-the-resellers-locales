@@ -1,0 +1,186 @@
+{
+	"no-admin": "❌Neturi administravimo privilegijų.",
+	"no-argsuser": "❌Prašom nurodyti vartotoją.",
+	"no-args": "❌Prašom įrašyti argumentus.",
+	"reason": "Priežastis:",
+	"date": "Data",
+	"user-id": "Vartotojo ID",
+	"username": "Vartotojo vardas",
+	"has-been": "Vartotojas yra blacklistintas.",
+	"no-permission": "❌Tu neturi privilegijų naudotis šią komanda, tau reikia  **ADMINISTRATORIAUS** privilegijų.",
+	"admin-comment": "Administratoriaus komentaras",
+	"settings": "Jei norite pakeisti nustatymus, prašome eiti į šią nuorodą: **https://stoptheresellers.com/dashboard/",
+
+	"bans": {
+		"bannedbystr": "Užbanintas STR administracijos.",
+		"userbanned": "VARTOTOJAS UŽBANINTAS",
+		"joinedblacklisted": "Asmuo prisijungė į serverį ir jis yra blacklistintas."
+	},
+	"other": {
+		"joinedserver": "Prisijungė.",
+		"supportserver": "Prisijunk prie pagalbos serverio.",
+		"invite": "Pakviesti botą čia."
+	},
+	"alt": {
+		"newaccount": "Rastas naujas vartotojas!",
+		"newacckick": "Vartotojo amžius yra tik **{days} dienų** amžiaus. Vartotojas buvo išmestas iš serverio.",
+		"newacclog": "Vartotojas prisijungė su nauju accountu kuris buvo sukurtas {created} bet šis serveris reikalauja minimaliai {mindays} dienų kad galėtu naudotis serveriu.",
+		"newacc": "Vartotojas yra tik {days} dienų amžiaus."
+	},
+	"checking": {
+		"nouser": "❌Vartotojas nerastas. Prašom @ vartotoją arba naudokites jo ID."
+	},
+	"blacklist": {
+		"isblacklisted": "VARTOTOJAS BLACKLISTINTAS",
+		"by": "Blacklistintas asmens:",
+		"notblacklisted": "VARTOTOJAS NE BLACKLISTINTAS"
+	},
+	"report": {
+		"dashboardonly": "Raportuoti asmenis galite iš dashboardo: {url}",
+		"success": "✅Ačiū kad skyrete laiko raportui. Jūsų raportas bus patikrintas kaip galima ankščiau.",
+		"nourl": "❌Prašome įvesti URL."
+	},
+	"fetch": {
+		"failed": "NEPAVYKO UŽBANINTI",
+		"could-not-ban": "Nepavyko užbaninti:",
+		"server": "Serveris:",
+		"serverowner": "Serverio sąvininkas:",
+		"is-admin": "Šis vartotojas yra administratorius.",
+		"banned": "VARTOTOJAS UŽBANINTAS",
+		"role-above": "Šis asmuo yra administratorius arba turi aukštesne rolę už mane.",
+		"banned-in": "Bano data",
+		"no-permission": "Neturiu privilegijų vartotojų baninimui"
+	},
+	"help": {
+		"checkuser": "Patikrina ar vartotojas jau užbanintas.",
+		"fetch": "Patikrina ar tavo discorde yra užbanintų žmonių **[TIK BOTO ADMINISTRACIJAI]**",
+		"botinfo": "Pateikia informaciją apie botą",
+		"userinfo": "Pateikia informaciją apie to asmens discordą.",
+		"languages": "Parodo visas palaikomas kalbas.",
+		"allow": "Leidžia blacklistintam asmeniui apeiti apribojimą.",
+		"allowalt": "Leidžiama neseniai sukurtam vartotojui apeiti vartotojo amžiaus apribojimą.",
+		"id": "Pateikia paprastą informaciją apie vartotoja kaip vartotojo vardą bei profilio nuotrauką.",
+		"viewreport": "Patikrinti savo raportus.",
+		"crosscheck": "Patikrina tavo discordo serverį bei parodo vartotojus kurie yra blacklistinti bei dėl kokios priežasties.",
+		"invite": "Siunčia pakvietimo nuorodą botui.",
+		"supportserver": "Siunčia pakvietimą į pagalbos serverį.",
+		"vote": "Siunčia nuorodą kur galite prabalsuoti už botą.",
+		"dailyblacklists": "Pateikia informaciją kiek žmonių buvo blacklistinta per paskutines 24 valandas.",
+		"leaderboard": "Parodo vartotoją kuris turi daugiausiai priimtu raportų.",
+		"report": "Pateikia svetainę kur turėtu būti siunčiami raportai.",
+		"staffs": "Pateikia visus STR administratorius.",
+		"deletelogs": "Panaikina logų kanalą.",
+		"reportbug": "Pranešti apie klaidą.",
+		"reportscamurl": "Praneškite scam nuorodą blacklistinimui."
+	},
+	"botinfo": {
+		"bot-name": "Boto vardas",
+		"bot-owner": "Boto sąvininkas",
+		"servers": "Serveriai",
+		"users": "Vartotojai",
+		"uptime": "Veikimo laikas",
+		"ping": "Ping",
+		"bot-library": "Boto biblioteka",
+		"created-on": "Sukurimo data",
+		"blacklisted-users": "Blacklistinti vartotojai",
+		"website": "Svetainė",
+		"support-server": "Pagalbos serveris"
+	},
+	"logs": {
+		"removed": "✅Sekmingai panaikinti logai nuo <#{havelogs}>",
+		"no-logs": "❌Logai nenbuvo įjungti šiame serveryje."
+	},
+	"verification": {
+		"verify-started": "Patvirtinimas prasidėjo.",
+		"joined-server": "Prisijungė į serverį.",
+		"inleaking": "⚠️ <@{args}> Sekmingai pasitvirtino ir **yra šiuose leak serveriuose**.",
+		"noleaking": "✅ <@{args}> Sekmingai pasitvirtino ir vartotojas nėra leak serveriuose.",
+		"forceverify": "{author} iš {guild.name} prašo jūsų pasitvirtinti. Prašome eiti į šią nuorodą http://stoptheresellers.xyz/auth/verify",
+		"autoverify": "Sveiki atvyke į {guild.name}. Norint patekti į vidų, prašome pasitvirtinti šioje nuorodoje http://stoptheresellers.xyz/auth/verify.",
+		"kick-msg": "Vartotojas nepasitvirtino nors buvo paprašytas {author}",
+		"user-kicked": "❌Vartotojas išmestas",
+		"reason": "Nepasitvirtino.",
+		"no-kick-permission": "❌Vartotojas nepasitvirtino ir aš **negaliu** išmesti nes neturiu išmetimo privilegijų.",
+		"no-verify": "❌Vartotojas nepasitvirtino."
+	},
+	"userinfo": {
+		"no-user": "❌Vartotojas su tokiu ID nerastas. Ar vartotojas tikrai yra šiame serveryje?",
+		"no-user2": "❌Vartotojas su tokiu ID nerastas.",
+		"joined": "Prisijungė į šį serverį",
+		"created": "Vartotojas sukurtas:",
+		"avatar-url": "Nuotraukos nuoroda",
+		"blacklisted": "Blacklistintas",
+		"roles": "Rolės",
+		"none": "Nėra"
+	},
+	"crosscheck": {
+		"success": "✅Kraunama... Apie visus blacklistintus asmenis jums bus pranešta į PM.",
+		"blacklisted-in": "Blacklistinti asmenys {guild} serveryje:",
+		"error": "❌Klaida. Sarašas negalėjo būti išsiūstas.",
+		"no-dm": "❌Prašom pasitikrinti savo PM nustatymus, nes negaliu atsiūsti jums žinutės?",
+		"cooldown": "❌Komanda leidžiama tik kas 24 valandas.",
+		"none-found": "Nerasta blacklistintų vartotojų."
+	},
+	"languages": {
+		"all": "Palaikamos kalbos",
+		"contribute": "Jei nori prisidėti prie vertimo, prašome eiti čia"
+	},
+	"staffs": {
+		"intro": "Visi boto prižiūrėtojai."
+	},
+	"serverinfo": {
+		"title": "ServerioInformacija",
+		"description": "{name} informacija",
+		"owner": "Sąvininkas",
+		"members": "VartotojųKiekis",
+		"created-at": "Sukurtas",
+		"channel-count": "Kanalų skaičius",
+		"region": "Serverio regionas"
+	},
+	"vote": {
+		"title": "Prašome prabalsuoti čia."
+	},
+	"dailyblacklists": {
+		"user": "Iš viso blacklistinta iki dabar ({date}) vartotojo {user}: **{total}**",
+		"none": "Iš viso blacklistinta iki dabar ({date}): **{total}**"
+	},
+	"allowed": {
+		"userallowed": "Įleidžiami blacklistinti vartotojai.",
+		"userallowed2": "{user} Įleido blacklistintą vartotoją.",
+		"success": "Sekmingai leidžiama apeiti vartotojui {user}.",
+		"error": "Asmuo nėra blacklistintas."
+	},
+	"viewreport": {
+		"no-args": "Nerastas raportas",
+		"reportedby": "Raportuotas vartotojo",
+		"reportstatus": "Raporto statusas",
+		"notreviewed": "Neperžiūrėtas",
+		"denied": "Atmestas",
+		"accepted": "Priimtas",
+		"noreport": "❌Raporto su tokiu ID {id} nerasta."
+	},
+	"id": {
+		"error": "Informacija nerasta...",
+		"info": "Informacija",
+		"no-args": "Prašome nurodyti ID."
+	},
+	"allowalt": {
+		"no-args": "❌Prašom pateikti ID arba @ tą asmenį.",
+		"success": "Sekmingai įleidžiamas <@{userid}>."
+	},
+	"urlblacklisted": {
+		"ban-message": "Siunčiami blacklistintos nuorodas su žodžiu: {word}",
+		"log-msg": "Vartotojas papostino blacklistintą nuorodą su žodžiu: **{word}**\n\n**Visa žinutė:** *{msg}*",
+		"detected": "Blacklistinta nuoroda rasta."
+	},
+	"autorole": {
+		"role-above": "Norima rolė yra aukštesne už mano. Prašom pakelti mano rolę aukščiau.",
+		"success": "Asmuo yra blacklistintas, ir jam buvo uždėta Blacklistinto rolė.",
+        "given": "Rolė duota.",
+        "failed-give": "Nepavyko duoti rolės.",
+        "removed": "Rolė panaikinta.",
+        "failed-removed": "Nepavyko nuimti rolės.",
+        "role-above-remove": "Norima rolė yra aukštesne už mano. Prašom pakelti mano rolę aukščiau.",
+        "success-remove": "Asmuo nebėra blacklistintas ir jo rolė buvo nuimta."
+	}
+}
