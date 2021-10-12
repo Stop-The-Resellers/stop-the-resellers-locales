@@ -170,7 +170,7 @@
     },
     "urlblacklisted": {
         "ban-message": "Op de zwarte lijst geplaatste URL met woord verzonden: {word}",
-        "log-msg": "Gebruiker plaatste een URL, die op de zwarte lisjt staat, met het volgende woord: **{word}**\n\n**Volledig bericht:** *{msg}*",
+        "log-msg": "Gebruiker plaatste een URL, die op de zwarte lijst staat, met het volgende woord: **{word}**\n\n**Volledig bericht:** *{msg}*",
         "detected": "URL op de zwarte lijst gedetecteerd"
     },
     "autorole": {
