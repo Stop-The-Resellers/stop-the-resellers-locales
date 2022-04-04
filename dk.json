@@ -174,13 +174,13 @@
         "detected": "Blacklisted URL Opdaget"
     },
     "autorole": {
-		"role-above": "Den valgte rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
-		"success": "Brugeren er blacklisted og fik blacklisted rollen.",
+	"role-above": "Den valgte rolle er over min, flyt min rolle over den rolle du ønsker, at de skal have.",
+	"success": "Brugeren er blacklisted og fik blacklisted rollen.",
         "given": "Rolle givet",
         "failed-give": "Kunne ikke give rollen.",
         "removed": "Rolle fjernet.",
         "failed-removed": "Kunne ikke fjerne rollen.",
-        "role-above-remove": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at jeg skal fjerne.",
+        "role-above-remove": "Den valgte rolle er over min, flyt min rolle over den rolle du ønsker, at jeg skal fjerne.",
         "success-remove": "Brugeren er ikke længere blacklisted og blacklisted rollen blev fjernet."
 	}
 }
