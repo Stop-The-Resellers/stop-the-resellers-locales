@@ -28,7 +28,7 @@
         "newacc": "Denne konto er kun {days} dag(e) gammel."
     },
     "checking": {
-        "nouser": "❌Kan ikke finde brugern. Venligst @ brugeren, eller check gennem deres id."
+        "nouser": "❌Kan ikke finde brugeren. Venligst @ brugeren, eller check gennem deres id."
     },
     "blacklist": {
         "isblacklisted": "BRUGEREN ER BLACKLISTED",
@@ -62,11 +62,11 @@
         "id": "Giver dig standard information omkring brugeren som fx navn og profilbillede.",
         "viewreport": "Se din egen rapport.",
         "crosscheck": "Kigger igennem hele serveren og giver dig en liste af hver blacklistede bruger og deres blacklist grund.",
-        "invite": "Sender et invite link for botten.",
+        "invite": "Sender et invite link til botten.",
         "supportserver": "Sender et invite til support serveren.",
         "vote": "Sender et link hvor du kan stemme på botten.",
         "dailyblacklists": "Giver mængden af blacklists uddelt i de sidste 24 timer.",
-        "leaderboard": "Viser de brugere med fleste accepteret rapporter",
+        "leaderboard": "Viser de brugere med flest accepteret rapporter",
         "report": "Viser hjemmesiden rapporter sendes på",
         "reportbug": "Rapporter en fejl.",
         "reportscamurl": "Rapporter et scam link, til at blive blacklisted.",
@@ -119,7 +119,7 @@
         "error": "❌Noget gik galt, kan ikke sende dig listen.",
         "no-dm": "❌Jeg kan ikke dm dig, har du dms sat kun til venner?",
         "none-found": "Ingen blacklistede bruger fundet.",
-        "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24 timer."
+        "cooldown": "❌Du kan kun bruge denne kommando en gang hver 24. time."
     },
     "languages": {
         "all": "Alle tilgængelige sprog",
@@ -160,7 +160,7 @@
         "noreport": "❌Der er ingen rapporter med ID {id}"
     },
     "id": {
-        "error": "Ikke ikke indlæse info...",
+        "error": "Kunne ikke indlæse info...",
         "info": "Info",
         "no-args": "Skriv et ID."
     },
@@ -174,13 +174,13 @@
         "detected": "Blacklisted URL Opdaget"
     },
     "autorole": {
-		"role-above": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
-		"success": "Brugeren er blacklisted og fik blacklisted rollen.",
+	"role-above": "Den valgte rolle er over min, flyt min rolle over den rolle du ønsker, at de skal have.",
+	"success": "Brugeren er blacklisted og fik blacklisted rollen.",
         "given": "Rolle givet",
         "failed-give": "Kunne ikke give rollen.",
         "removed": "Rolle fjernet.",
         "failed-removed": "Kunne ikke fjerne rollen.",
-        "role-above-remove": "Den valge rolle er over min, flyt min rolle over den rolle du ønsker at de skal have.",
+        "role-above-remove": "Den valgte rolle er over min, flyt min rolle over den rolle du ønsker, at jeg skal fjerne.",
         "success-remove": "Brugeren er ikke længere blacklisted og blacklisted rollen blev fjernet."
 	}
 }
