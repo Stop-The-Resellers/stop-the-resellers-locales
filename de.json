@@ -1,5 +1,5 @@
 {
-    "no-admin": "❌Sie sind kein Admin",
+    "no-admin": "❌Du bist kein Admin",
     "no-argsuser": "❌Es wurde kein Benutzer angegeben",
     "no-args": "❌Bitte gib einen gültigen Befehl an ",
     "reason": "Grund:",
@@ -7,9 +7,9 @@
     "user-id": "Discord ID",
     "username": "Benutzername",
     "has-been": "Der Benutzer ist geblacklistet",
-    "no-permission": "❌Sie benötigen **Administrator** Rechte um diesen Befehl auszuführen.",
+    "no-permission": "❌Du benötigst **Administrator** Rechte um diesen Befehl auszuführen.",
     "admin-comment": "Admin Anmerkung",
-    "settings": "Bitte benutzte unser Dashboard um deine Einstellungen zu ändern: **https://stoptheresellers.com/dashboard",
+    "settings": "Bitte benutze unser Dashboard um deine Einstellungen zu ändern: **https://stoptheresellers.com/dashboard",
 
     "bans": {
         "bannedbystr": "Gebannt von STR",
@@ -28,7 +28,7 @@
         "newacc": "Dieser Account ist nur {days} Tag(e) alt."
     },
     "checking": {
-        "nouser": "❌Dieser Benutzer konnte nicht gefunden werden, geben sie bitte eine gültige ID oder @ an."
+        "nouser": "❌Dieser Benutzer konnte nicht gefunden werden, bitte gebe eine gültige ID oder @ an."
     },
     "blacklist": {
         "isblacklisted": "Benutzer ist geblacklisted ",
@@ -88,7 +88,7 @@
     },
     "logs": {
         "removed": "✅Der Bot-Verlauf wird nun nicht mehr in disem Kanal angezeigt <#{havelogs}>",
-        "no-logs": "❌Sie haben für diesen Server keinen Bot-Verlauf aktiviert."
+        "no-logs": "❌Du hast für diesen Server keinen Bot-Verlauf aktiviert."
     },
     "verification": {
         "verify-started": "Verifizierung startet",
@@ -104,7 +104,7 @@
         "no-verify": "❌Benutzer hat sich nicht verifiziert."
     },
     "userinfo": {
-        "no-user": "❌Es konnte kein Benutzer mit dieser **ID** gefunden werden, sind sie sich sicher das dieser Benutzer auf ihrem Server ist?",
+        "no-user": "❌Es konnte kein Benutzer mit dieser **ID** gefunden werden, bist du dir sicher das dieser Benutzer auf dem Server ist?",
         "no-user2": "❌Es konnte kein Benutzer mit dieser ID gefunden werden.",
         "joined": "Ist dem Server beigetreten am",
         "created": "Account erstellt am:",
@@ -114,16 +114,16 @@
         "none": "Keine"
     },
     "crosscheck": {
-        "success": "✅Der Bot wird ihnen in ca. 10 Sekunden eine Nachricht schicken mit allen geblacklisteten Benutzern auf diesem Server.",
+        "success": "✅Der Bot wird dir in ca. 10 Sekunden eine Nachricht schicken mit allen geblacklisteten Benutzern auf diesem Server.",
         "blacklisted-in": "Geblacklistete Benutzer in {guild}:",
-        "error": "❌Etwas ist schief gelaufen, ich konnte ihnen die Nachricht nicht schicken.",
-        "no-dm": "❌Ich konnte ihnen keine Nachricht schreiben, überprüfen sie ob sie Nachrichten nur von Freunden erlauben aktiviert haben.",
+        "error": "❌Etwas ist schief gelaufen, ich konnte die Nachricht nicht schicken.",
+        "no-dm": "❌Ich konnte keine Nachricht schreiben, überprüfen sie ob sie Nachrichten nur von Freunden erlauben aktiviert haben.",
         "none-found": "Es wurden keine Benutzer auf der Blacklist beim Abgleich gefunden.",
-        "cooldown": "❌Sie können diesen Befehl nur alle 24h benutzen."
+        "cooldown": "❌Du kannst diesen Befehl nur alle 24h benutzen."
     },
     "languages": {
         "all": "Alle verfügbaren Sprachen",
-        "contribute": "Beherschen sie eine Sprache sehr gut und wollen diese oben gelistet sehen? Klicken sie auf diesen Link"
+        "contribute": "Beherschst du eine Sprache sehr gut und möchtest diese oben gelistet sehen? Klicke auf diesen Link"
     },
     "staffs": {
         "intro": "Administratoren des Bots."
@@ -148,10 +148,10 @@
         "userallowed": "Benutzer für diesen Server von der Blacklist genommen",
         "userallowed2": "{user} hat einen Benutzer für diesen Server von der Blacklist genommen",
         "success": "Der Benutzer {user} kann nun diesem Server beitreten",
-        "error": "Den Benutzer den sie für diesen Server von der Blacklist nehmen wollen befindet sich nicht auf der Blacklist"
+        "error": "Den Benutzer den du für diesen Server von der Blacklist nehmen wollen befindet sich nicht auf der Blacklist"
     },
     "viewreport": {
-        "no-args": "Bitte geben sie eine gültige Meldung an",
+        "no-args": "Bitte gebe eine gültige Meldung an",
         "reportedby": "Gemeldet von",
         "reportstatus": "Bearbeitungsstatus",
         "notreviewed": "Unbewertet",
@@ -162,10 +162,10 @@
     "id": {
         "error": "Es konnten keine Informationen geladen werden...",
         "info": "Informationen",
-        "no-args": "Bitte geben sie eine ID an."
+        "no-args": "Bitte gebe eine ID an."
     },
     "allowalt": {
-        "no-args": "❌Bitte geben sie eine ID an oder markieren sie jemanden.",
+        "no-args": "❌Bitte gebe eine ID an oder markiere jemanden.",
         "success": "Der 2t Account <@{userid}> kann nun diesem Server beitreten."
     },
     "urlblacklisted": {
