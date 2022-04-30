@@ -1,6 +1,6 @@
 {
     "no-admin": "❌Vous n'êtes pas administrateur",
-    "no-argsuser": "❌Vous n'avez pas spécifié un utlisateur",
+    "no-argsuser": "❌Vous n'avez pas spécifié d'utlisateur",
     "no-args": "❌Vous n'avez pas spécifié quelque chose à dire",
     "reason": "Raison:",
     "date": "Date",
@@ -9,16 +9,16 @@
     "has-been": "Un utilisateur a été blacklisté",
     "no-permission": "❌Vous n'avez pas la permission d'utiliser cette commande, vous avez besoin des droits **ADMINISTRATEUR**.",
     "admin-comment": "Commentaire administrateur",
-    "settings": "Veuillez vous rendre sur notre tableau de bord web pour changer vos paramètres: **https://stoptheresellers.com/dashboard",
+    "settings": "Veuillez vous rendre sur notre tableau de bord pour changer vos paramètres: **https://stoptheresellers.com/dashboard",
     
     "bans": {
         "bannedbystr": "Banni par STR",
         "userbanned": "UTILISATEUR BANNI",
-        "joinedblacklisted": "Un utilisateur a rejoint le serveur et est blacklisté"
+        "joinedblacklisted": "Un utilisateur blacklisté a rejoint le serveur"
     },
     "other": {
         "joinedserver": "Rejoint le serveur",
-        "supportserver": "Rejoindre he server d'assistance.",
+        "supportserver": "Rejoindre le server d'assistance.",
 		"invite": "Invite le bot ici"
     },
     "alt": {
@@ -31,9 +31,9 @@
         "nouser": "❌Impossible de trouver cet utilisateur. Veuillez @ un utilisateur valide ou vérifier son ID."
     },
     "blacklist": {
-        "isblacklisted": "L'UTILISATEUR EST BLACKLISTE",
+        "isblacklisted": "L'UTILISATEUR EST BLACKLISTÉ",
         "by": "Blacklisté par:",
-        "notblacklisted": "L'UTILISATEUR N'EST PAS BLACKLISTE"
+        "notblacklisted": "L'UTILISATEUR N'EST PAS BLACKLISTÉ"
     },
     "report": {
         "dashboardonly": "Les rapports peuvent être envoyés ici: {url}",
@@ -41,7 +41,7 @@
 		"nourl": "❌N'a pas fourni de lien Web"
     },
     "fetch": {
-        "failed": "BAN ECHOUE",
+        "failed": "BAN ECHOUÉ",
         "could-not-ban": "Impossible de bannir:",
         "server": "Serveur:",
         "serverowner": "Propriétaire du serveur:",
@@ -52,7 +52,7 @@
         "no-permission": "JE N'AI PAS LA PERMISSION DE BANNIR DES PERSONNES"
     },
     "help": {
-	"checkuser": "vérifier si un utlisateur est sur list noire",
+	"checkuser": "vérifier si un utlisateur est sur liste noire",
 	"fetch": "Récupère votre serveur Discord et vérifie si vous avez des personnes sur liste noire là-dedans **[BOT ADMINS SEULMENT]**",
 	"botinfo": "donner des informations sur le bot",
 	"userinfo": "Afficher les informations sur l'utilisateur marqué",
@@ -84,7 +84,7 @@
         "created-on": "Créé le",
         "blacklisted-users": "Utilisateurs en liste noire",
         "website": "Site web",
-        "support-server": "Serveur de support"
+        "support-server": "Serveur d'assistance"
     },
     "logs": {
         "removed": "✅Logs supprimés avec succès <#{havelogs}>",
@@ -104,7 +104,7 @@
         "no-verify": "❌L'utilisateur ne s'est pas vérifié."
     },
     "userinfo": {
-        "no-user": "❌Impossible de trouver un utilisateur avec cet ID. Etes-vous sûr que cet utilisateur se trouve dans le serveur?",
+        "no-user": "❌Impossible de trouver un utilisateur avec cet ID. Etes-vous sûr que cet utilisateur se trouve sur le serveur?",
         "no-user2": "❌Impossible de trouver un utilisateur avec cet ID.",
         "joined": "A rejoint le serveur le",
         "created": "Compte créé le:",
@@ -114,15 +114,15 @@
         "none": "Aucun"
     },
     "crosscheck": {
-        "success": "✅Chargement... Je vous enverrai un PM avec la liste des utilisateurs en liste noire de votre serveur dans quelques secondes.",
+        "success": "✅Chargement... Je vous enverrai un MP avec la liste des utilisateurs en liste noire de votre serveur dans quelques secondes.",
         "blacklisted-in": "Utilisateurs en liste noire sur le serveur {guild}:",
         "error": "❌Une erreur s'est produite, impossible d'envoyer la liste.",
-        "no-dm": "❌Je ne peux pas vous PM, avez-vous vos PM en 'amis uniquement'?",
-        "cooldown": "❌Vous ne pouvez utiliser cette commande qu'une fois toute les 24h.",
+        "no-dm": "❌Je ne peux pas vous MP, avez-vous vos MP en 'amis uniquement'?",
+        "cooldown": "❌Vous ne pouvez utiliser cette commande qu'une fois toutes les 24h.",
 		"none-found": "Aucun utilisateur sur liste noire trouvé lors de la vérification"
     },
     "languages": {
-        "all": "Toute les langues disponible",
+        "all": "Toutes les langues disponible",
         "contribute": "Voulez-vous contribuer et ajouter plus de langues? Faites-le ici"
     },
     "staffs": {
@@ -146,7 +146,7 @@
     },
     "allowed": {
         "userallowed": "Autoriser un utilisateur blacklisté",
-        "userallowed2": "{user} à autorisé un utilisateur blacklisté dans le serveur",
+        "userallowed2": "{user} à autorisé un utilisateur blacklisté sur le serveur",
         "success": "Status d'autorisation changé avec succès pour {user}",
         "error": "L'utilisateur que vous essayez d'autoriser n'est pas blacklisté"
     },
@@ -160,7 +160,7 @@
         "noreport": "❌ Il n'y a aucun signalement avec cet ID {id}"
     },
     "id": {
-        "error": "Impossible de charger les information...",
+        "error": "Impossible de charger les informations...",
         "info": "Info",
         "no-args": "Veuillez fournir un id."
     },
